@@ -1,0 +1,181 @@
+:root {
+    --white: #ffffff;
+    --black: #121212;
+    --dark-gray: #1a1a1a;
+    --accent: #bb86fc;                      /*#00ffcc;  Main accent color */
+    
+    /* Usage variables */
+    --navbar-background: var(--black);
+    --navbar-text: var(--white);
+    --language-select-background: var(--dark-gray);
+    --language-select-hover-background: var(--accent);
+    --language-select-text: var(--white);
+    --language-select-hover-text: var(--black);
+    --menu-item-color: var(--accent);
+    --dropdown-background: var(--black);
+    --dropdown-text: var(--white);
+    --hover-text: var(--accent);
+    --active-text: var(--accent);
+    --border: var(--accent);
+    --border-hover: var(--white); /* Optional for hover effect */
+}
+.navbar {
+    background-color: var(--navbar-background);
+    color: var(--navbar-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.language-select {
+    background: var(--language-select-background);
+    color: var(--language-select-text);
+    /*border: 2px solid var(--border);
+    border-radius: 5px;*/
+    border:none;
+    font-size: 1rem;
+    margin: 0 20px;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.language-select:hover {
+   /* background: var(--language-select-hover-background);*/
+    color: var(--accent);
+}
+
+.menu {
+    list-style: none; 
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+    padding: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: var(--hover-text);
+    text-shadow: 0 0 10px var(--hover-text);
+}
+
+.menu li.active {
+    color: var(--active-text);
+    text-shadow: 0 0 10px var(--active-text);
+    position: relative;
+}
+
+.menu li.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 3px;
+    background-color: var(--active-text);
+    opacity: 0.7;
+    box-shadow: 0 0 10px var(--active-text), 0 0 20px var(--active-text);
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: var(--dropdown-background);
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.dropdown li {
+    color: var(--dropdown-text);
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.dropdown li:hover {
+    color: var(--hover-text);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hamburger:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: var(--dropdown-background);
+        width: 100%;
+        z-index: 1;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .menu.open {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .menu li {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+
+    .menu li:last-child {
+        border-bottom: none;
+    }
+
+    .menu li.active {
+        text-shadow: none;
+    }
+
+    .menu li.active::after {
+        display: none;
+    }
+
+    .dropdown {
+        display: none;
+    }
+}
