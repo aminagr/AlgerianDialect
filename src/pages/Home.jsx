@@ -4,10 +4,10 @@ import '../styles/Home.css';
 const Home = () => {
     return (
         <div className="home">
-            <h1>Découvrez les cours de la langue algérienne</h1>
+            <h2>Apprenez le dialecte algérien et testez vos connaissances grace aux quiz! </h2>
             <div className="card-container">
-                <div className="card">Sélectionner Cours</div>
-                <div className="card">Tester Quiz</div>
+                <div className="card">Cours</div>
+                <div className="card">Quiz</div>
             </div>
         </div>
     );

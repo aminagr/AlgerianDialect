@@ -2,13 +2,34 @@
     background-color: #121212;
     color: white;
     text-align: center;
-    padding: 50px 0;
+    padding: 20px; /* Réduit le padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Utilise la hauteur totale du viewport */
+}
+
+h2 {
+    font-size: 1rem; /* Taille de police réduite */
+    max-width: 90%; /* Largeur maximale de 90% */
+    margin: 0 auto 20px; /* Centre et ajoute une marge en bas */
+    line-height: 1.4; /* Meilleure lisibilité */
+}
+
+@media (min-width: 600px) {
+    h2 {
+        font-size: 1.5rem; /* Augmente légèrement la taille sur grands écrans */
+        max-width: 600px; /* Largeur maximale pour les grands écrans */
+    }
 }
 
 .card-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: center; /* Centre les cartes dans le conteneur */
+    gap: 15px; /* Espace réduit entre les cartes */
+    flex-wrap: wrap; /* Permet aux cartes de s'enrouler sur les petits écrans */
+    padding: 0 20px; /* Espace à droite et à gauche */
 }
 
 .card {
@@ -16,8 +37,8 @@
     color: white;
     border: 1px solid #00ffcc;
     border-radius: 10px;
-    padding: 20px;
-    width: 200px;
+    padding: 15px; /* Padding réduit */
+    width: 180px; /* Largeur des cartes */
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
