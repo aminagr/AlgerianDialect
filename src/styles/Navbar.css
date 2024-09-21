@@ -1,27 +1,13 @@
 :root {
     --white: #ffffff;
-    --black: #121212;
+    --black: #151515;
     --dark-gray: #1a1a1a;
-    --accent: /*#bb86fc;  */                    #00ffcc;  /*Main accent color */
-    
-    /* Usage variables */
-    --navbar-background: var(--black);
-    --navbar-text: var(--white);
-    --language-select-background: var(--dark-gray);
-    --language-select-hover-background: var(--accent);
-    --language-select-text: var(--white);
-    --language-select-hover-text: var(--black);
-    --menu-item-color: var(--accent);
-    --dropdown-background: var(--black);
-    --dropdown-text: var(--white);
-    --hover-text: var(--accent);
-    --active-text: var(--accent);
-    --border: var(--accent);
-    --border-hover: var(--white); /* Optional for hover effect */
+    --accent: #9B59B6; /* Main accent color */  /* #00ffcc;*/
 }
+
 .navbar {
-    background-color: var(--navbar-background);
-    color: var(--navbar-text);
+    background-color: var(--black);
+    color: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +17,9 @@
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-family: "Economica", sans-serif;
+    color: var(--accent);
+    font-size: 40px;
     font-weight: bold;
     flex: 1;
     text-align: center;
@@ -39,21 +27,18 @@
 }
 
 .language-select {
-    background: var(--language-select-background);
-    color: var(--language-select-text);
-    /*border: 2px solid var(--border);
-    border-radius: 5px;*/
-    border:none;
+    background: var(--black);
+    color: var(--white);
+    border: none;
     font-size: 1rem;
     margin: 0 20px;
-    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    transition: background 0.3s ease, color 0.3s ease;
     cursor: pointer;
     padding: 10px 15px;
 }
 
 .language-select:hover {
-   /* background: var(--language-select-hover-background);*/
-    color: var(--accent);
+    color: white; /* accent */
 }
 
 .menu {
@@ -67,54 +52,46 @@
 }
 
 .menu li {
+    list-style: none; 
     position: relative;
-    padding: 10px;
-    transition: all 0.3s ease;
+    padding: 20px;
+    transition: color 0.3s ease;
     cursor: pointer;
 }
 
 .menu li:hover {
-    color: var(--hover-text);
-    text-shadow: 0 0 10px var(--hover-text);
+    color: var(--accent); /* hover-text */
 }
 
 .menu li.active {
-    color: var(--active-text);
-    text-shadow: 0 0 10px var(--active-text);
-    position: relative;
-}
-
-.menu li.active::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -5px;
-    height: 3px;
-    background-color: var(--active-text);
-    opacity: 0.7;
-    box-shadow: 0 0 10px var(--active-text), 0 0 20px var(--active-text);
+    color: var(--accent); /* active-text */
 }
 
 .dropdown {
     display: none;
     position: absolute;
-    top: 100%;
-    background: var(--dropdown-background);
+    top: 100%; /* Align dropdown below the parent */
+    left: 0; /* Align left */
+    background: var(--black); /* Same color as menu */
     padding: 10px 0;
     border-radius: 5px;
+    z-index: 10; /* Ensure it appears above other elements */
 }
 
 .dropdown li {
-    color: var(--dropdown-text);
+    color: var(--white); /* Same color as menu items */
+    padding: 10px 20px; /* Added padding for better touch target */
     transition: color 0.3s ease;
     cursor: pointer;
 }
 
 .dropdown li:hover {
-    color: var(--hover-text);
+    color: var(--accent); /* hover-text */
 }
 
+.menu li:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+}
 .hamburger {
     display: none;
     cursor: pointer;
@@ -139,7 +116,7 @@
         top: 60px;
         left: 0;
         right: 0;
-        background: var(--dropdown-background);
+        background: var(--black);
         width: 100%;
         z-index: 1;
         opacity: 0;
@@ -160,7 +137,7 @@
     .menu li {
         padding: 15px;
         text-align: center;
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid var(--dark-gray);
     }
 
     .menu li:last-child {
@@ -174,8 +151,10 @@
     .menu li.active::after {
         display: none;
     }
-
     .dropdown {
-        display: none;
+        position: relative;
+    }
+    .logo {
+        font-size: 28px;
     }
 }

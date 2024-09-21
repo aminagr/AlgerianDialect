@@ -4,10 +4,13 @@ import '../styles/Home.css';
 const Home = () => {
     return (
         <div className="home">
-            <h2>Apprenez le dialecte algérien et testez vos connaissances grace aux quiz! </h2>
-            <div className="card-container">
-                <div className="card">Cours</div>
-                <div className="card">Quiz</div>
+            <h1 className="hero-title">Learn Algerian Dialect Now</h1>
+            <p className="hero-subtitle">
+                Dive into the vibrant world of the Algerian dialect! Discover a fun and interactive way to learn English through engaging lessons and quizzes that make mastering the language enjoyable. Join us and elevate your skills today!
+            </p>
+            <div className="button-container">
+                <div className="card-button courses-button">Courses</div>
+                <div className="card-button quizzes-button">Quizzes</div>
             </div>
         </div>
     );

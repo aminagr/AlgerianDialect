@@ -16,10 +16,16 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-            <div className="logo">Algerian Dialect</div>
+            <div className="logo">Learn Algerian</div>
             <select className="language-select">
-                <option value="fr">Français</option>
-                <option value="ar">Arabe</option>
+                <option value="en">🇬🇧 English</option>
+                <option value="ar">🇸🇦 العربية</option>
+                <option value="fr">🇫🇷 Français</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="es">🇪🇸 Español</option>
+                <option value="it">🇮🇹 Italiano</option>
+                
+               
             </select>
             <div className="hamburger" onClick={toggleMenu}>
                 {isOpen ? (
@@ -36,21 +42,21 @@ const Navbar = () => {
                 <li className={activeItem === 'Accueil' ? 'active' : ''} onClick={() => handleItemClick('Accueil')}>Accueil</li>
                 <li className={activeItem === 'Quiz' ? 'active' : ''} onClick={() => handleItemClick('Quiz')}>Quiz</li>
                 <li className={activeItem.startsWith('Cours') ? 'active' : ''} onClick={() => handleItemClick('Cours')}>
-    Cours
-    <svg
-        width="16"
-        height="16"
-        viewBox="0 0 16 16"
-        fill="none"
-        style={{ marginLeft: '5px', verticalAlign: 'middle' }} // Adjust icon position
-    >
-        <path d="M4 6l4 4 4-4" stroke="white" strokeWidth="2" />
-    </svg>
-    <ul className="dropdown">
-        <li className={activeItem === 'Cours A' ? 'active' : ''} onClick={() => handleItemClick('Cours A')}>Cours A</li>
-        <li className={activeItem === 'Cours B' ? 'active' : ''} onClick={() => handleItemClick('Cours B')}>Cours B</li>
-    </ul>
-</li>
+                    Cours
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        style={{ marginLeft: '5px', verticalAlign: 'middle' }} // Adjust icon position
+                    >
+                        <path d="M4 6l4 4 4-4" stroke="white" strokeWidth="2" />
+                    </svg>
+                    <ul className="dropdown">
+                        <li className={activeItem === 'Cours A' ? 'active' : ''} onClick={() => handleItemClick('Cours A')}>Cours A</li>
+                        <li className={activeItem === 'Cours B' ? 'active' : ''} onClick={() => handleItemClick('Cours B')}>Cours B</li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     );

@@ -1,50 +1,102 @@
+
+:root {
+    --color-violet: #5500f9;
+    --color-dark: #151515;
+    --color-white: #ffffff;
+    --color-button: #6b28e9;
+    --color-button-hover: rgba(0, 0, 0, 0.4); /* pour l'ombre */
+}
+
 .home {
-    background-color: #121212;
-    color: white;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 10px 200px;
     text-align: center;
-    padding: 20px; /* Réduit le padding */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 80vh; /* Utilise la hauteur totale du viewport */
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
 }
 
-h2 {
-    font-size: 1rem; /* Taille de police réduite */
-    max-width: 90%; /* Largeur maximale de 90% */
-    margin: 0 auto 20px; /* Centre et ajoute une marge en bas */
-    line-height: 1.4; /* Meilleure lisibilité */
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in;
 }
 
-@media (min-width: 600px) {
-    h2 {
-        font-size: 1.5rem; /* Augmente légèrement la taille sur grands écrans */
-        max-width: 600px; /* Largeur maximale pour les grands écrans */
+.hero-subtitle {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 40px;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-button {
+    background-color: var(--color-button);
+    color: var(--color-white);
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.courses-button:hover,
+.quizzes-button:hover {
+    transform: scale(1.2) translateY(-5px);
+    padding: 25px 35px; 
+    box-shadow: 0 12px 30px var(--color-button-hover);
+    background-color: var(--color-violet); 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
-.card-container {
-    display: flex;
-    justify-content: center; /* Centre les cartes dans le conteneur */
-    gap: 15px; /* Espace réduit entre les cartes */
-    flex-wrap: wrap; /* Permet aux cartes de s'enrouler sur les petits écrans */
-    padding: 0 20px; /* Espace à droite et à gauche */
-}
+/* Media Queries pour mobile */
+@media (max-width: 768px) {
 
-.card {
-    background: #1e1e1e;
-    color: white;
-    border: 1px solid #00ffcc;
-    border-radius: 10px;
-    padding: 15px; /* Padding réduit */
-    width: 180px; /* Largeur des cartes */
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
+    .home {padding: 0px 50px;}
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px #00ffcc;
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .card-button {
+        width: 90%;
+        max-width: none;
+    }
 }
