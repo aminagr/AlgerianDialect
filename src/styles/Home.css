@@ -1,25 +1,31 @@
-
 :root {
     --color-violet: #5500f9;
     --color-dark: #151515;
     --color-white: #ffffff;
     --color-button: #6b28e9;
-    --color-button-hover: rgba(0, 0, 0, 0.4); /* pour l'ombre */
+    --color-button-hover: rgba(0, 0, 0, 0.4); /* for shadow */
 }
 
 .home {
     background-color: var(--color-dark);
+    justify-content: flex-start;
     color: var(--color-white);
-    padding: 10px 200px;
+    padding: 0px 200px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     position: relative;
     overflow: hidden;
-    
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 100px 0;
+  
 }
 
 .hero-title {
@@ -78,10 +84,11 @@
     }
 }
 
-/* Media Queries pour mobile */
+/* Media Queries for mobile */
 @media (max-width: 768px) {
-
-    .home {padding: 0px 50px;}
+    .home {
+        padding: 0px 30px; /* Less padding for smaller screens */
+    }
 
     .hero-title {
         font-size: 36px;
@@ -93,6 +100,7 @@
 
     .button-container {
         flex-direction: column;
+        align-items: center; /* Center buttons in mobile view */
     }
 
     .card-button {
