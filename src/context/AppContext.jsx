@@ -1,31 +1,30 @@
- import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 import translations from '../data/translations';
-import lessonsData from '../data/lessons.json'; 
+import lessonsData from '../data/lessons.json';
 
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-  const [language, setLanguage] = useState('en'); 
- // const [selectedCourse, setSelectedCourse] = useState(null);
- // const [currentLessonIndex, setCurrentLessonIndex] = useState(0);
- // const [currentPage, setCurrentPage] = useState('home');
+  const [language, setLanguage] = useState(() => {
+    // Vérifiez si une langue est stockée dans localStorage
+    const storedLanguage = localStorage.getItem('language');
+    return storedLanguage ? storedLanguage : 'en'; // Défaut à 'en'
+  });
+
+  // Mettre à jour localStorage lorsque la langue change
+  useEffect(() => {
+    localStorage.setItem('language', language);
+  }, [language]);
 
   return (
     <AppContext.Provider value={{
       language,
       setLanguage,
-     /* selectedCourse,
-      setSelectedCourse,
-      currentLessonIndex,
-      setCurrentLessonIndex,
-      currentPage,
-      setCurrentPage,
-      translations,
-      courses: lessonsData.courses, */
+      translations
     }}>
       {children}
     </AppContext.Provider>
   );
 };
 
-export const useAppContext = () => useContext(AppContext); 
+export const useAppContext = () => useContext(AppContext);

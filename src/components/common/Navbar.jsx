@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link for routing
+import { Link } from 'react-router-dom'; 
 import '../../styles/Navbar.css';
 import LanguageSelector from './LanguageSelector'; 
-import { useAppContext } from '../../context/AppContext'; // Import the context
+import { useAppContext } from '../../context/AppContext'; 
 
 const Navbar = () => {
-    const { language } = useAppContext(); // Get current language from context
+    const { language } = useAppContext(); 
     const [isOpen, setIsOpen] = useState(false);
     const [activeItem, setActiveItem] = useState('Accueil');
 
@@ -18,7 +18,7 @@ const Navbar = () => {
         setIsOpen(false);
     };
 
-    // Translations for the navbar
+  
     const menuTranslations = {
         en: {
             home: 'Home',
