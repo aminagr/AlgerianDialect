@@ -1,0 +1,189 @@
+.quiz {
+    display: flex; /* Activer Flexbox */
+    flex-direction: column; /* Aligner les éléments verticalement */
+    align-items: center; /* Centrer horizontalement */
+    animation: fadeIn 1s;
+    
+    width: 100%; /* Prendre toute la largeur sur les petits écrans */
+    padding: 10px; /* Ajouter du padding pour le confort */
+  }
+  
+  
+  button {
+    background-color: #6200ea;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+    transform: scale(1.05);
+  }
+  
+  .answer-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #1e1e1e;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #e0e0e0;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .answer-button:hover {
+    background-color: #3700b3;
+  }
+  
+  .correct {
+    background-color: green !important;
+  }
+  
+  .wrong {
+    background-color: red !important;
+  }
+  
+  .fade-in-correct {
+    animation: fadeIn 0.5s;
+  }
+  
+  .fade-in-wrong {
+    animation: shake 0.5s;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6200ea;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  select:hover {
+    background-color: #3700b3;
+  }
+  
+  .correct-answer {
+    color: green;
+  }
+  
+  .quit-button-mob{
+    background-color: #1e1e1e;
+  }
+  .quit-button {
+    background: red;
+  }
+  
+  .quit-button:hover{
+  background-color: #3700b3;
+    transform: scale(1.05);
+  }
+  .welcome{text-align: center;
+    padding-bottom: 20px;}
+      
+    
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 60px;
+          }
+          h1 {
+            font-size: 30px;
+          }
+        
+          button {
+            padding: 12px;
+            font-size: 14px;
+          }
+          .quiz {
+            padding: 15px; /* Réduire le padding pour mobile */
+            margin-top: 20px; /* Ajuster la marge pour centrer */
+            width: 90%; /* Largeur pour s'adapter aux écrans */
+            max-width: 400px; /* Conserver la largeur max */
+          }
+        
+          .quit-button-mob {
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 18px; /* Taille de l'icône */
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #e0e0e0; /* Couleur de l'icône */
+            transition: color 0.3s;
+          }
+        
+          .quit-button {
+            display: block;
+            margin: 10px auto; /* Centrer et espacer le bouton */
+            font-size: 18px; /* Taille de l'icône */
+            background: red;
+            border: none;
+            cursor: pointer;
+            color: #e0e0e0; /* Couleur de l'icône */
+            transition: color 0.3s;
+          }
+        
+          .replay-button {
+            display: block; /* S'assurer que ce bouton est aussi un block */
+            margin: 10px auto; /* Centrer et espacer le bouton */
+            padding: 15px 30px; /* Garder le même padding pour consistance */
+            background-color: #6200ea; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            border-radius: 5px; /* Coins arrondis */
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.3s;
+          }
+        
+          .quit-button:hover{
+            background-color: #3700b3;
+              transform: scale(1.05);
+            }
+        
+          .quit-button-mob:hover {
+            background-color: #1e1e1e1d;
+          }
+        
+          .quit-button-mob span {
+            display: none; /* Cacher le texte sur mobile */
+          }
+        }
+        @media (max-width: 400px) {
+            h1 {
+              font-size: 20px;
+            }
+            h2 {
+              font-size: 18px;
+            }
+          
+            button {
+              padding: 10px;
+              font-size: 12px;
+            }
+        }  

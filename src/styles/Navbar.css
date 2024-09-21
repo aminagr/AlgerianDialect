@@ -38,7 +38,7 @@
 }
 
 .language-select:hover {
-    color: white; /* accent */
+    color: white;
 }
 
 .menu {
@@ -60,37 +60,37 @@
 }
 
 .menu li:hover {
-    color: var(--accent); /* hover-text */
+    color: var(--accent); 
 }
 
 .menu li.active {
-    color: var(--accent); /* active-text */
+    color: var(--accent); 
 }
 
 .dropdown {
     display: none;
     position: absolute;
     top: 100%; /* Align dropdown below the parent */
-    left: 0; /* Align left */
-    background: var(--black); /* Same color as menu */
+    left: 0; 
+    background: var(--black);
     padding: 10px 0;
     border-radius: 5px;
     z-index: 10; /* Ensure it appears above other elements */
 }
 
 .dropdown li {
-    color: var(--white); /* Same color as menu items */
-    padding: 10px 20px; /* Added padding for better touch target */
+    color: var(--white); 
+    padding: 10px 20px; 
     transition: color 0.3s ease;
     cursor: pointer;
 }
 
 .dropdown li:hover {
-    color: var(--accent); /* hover-text */
+    color: var(--accent);
 }
 
 .menu li:hover .dropdown {
-    display: block; /* Show dropdown on hover */
+    display: block; 
 }
 .hamburger {
     display: none;

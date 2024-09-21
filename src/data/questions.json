@@ -1,0 +1,187 @@
+{
+    "fr": {
+      "niveau1": [
+        { "question": "Comment dire 'salut' en algérien ?", "answers": ["Choukran", "Salam", "Kho", "Mlih"], "correct": 1 },
+        { "question": "Que signifie 'saha' ?", "answers": ["Bonjour", "Oui", "Merci", "Au revoir"], "correct": 2 },
+        { "question": "Comment dire 'non' en algérien ?", "answers": ["Lala", "Lish", "Lil", "Lyom"], "correct": 0 },
+        { "question": "Comment dire 'oui' en algérien ?", "answers": ["Ih", "Wa", "Iya", "Ana"], "correct": 0 },
+        { "question": "Que signifie 'bezzaf' en algérien ?", "answers": ["Beaucoup", "Peu", "Rien", "Tout"], "correct": 0 },
+        { "question": "Que signifie 'ana' en algérien ?", "answers": ["Moi", "Toi masculin", "Toi féminin", "Lui"], "correct": 0 },
+        { "question": "Que signifie 'nti' en algérien ?", "answers": ["Moi", "Toi masculin", "Toi féminin", "Lui", "Elle"], "correct": 2 },
+        { "question": "Que signifie '3lesh' ?", "answers": ["Où", "Quand", "Comment", "Pourquoi"], "correct": 3 },
+        { "question": "Que signifie 'kifesh' ?", "answers": ["Qui", "Comment", "Où", "Quand"], "correct": 1 },
+        { "question": "Que signifie 'win' ?", "answers": ["Où", "Pourquoi", "Comment", "Quand"], "correct": 0 }
+      ],
+      "niveau2": [
+        { "question": "Que signifie 'khoya' en algérien ?", "answers": ["Mon ami", "Mon cousin", "Mon frère", "Mon cher"], "correct": 2 },
+        { "question": "Que signifie 'chouf' en algérien ?", "answers": ["Écoute", "Sors", "Viens", "Regarde"], "correct": 3 },
+        { "question": "Comment dire 'qui' en algérien ?", "answers": ["Weqtach", "Chkoun", "Win", "Chehal"], "correct": 1 },
+        { "question": "Comment dire 'merci' en algérien ?", "answers": ["Saha", "Techekur", "Iselmek bsahtek"], "correct": 0 },
+        { "question": "Comment dire 'toi' en masculin en algérien ?", "answers": ["Ana", "Nta", "Nti", "Hna"], "correct": 1 },
+        { "question": "Comment dire 'voiture' en algérien ?", "answers": ["Tonobil", "Araba", "Machina", "Teyara"], "correct": 0 }
+      ],
+      "niveau3": [
+        { "question": "Comment répondre à 'bsahtek' ?", "answers": ["Ichoufek", "Sebtek", "Iselmek", "Darek"], "correct": 2 },
+        { "question": "Que signifie 'chbab' en algérien ?", "answers": ["Beau", "Grand", "Riche", "Intelligent"], "correct": 0 },
+        { "question": "Que signifie 'ropa' en algérien ?", "answers": ["Chaussures", "Vêtements", "Pantalon", "Robe"], "correct": 3 },
+        { "question": "Comment dire 'table' en algérien ?", "answers": ["Bab", "Frach", "Tabla", "Koursi"], "correct": 2 },
+        { "question": "Comment dire 'maison' en algérien ?", "answers": ["Jnan", "Dar", "Bit", "Houch"], "correct": 1 },
+        { "question": "Comment dire 'aujourd'hui' en algérien ?", "answers": ["Ghedwa", "Lbareh", "Smana", "Lyom"], "correct": 3 },
+        { "question": "Comment dire 'maintenant' en algérien ?", "answers": ["Weqt", "Doka", "Dqiqa", "Sa3a"], "correct": 1 }
+      ]
+    },
+    "en": {
+      "niveau1": [
+        { "question": "How do you say hello in Algerian?", "answers": ["Choukran", "Salam", "Kho", "Mlih"], "correct": 1 },
+        { "question": "What does 'saha' mean?", "answers": ["Hello", "Yes", "Thanks", "Goodbye"], "correct": 2 },
+        { "question": "How do you say no in Algerian?", "answers": ["Lala", "Lish", "Lil", "Lyom"], "correct": 0 },
+        { "question": "How do you say yes in Algerian?", "answers": ["Ih", "Wa", "Iya", "Ana"], "correct": 0 },
+        { "question": "What does 'ana' mean in Algerian?", "answers": ["Me", "You masculine", "You feminine", "Him"], "correct": 0 },
+        { "question": "What does 'nti' mean in Algerian?", "answers": ["Me", "You masculine", "You feminine", "Him", "Her"], "correct": 2 },
+        { "question": "What does '3lesh' mean?", "answers": ["Where", "When", "How", "Why"], "correct": 3 },
+        { "question": "What does 'kifesh' mean?", "answers": ["Who", "How", "Where", "When"], "correct": 1 },
+        { "question": "What does 'win' mean?", "answers": ["Where", "Why", "How", "When"], "correct": 0 }
+      ],
+      "niveau2": [
+        { "question": "What does 'khoya' mean in Algerian?", "answers": ["My friend", "My cousin", "My brother", "My dear"], "correct": 2 },
+        { "question": "What does 'chouf' mean in Algerian?", "answers": ["Listen", "Go out", "Come", "Look"], "correct": 3 },
+        { "question": "How do you say 'who' in Algerian?", "answers": ["Weqtach", "Chkoun", "Win", "Chehal"], "correct": 1 },
+        { "question": "How do you say 'thank you' in Algerian?", "answers": ["Saha", "Techekur", "Iselmek", "bsahtek"], "correct": 0 },
+        { "question": "How do you say 'you' (masculine) in Algerian?", "answers": ["Ana", "Nta", "Nti", "Hna"], "correct": 1 },
+        { "question": "How do you say 'car' in Algerian?", "answers": ["Tonobil", "Araba", "Machina", "Teyara"], "correct": 0 }
+      ],
+      "niveau3": [
+        { "question": "How do you respond to 'bsahtek'?", "answers": ["Ichoufek", "Sebtek", "Iselmek", "Darek"], "correct": 2 },
+        { "question": "What does 'chbab' mean in Algerian?", "answers": ["Beautiful", "Tall", "Rich", "Intelligent"], "correct": 0 },
+        { "question": "What does 'ropa' mean in Algerian?", "answers": ["Shoes", "Clothes", "Pants", "Dress"], "correct": 3 },
+        { "question": "How do you say 'table' in Algerian?", "answers": ["Bab", "Frach", "Tabla", "Koursi"], "correct": 2 },
+        { "question": "How do you say 'house' in Algerian?", "answers": ["Jnan", "Dar", "Bit", "Houch"], "correct": 1 },
+        { "question": "How do you say 'today' in Algerian?", "answers": ["Ghedwa", "Lbareh", "Smana", "Lyom"], "correct": 3 },
+        { "question": "How do you say 'now' in Algerian?", "answers": ["Weqt", "Doka", "Dqiqa", "Sa3a"], "correct": 1 }
+      ]
+    },
+    "es": {
+      "niveau1": [
+        { "question": "¿Cómo se dice hola en argelino?", "answers": ["Choukran", "Salam", "Kho", "Mlih"], "correct": 1 },
+        { "question": "¿Qué significa 'saha'?", "answers": ["Hola", "Sí", "Gracias", "Adiós"], "correct": 2 },
+        { "question": "¿Cómo se dice no en argelino?", "answers": ["Lala", "Lish", "Lil", "Lyom"], "correct": 0 },
+        { "question": "¿Cómo se dice sí en argelino?", "answers": ["Ih", "Wa", "Iya", "Ana"], "correct": 0 },
+        { "question": "¿Qué significa 'ana' en argelino?", "answers": ["Yo", "Tú masculino", "Tú femenino", "Él"], "correct": 0 },
+        { "question": "¿Qué significa 'nti' en argelino?", "answers": ["Yo", "Tú masculino", "Tú femenino", "Él", "Ella"], "correct": 2 },
+        { "question": "¿Qué significa '3lesh'?", "answers": ["¿Dónde?", "¿Cuándo?", "¿Cómo?", "¿Por qué?"], "correct": 3 },
+        { "question": "¿Qué significa 'kifesh'?", "answers": ["¿Quién?", "¿Cómo?", "¿Dónde?", "¿Cuándo?"], "correct": 1 },
+        { "question": "¿Qué significa 'win'?", "answers": ["¿Dónde?", "¿Por qué?", "¿Cómo?", "¿Cuándo?"], "correct": 0 }
+      ],
+      "niveau2": [
+        { "question": "¿Qué significa 'khoya' en argelino?", "answers": ["Mi amigo", "Mi primo", "Mi hermano", "Mi querido"], "correct": 2 },
+        { "question": "¿Qué significa 'chouf' en argelino?", "answers": ["Escuchar", "Salir", "Venir", "Mirar"], "correct": 3 },
+        { "question": "¿Cómo se dice 'quién' en argelino?", "answers": ["Weqtach", "Chkoun", "Win", "Chehal"], "correct": 1 },
+        { "question": "¿Cómo se dice 'gracias' en argelino?", "answers": ["Saha", "Techekur", "Iselmek", "bsahtek"], "correct": 0 },
+        { "question": "¿Cómo se dice 'tú' (masculino) en argelino?", "answers": ["Ana", "Nta", "Nti", "Hna"], "correct": 1 },
+        { "question": "¿Cómo se dice 'coche' en argelino?", "answers": ["Tonobil", "Araba", "Machina", "Teyara"], "correct": 0 }
+      ],
+      "niveau3": [
+        { "question": "¿Cómo se responde a 'bsahtek'?", "answers": ["Ichoufek", "Sebtek", "Iselmek", "Darek"], "correct": 2 },
+        { "question": "¿Qué significa 'chbab' en argelino?", "answers": ["Hermoso", "Alto", "Rico", "Inteligente"], "correct": 0 },
+        { "question": "¿Qué significa 'ropa' en argelino?", "answers": ["Zapatos", "Ropa", "Pantalones", "Vestido"], "correct": 3 },
+        { "question": "¿Cómo se dice 'mesa' en argelino?", "answers": ["Bab", "Frach", "Tabla", "Koursi"], "correct": 2 },
+        { "question": "¿Cómo se dice 'casa' en argelino?", "answers": ["Jnan", "Dar", "Bit", "Houch"], "correct": 1 },
+        { "question": "¿Cómo se dice 'hoy' en argelino?", "answers": ["Ghedwa", "Lbareh", "Smana", "Lyom"], "correct": 3 },
+        { "question": "¿Cómo se dice 'ahora' en argelino?", "answers": ["Weqt", "Doka", "Dqiqa", "Sa3a"], "correct": 1 }
+      ]
+    },
+    
+        "it": {
+          "niveau1": [
+            { "question": "Come si dice ciao in algerino?", "answers": ["Choukran", "Salam", "Kho", "Mlih"], "correct": 1 },
+            { "question": "Cosa significa 'saha'?", "answers": ["Ciao", "Sì", "Grazie", "Addio"], "correct": 2 },
+            { "question": "Come si dice no in algerino?", "answers": ["Lala", "Lish", "Lil", "Lyom"], "correct": 0 },
+            { "question": "Come si dice sì in algerino?", "answers": ["Ih", "Wa", "Iya", "Ana"], "correct": 0 },
+            { "question": "Cosa significa 'ana' in algerino?", "answers": ["Io", "Tu maschile", "Tu femminile", "Lui"], "correct": 0 },
+            { "question": "Cosa significa 'nti' in algerino?", "answers": ["Io", "Tu maschile", "Tu femminile", "Lui", "Lei"], "correct": 2 },
+            { "question": "Cosa significa '3lesh'?", "answers": ["Dove", "Quando", "Come", "Perché"], "correct": 3 },
+            { "question": "Cosa significa 'kifesh'?", "answers": ["Chi", "Come", "Dove", "Quando"], "correct": 1 },
+            { "question": "Cosa significa 'win'?", "answers": ["Dove", "Perché", "Come", "Quando"], "correct": 0 }
+          ],
+          "niveau2": [
+            { "question": "Cosa significa 'khoya' in algerino?", "answers": ["Il mio amico", "Il mio cugino", "Il mio fratello", "Il mio caro"], "correct": 2 },
+            { "question": "Cosa significa 'chouf' in algerino?", "answers": ["Ascolta", "Esci", "Vieni", "Guarda"], "correct": 3 },
+            { "question": "Come si dice 'chi' in algerino?", "answers": ["Weqtach", "Chkoun", "Win", "Chehal"], "correct": 1 },
+            { "question": "Come si dice 'grazie' in algerino?", "answers": ["Saha", "Techekur", "Iselmek", "bsahtek"], "correct": 0 },
+            { "question": "Come si dice 'tu' (maschile) in algerino?", "answers": ["Ana", "Nta", "Nti", "Hna"], "correct": 1 },
+            { "question": "Come si dice 'auto' in algerino?", "answers": ["Tonobil", "Araba", "Machina", "Teyara"], "correct": 0 }
+          ],
+          "niveau3": [
+            { "question": "Come si risponde a 'bsahtek'?", "answers": ["Ichoufek", "Sebtek", "Iselmek", "Darek"], "correct": 2 },
+            { "question": "Cosa significa 'chbab' in algerino?", "answers": ["Bello", "Alto", "Ricco", "Intelligente"], "correct": 0 },
+            { "question": "Cosa significa 'ropa' in algerino?", "answers": ["Scarpe", "Vestiti", "Pantaloni", "Abito"], "correct": 3 },
+            { "question": "Come si dice 'tavolo' in algerino?", "answers": ["Bab", "Frach", "Tabla", "Koursi"], "correct": 2 },
+            { "question": "Come si dice 'casa' in algerino?", "answers": ["Jnan", "Dar", "Bit", "Houch"], "correct": 1 },
+            { "question": "Come si dice 'oggi' in algerino?", "answers": ["Ghedwa", "Lbareh", "Smana", "Lyom"], "correct": 3 },
+            { "question": "Come si dice 'adesso' in algerino?", "answers": ["Weqt", "Doka", "Dqiqa", "Sa3a"], "correct": 1 }
+          ]
+        },
+        "ru": {
+          "niveau1": [
+            { "question": "Как сказать привет на алжирском?", "answers": ["Choukran", "Salam", "Kho", "Mlih"], "correct": 1 },
+            { "question": "Что означает 'saha'?", "answers": ["Привет", "Да", "Спасибо", "До свидания"], "correct": 2 },
+            { "question": "Как сказать нет на алжирском?", "answers": ["Lala", "Lish", "Lil", "Lyom"], "correct": 0 },
+            { "question": "Как сказать да на алжирском?", "answers": ["Ih", "Wa", "Iya", "Ana"], "correct": 0 },
+            { "question": "Что значит 'ana' на алжирском?", "answers": ["Я", "Ты мужской", "Ты женский", "Он"], "correct": 0 },
+            { "question": "Что значит 'nti' на алжирском?", "answers": ["Я", "Ты мужской", "Ты женский", "Он", "Она"], "correct": 2 },
+            { "question": "Что значит '3lesh'?", "answers": ["Где", "Когда", "Как", "Почему"], "correct": 3 },
+            { "question": "Что значит 'kifesh'?", "answers": ["Кто", "Как", "Где", "Когда"], "correct": 1 },
+            { "question": "Что значит 'win'?", "answers": ["Где", "Почему", "Как", "Когда"], "correct": 0 }
+          ],
+          "niveau2": [
+            { "question": "Что значит 'khoya' на алжирском?", "answers": ["Мой друг", "Мой кузен", "Мой брат", "Мой дорогой"], "correct": 2 },
+            { "question": "Что значит 'chouf' на алжирском?", "answers": ["Слушай", "Выйди", "Приходи", "Смотри"], "correct": 3 },
+            { "question": "Как сказать 'кто' на алжирском?", "answers": ["Weqtach", "Chkoun", "Win", "Chehal"], "correct": 1 },
+            { "question": "Как сказать 'спасибо' на алжирском?", "answers": ["Saha", "Techekur", "Iselmek", "bsahtek"], "correct": 0 },
+            { "question": "Как сказать 'ты' (мужской) на алжирском?", "answers": ["Ana", "Nta", "Nti", "Hna"], "correct": 1 },
+            { "question": "Как сказать 'машина' на алжирском?", "answers": ["Tonobil", "Araba", "Machina", "Teyara"], "correct": 0 }
+          ],
+          "niveau3": [
+            { "question": "Как ответить на 'bsahtek'?", "answers": ["Ichoufek", "Sebtek", "Iselmek", "Darek"], "correct": 2 },
+            { "question": "Что значит 'chbab' на алжирском?", "answers": ["Красивый", "Высокий", "Богатый", "Умный"], "correct": 0 },
+            { "question": "Что значит 'ropa' на алжирском?", "answers": ["Обувь", "Одежда", "Штаны", "Платье"], "correct": 3 },
+            { "question": "Как сказать 'стол' на алжирском?", "answers": ["Bab", "Frach", "Tabla", "Koursi"], "correct": 2 },
+            { "question": "Как сказать 'дом' на алжирском?", "answers": ["Jnan", "Dar", "Bit", "Houch"], "correct": 1 },
+            { "question": "Как сказать 'сегодня' на алжирском?", "answers": ["Ghedwa", "Lbareh", "Smana", "Lyom"], "correct": 3 },
+            { "question": "Как сказать 'сейчас' на алжирском?", "answers": ["Weqt", "Doka", "Dqiqa", "Sa3a"], "correct": 1 }
+          ]
+        },
+        "ar": {
+          "niveau1": [
+            { "question": "كيف تقول مرحبا بالجزائرية؟", "answers": ["شكرًا", "سلام", "خو", "مليح"], "correct": 1 },
+            { "question": "ماذا تعني 'صحا'؟", "answers": ["مرحبا", "نعم", "شكرًا", "وداعًا"], "correct": 2 },
+            { "question": "كيف تقول لا بالجزائرية؟", "answers": ["لالا", "ليش", "ليل", "اليوم"], "correct": 0 },
+            { "question": "كيف تقول نعم بالجزائرية؟", "answers": ["إيه", "وا", "إيا", "أنا"], "correct": 0 },
+            { "question": "ماذا تعني 'أنا' بالجزائرية؟", "answers": ["أنا", "أنتَ", "أنتِ", "هو"], "correct": 0 },
+            { "question": "ماذا تعني 'أنتِ' بالجزائرية؟", "answers": ["أنا", "أنتَ", "أنتِ", "هو", "هي"], "correct": 2 },
+            { "question": "ماذا تعني 'علاش'؟", "answers": ["أين", "متى", "كيف", "لماذا"], "correct": 3 },
+            { "question": "ماذا تعني 'كيفاش'؟", "answers": ["من", "كيف", "أين", "متى"], "correct": 1 },
+            { "question": "ماذا تعني 'وين'؟", "answers": ["أين", "لماذا", "كيف", "متى"], "correct": 0 }
+          ],
+          "niveau2": [
+            { "question": "ماذا تعني 'خويا' بالجزائرية؟", "answers": ["صديقي", "ابن عمي", "أخي", "عزيزي"], "correct": 2 },
+            { "question": "ماذا تعني 'شوف' بالجزائرية؟", "answers": ["استمع", "اخرج", "تعال", "انظر"], "correct": 3 },
+            { "question": "كيف تقول 'من' بالجزائرية؟", "answers": ["وقتاش", "شكون", "وين", "شحَال"], "correct": 1 },
+            { "question": "كيف تقول 'شكرًا' بالجزائرية؟", "answers": ["صحة", "تشكر", "إسلمك", "بصحتك"], "correct": 0 },
+            { "question": "كيف تقول 'أنتَ' بالجزائرية؟", "answers": ["أنا", "أنتَ", "أنتِ", "نحن"], "correct": 1 },
+            { "question": "كيف تقول 'سيارة' بالجزائرية؟", "answers": ["طونوبيل", "عربة", "ماكينة", "طيارة"], "correct": 0 }
+          ],
+          "niveau3": [
+            { "question": "كيف ترد على 'بصحتك'؟", "answers": ["يشوفك", "سبتك", "إسلمك", "دارك"], "correct": 2 },
+            { "question": "ماذا تعني 'شباب' بالجزائرية؟", "answers": ["جميل", "طويل", "غني", "ذكي"], "correct": 0 },
+            { "question": "ماذا تعني 'روبا' بالجزائرية؟", "answers": ["أحذية", "ملابس", "بنطال", "فستان"], "correct": 3 },
+            { "question": "كيف تقول 'طاولة' بالجزائرية؟", "answers": ["باب", "فراش", "طاولة", "كرسي"], "correct": 2 },
+            { "question": "كيف تقول 'منزل' بالجزائرية؟", "answers": ["جنّان", "دار", "بيت", "هوج"], "correct": 1 },
+            { "question": "كيف تقول 'اليوم' بالجزائرية؟", "answers": ["غدوة", "بارح", "سما", "اليوم"], "correct": 3 },
+            { "question": "كيف تقول 'الآن' بالجزائرية؟", "answers": ["وقت", "دوقا", "دقيقة", "ساعة"], "correct": 1 }
+          ]
+        }
+      }
+      
+
+  

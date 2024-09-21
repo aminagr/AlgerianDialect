@@ -1,16 +1,11 @@
 import React from 'react';
-import Navbar from './components/common/Navbar';
-import Footer from './components/common/Footer';
-import Home from './pages/Home';
+import { AppProvider } from './context/AppContext.jsx';
+import AppContent from './AppContent'; 
 
-const App = () => {
-    return (
-        <div className="app">
-            <Navbar />
-            <Home />
-            <Footer />
-        </div>
-    );
-};
+const App = () => (
+  <AppProvider>
+    <AppContent />
+  </AppProvider>
+);
 
 export default App;

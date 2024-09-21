@@ -1,25 +1,25 @@
-/* import React from 'react';
+
+import React from 'react';
 import { useAppContext } from './context/AppContext';
-import Navbar from './components/Navbar';
-import CourseCard from './components/CourseCard';
-import LessonCard from './components/LessonCard';
-import Home from './components/Home';
-import Footer from './components/Footer';
 import lessonsData from './data/lessons.json'; // Your lessons data
 import translations from './data/translations'; // Your translations data
-import './styles.css';
+import Navbar from './components/common/Navbar';
+import Footer from './components/common/Footer';
+import Home from './pages/Home';
+
+
 
 const AppContent = () => {
   const {
     language,
-    selectedCourse,
+    /*selectedCourse,
     setSelectedCourse,
     currentLessonIndex,
     setCurrentLessonIndex,
     currentPage,
-    setCurrentPage,
+    setCurrentPage,*/
   } = useAppContext();
-
+/*
   const handleCourseClick = (course) => {
     setSelectedCourse(course);
     setCurrentLessonIndex(0);
@@ -79,15 +79,17 @@ const AppContent = () => {
     }
   };
 
+  appeler  {renderContent()}
+*/
   return (
     <div className="app">
       <Navbar />
       <div className="content">
-        {renderContent()}
+     <Home translations={translations[language]} />
       </div>
       <Footer footerText={translations[language].footer} />
     </div>
   );
 };
-*/
+
 export default AppContent;
