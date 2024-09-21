@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; 
+import { Link, useLocation } from 'react-router-dom'; 
 import '../../styles/Navbar.css';
 import LanguageSelector from './LanguageSelector'; 
 import { useAppContext } from '../../context/AppContext'; 
@@ -7,18 +7,26 @@ import { useAppContext } from '../../context/AppContext';
 const Navbar = () => {
     const { language } = useAppContext(); 
     const [isOpen, setIsOpen] = useState(false);
-    const [activeItem, setActiveItem] = useState('Accueil');
+    const location = useLocation();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
 
-    const handleItemClick = (item) => {
-        setActiveItem(item);
-        setIsOpen(false);
+    // Détermine quel élément est actif en fonction de l'URL
+    const getActiveItem = () => {
+        switch (location.pathname) {
+            case '/quiz':
+                return 'Quiz';
+            case '/courses':
+                return 'Cours';
+            default:
+                return 'Accueil';
+        }
     };
 
-  
+    const activeItem = getActiveItem();
+
     const menuTranslations = {
         en: {
             home: 'Home',
@@ -66,7 +74,7 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-               <Link to="/" className="logo" onClick={() => handleItemClick('Accueil')}>
+            <Link to="/" className="logo" onClick={toggleMenu}>
                 Learn Algerian
             </Link>
             <LanguageSelector />
@@ -83,17 +91,17 @@ const Navbar = () => {
             </div>
             <ul className={`menu ${isOpen ? 'open' : ''}`}>
                 <li className={activeItem === 'Accueil' ? 'active' : ''}>
-                    <Link to="/" onClick={() => handleItemClick('Accueil')}>
+                    <Link to="/" onClick={toggleMenu}>
                         {menuTranslations[language].home}
                     </Link>
                 </li>
                 <li className={activeItem === 'Quiz' ? 'active' : ''}>
-                    <Link to="/quiz" onClick={() => handleItemClick('Quiz')}>
+                    <Link to="/quiz" onClick={toggleMenu}>
                         {menuTranslations[language].quiz}
                     </Link>
                 </li>
                 <li className={activeItem.startsWith('Cours') ? 'active' : ''}>
-                    <Link to="/courses" onClick={() => handleItemClick('Cours')}>
+                    <Link to="/courses" onClick={toggleMenu}>
                         {menuTranslations[language].courses}
                     </Link>
                     <svg
@@ -107,12 +115,12 @@ const Navbar = () => {
                     </svg>
                     <ul className="dropdown">
                         <li className={activeItem === 'Cours A' ? 'active' : ''}>
-                            <Link to="/courses/courseA" onClick={() => handleItemClick('Cours A')}>
+                            <Link to="/courses/courseA" onClick={toggleMenu}>
                                 {menuTranslations[language].courseA}
                             </Link>
                         </li>
                         <li className={activeItem === 'Cours B' ? 'active' : ''}>
-                            <Link to="/courses/courseB" onClick={() => handleItemClick('Cours B')}>
+                            <Link to="/courses/courseB" onClick={toggleMenu}>
                                 {menuTranslations[language].courseB}
                             </Link>
                         </li>

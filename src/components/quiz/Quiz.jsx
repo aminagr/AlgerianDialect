@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Question from './Question';
-import LanguageSelector from '../common/LanguageSelector';
+import Question from './Questions';
+
 import questions from '../../data/questions.json';
-import '../styles/Quiz.css';
-import { useAppContext } from '../context/AppContext';
+import '../../styles/Quiz.css';
+import { useAppContext } from '../../context/AppContext';
 
 const translations = {
   fr: {
@@ -105,7 +105,7 @@ const Quiz = ({ setStartQuiz }) => {
 
   return (
     <div className="quiz">
-      <LanguageSelector /> {/* Add LanguageSelector here */}
+      
       {currentQuestion < currentQuestions.length ? (
         <>
           <button onClick={handleQuit} className="quit-button-mob">❌</button>

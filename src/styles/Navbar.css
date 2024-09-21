@@ -38,7 +38,8 @@
 }
 
 .language-select:hover {
-    color: white;
+    color: #9B59B6;
+    background: #151515;
 }
 
 .menu {

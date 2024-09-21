@@ -1,13 +1,26 @@
 .quiz {
-    display: flex; /* Activer Flexbox */
-    flex-direction: column; /* Aligner les éléments verticalement */
-    align-items: center; /* Centrer horizontalement */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
     animation: fadeIn 1s;
-    
-    width: 100%; /* Prendre toute la largeur sur les petits écrans */
-    padding: 10px; /* Ajouter du padding pour le confort */
+    gap: 20px;
+    width: 100%;
+   
+    background-color: #151515;
   }
   
+  .quiz-page{
+padding-top: 100px;
+padding-bottom: 350px;
+background-color: #151515;
+
+  }
+
+
+  .question-name{
+padding-bottom: 20px;
+text-align: center;
+  }
   
   button {
     background-color: #6200ea;
@@ -93,7 +106,7 @@
   }
   
   .quit-button-mob{
-    background-color: #1e1e1e;
+    background-color: #151515;
   }
   .quit-button {
     background: red;
@@ -104,8 +117,14 @@
     transform: scale(1.05);
   }
   .welcome{text-align: center;
-    padding-bottom: 20px;}
-      
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+  
+  .titre-difficulte{
+    padding: 50px 0;
+   
+  }
     
     @media (max-width: 600px) {
         h1 {
@@ -120,16 +139,15 @@
             font-size: 14px;
           }
           .quiz {
-            padding: 15px; /* Réduire le padding pour mobile */
-            margin-top: 20px; /* Ajuster la marge pour centrer */
-            width: 90%; /* Largeur pour s'adapter aux écrans */
-            max-width: 400px; /* Conserver la largeur max */
+    
+       
+            padding: 10px 20px;
           }
         
           .quit-button-mob {
             display: block;
             position: absolute;
-            top: 10px;
+            top: 80px;
             right: 10px;
             font-size: 18px; /* Taille de l'icône */
             background: none;
