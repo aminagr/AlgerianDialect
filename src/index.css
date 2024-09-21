@@ -23,3 +23,7 @@ h1 {
     gap: 20px;
     flex-wrap: wrap; /* Pour le responsive */
 }
+a {
+    text-decoration: none; 
+    color: inherit; 
+}

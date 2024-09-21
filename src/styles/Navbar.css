@@ -67,6 +67,14 @@
     color: var(--accent); 
 }
 
+
+.menu a {
+    text-decoration: none; /* Remove underline from links */
+    
+}
+
+
+
 .dropdown {
     display: none;
     position: absolute;

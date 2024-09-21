@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link for routing
 import '../../styles/Navbar.css';
 import LanguageSelector from './LanguageSelector'; 
 import { useAppContext } from '../../context/AppContext'; // Import the context
@@ -65,7 +66,9 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-            <div className="logo">Learn Algerian</div>
+               <Link to="/" className="logo" onClick={() => handleItemClick('Accueil')}>
+                Learn Algerian
+            </Link>
             <LanguageSelector />
             <div className="hamburger" onClick={toggleMenu}>
                 {isOpen ? (
@@ -79,14 +82,20 @@ const Navbar = () => {
                 )}
             </div>
             <ul className={`menu ${isOpen ? 'open' : ''}`}>
-                <li className={activeItem === 'Accueil' ? 'active' : ''} onClick={() => handleItemClick('Accueil')}>
-                    {menuTranslations[language].home}
+                <li className={activeItem === 'Accueil' ? 'active' : ''}>
+                    <Link to="/" onClick={() => handleItemClick('Accueil')}>
+                        {menuTranslations[language].home}
+                    </Link>
                 </li>
-                <li className={activeItem === 'Quiz' ? 'active' : ''} onClick={() => handleItemClick('Quiz')}>
-                    {menuTranslations[language].quiz}
+                <li className={activeItem === 'Quiz' ? 'active' : ''}>
+                    <Link to="/quiz" onClick={() => handleItemClick('Quiz')}>
+                        {menuTranslations[language].quiz}
+                    </Link>
                 </li>
-                <li className={activeItem.startsWith('Cours') ? 'active' : ''} onClick={() => handleItemClick('Cours')}>
-                    {menuTranslations[language].courses}
+                <li className={activeItem.startsWith('Cours') ? 'active' : ''}>
+                    <Link to="/courses" onClick={() => handleItemClick('Cours')}>
+                        {menuTranslations[language].courses}
+                    </Link>
                     <svg
                         width="16"
                         height="16"
@@ -97,11 +106,15 @@ const Navbar = () => {
                         <path d="M4 6l4 4 4-4" stroke="white" strokeWidth="2" />
                     </svg>
                     <ul className="dropdown">
-                        <li className={activeItem === 'Cours A' ? 'active' : ''} onClick={() => handleItemClick('Cours A')}>
-                            {menuTranslations[language].courseA}
+                        <li className={activeItem === 'Cours A' ? 'active' : ''}>
+                            <Link to="/courses/courseA" onClick={() => handleItemClick('Cours A')}>
+                                {menuTranslations[language].courseA}
+                            </Link>
                         </li>
-                        <li className={activeItem === 'Cours B' ? 'active' : ''} onClick={() => handleItemClick('Cours B')}>
-                            {menuTranslations[language].courseB}
+                        <li className={activeItem === 'Cours B' ? 'active' : ''}>
+                            <Link to="/courses/courseB" onClick={() => handleItemClick('Cours B')}>
+                                {menuTranslations[language].courseB}
+                            </Link>
                         </li>
                     </ul>
                 </li>

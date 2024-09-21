@@ -85,7 +85,7 @@ const AppContent = () => {
     <div className="app">
       <Navbar />
       <div className="content">
-     <Home translations={translations[language]} />
+      
       </div>
       <Footer footerText={translations[language].footer} />
     </div>
