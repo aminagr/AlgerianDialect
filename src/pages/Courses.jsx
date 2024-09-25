@@ -41,14 +41,14 @@ const Courses = () => {
   const renderContent = () => {
     if (currentPage === 'course') {
       if (!selectedCourse) return null;
-
+  
       const lesson = lessonsData.courses[selectedCourse].lessons[currentLessonIndex];
       const totalLessons = lessonsData.courses[selectedCourse].lessons.length;
-
+  
       return (
         <LessonCard
           lesson={lesson}
-          courseTitle={lessonsData.courses[selectedCourse].title[language]}
+          courseTitle={lessonsData.courses[selectedCourse].title[language]} // Pass course title here
           language={language}
           onNext={() => setCurrentLessonIndex((prevIndex) => Math.min(prevIndex + 1, totalLessons - 1))}
           onPrev={() => setCurrentLessonIndex((prevIndex) => Math.max(prevIndex - 1, 0))}
@@ -62,7 +62,6 @@ const Courses = () => {
       return <div className="courses">{renderCourseCards()}</div>;
     }
   };
-
   return (
     <div className="courses-page">
       {renderContent()}
