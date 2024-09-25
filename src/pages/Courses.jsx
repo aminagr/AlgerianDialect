@@ -56,14 +56,18 @@ const Courses = () => {
   return (
     <div className="courses-page">
       <div className="search-bar">
-        <input 
-          type="text" 
-          placeholder={translations[language].search.placeholder}
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          onKeyDown={handleKeyDown} 
-        />
-        <button className="searchIconBtn" onClick={handleSearch}>🔍</button>
+        <div className="input-container">
+          <input 
+            type="text" 
+            placeholder={translations[language].search.placeholder}
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            onKeyDown={handleKeyDown} 
+          />
+          <button className="search-icon" onClick={handleSearch}>
+            🔍
+          </button>
+        </div>
       </div>
       {searchResults.length > 0 ? (
         <div className="search-results">
@@ -89,7 +93,6 @@ const Courses = () => {
       )}
     </div>
   );
-  
 };
 
 export default Courses;
