@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAppContext } from '../context/AppContext';
-import CourseCard from '../components/courses/CourseCard'; // Adjust the import path if necessary
-import LessonCard from '../components/courses/LessonCard'; // Adjust the import path if necessary
+import CourseCard from '../components/courses/CourseCard'; 
+import LessonCard from '../components/courses/LessonCard'; 
 import lessonsData from '../data/lessons.json';
 import translations from '../data/translations';
 

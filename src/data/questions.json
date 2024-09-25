@@ -16,7 +16,7 @@
         { "question": "Que signifie 'khoya' en algérien ?", "answers": ["Mon ami", "Mon cousin", "Mon frère", "Mon cher"], "correct": 2 },
         { "question": "Que signifie 'chouf' en algérien ?", "answers": ["Écoute", "Sors", "Viens", "Regarde"], "correct": 3 },
         { "question": "Comment dire 'qui' en algérien ?", "answers": ["Weqtach", "Chkoun", "Win", "Chehal"], "correct": 1 },
-        { "question": "Comment dire 'merci' en algérien ?", "answers": ["Saha", "Techekur", "Iselmek bsahtek"], "correct": 0 },
+        { "question": "Comment dire 'merci' en algérien ?", "answers": ["Saha", "Techekur", "Iselmek", "bsahtek"], "correct": 0 },
         { "question": "Comment dire 'toi' en masculin en algérien ?", "answers": ["Ana", "Nta", "Nti", "Hna"], "correct": 1 },
         { "question": "Comment dire 'voiture' en algérien ?", "answers": ["Tonobil", "Araba", "Machina", "Teyara"], "correct": 0 }
       ],

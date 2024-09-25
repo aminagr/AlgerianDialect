@@ -71,7 +71,7 @@ const QuizPage = () => {
 
   const handleStartQuiz = (selectedDifficulty) => {
     setDifficulty(selectedDifficulty);
-    localStorage.setItem('difficulty', selectedDifficulty); // Store difficulty in localStorage
+    localStorage.setItem('difficulty', selectedDifficulty); 
     setStartQuiz(true);
   };
 
@@ -81,9 +81,16 @@ const QuizPage = () => {
         <div className="welcome">
           <h1>{translations[language].welcome}</h1>
           <h2 className='titre-difficulte'>{translations[language].difficultyTitle}</h2>
-          <button onClick={() => handleStartQuiz('niveau1')}>{translations[language].level1}</button>
-          <button onClick={() => handleStartQuiz('niveau2')}>{translations[language].level2}</button>
-          <button onClick={() => handleStartQuiz('niveau3')}>{translations[language].level3}</button>
+          <button className="level-button" onClick={() => handleStartQuiz('niveau1')}>
+          {translations[language].level1}
+        </button>
+        <button className="level-button" onClick={() => handleStartQuiz('niveau2')}>
+          {translations[language].level2}
+        </button>
+        <button className="level-button" onClick={() => handleStartQuiz('niveau3')}>
+          {translations[language].level3}
+        </button>
+
         </div>
       ) : (
         <Quiz setStartQuiz={setStartQuiz} difficulty={difficulty} />

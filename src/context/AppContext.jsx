@@ -12,11 +12,11 @@ export const AppProvider = ({ children }) => {
     if (savedLanguage && supportedLanguages.includes(savedLanguage)) {
       return savedLanguage;
     }
-    const browserLanguage = navigator.language.split('-')[0]; // Get language code
-    return supportedLanguages.includes(browserLanguage) ? browserLanguage : 'en'; // Default to 'en'
+    const browserLanguage = navigator.language.split('-')[0]; 
+    return supportedLanguages.includes(browserLanguage) ? browserLanguage : 'en'; 
   };
 
-  // Initialize language state
+
   const [language, setLanguage] = useState(getDefaultLanguage());
 
   const [selectedCourse, setSelectedCourse] = useState(null);

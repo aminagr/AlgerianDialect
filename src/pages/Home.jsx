@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link
-import { useAppContext } from '../context/AppContext'; // Utilisez le contexte
+import { Link } from 'react-router-dom'; 
+import { useAppContext } from '../context/AppContext';
 import '../styles/Home.css';
 
 const Home = () => {
-  const { language, translations } = useAppContext(); // Récupérez la langue et les traductions depuis le contexte
+  const { language, translations } = useAppContext(); 
 
   return (
     <div className="home">

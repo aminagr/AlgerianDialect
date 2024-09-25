@@ -90,17 +90,17 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
 
   const handleQuit = () => {
     setStartQuiz(false);
-    localStorage.removeItem('currentQuestion'); // Clear saved question
-    localStorage.removeItem('score'); // Clear saved score
-    localStorage.removeItem('difficulty'); // Clear saved difficulty
+    localStorage.removeItem('currentQuestion'); 
+    localStorage.removeItem('score');
+    localStorage.removeItem('difficulty'); 
   };
 
   const handleReplay = () => {
-    setCurrentQuestion(0); // Reset to the first question
-    setScore(0); // Reset score
-    setStartQuiz(true); // Start quiz again
-    localStorage.removeItem('currentQuestion'); // Clear saved question
-    localStorage.removeItem('score'); // Clear saved score
+    setCurrentQuestion(0); 
+    setScore(0); 
+    setStartQuiz(true); 
+    localStorage.removeItem('currentQuestion'); 
+    localStorage.removeItem('score'); 
   };
 
   return (

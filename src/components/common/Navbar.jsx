@@ -13,7 +13,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    // Détermine quel élément est actif en fonction de l'URL
+    
     const getActiveItem = () => {
         switch (location.pathname) {
             case '/quiz':

@@ -1,207 +1,233 @@
+:root {
+  --background-dark: #151515;
+  --purple: #6200ea;
+  --purple-hover: #3700b3;
+  --neutral-dark: #1e1e1e;
+  --text-light: #e0e0e0;
+  --correct-color: green;
+  --wrong-color: red;
+}
+
 .quiz {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-    animation: fadeIn 1s;
-    gap: 20px;
-    width: 100%;
-   
-    background-color: #151515;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  animation: fadeIn 1s;
+  gap: 20px;
+  width: 100%;
+  background-color: var(--background-dark);
+}
+
+.quiz-page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--background-dark);
+}
+
+.question-name {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: var(--purple);
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.level-button{
+  background-color: var(--purple);
+  padding: 20px 40px;
+}
+.level-button:hover{
+  background-color: var(--purple-hover);
+  padding: 25px 50px;
+}
+
+.answer-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: var(--neutral-dark);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: var(--text-light);
+  font-size: 16px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.answer-button:not(.correct):not(.wrong) {
+  background-color: var(--neutral-dark);
+}
+
+.answer-button:hover {
+  background-color: var(--purple-hover) !important;
+}
+
+button:hover {
+  background-color: var(--purple-hover);
+  transform: scale(1.05);
+}
+
+.answer-button.correct {
+  background-color: var(--correct-color) !important;
+}
+
+.answer-button.wrong {
+  background-color: var(--wrong-color) !important;
+}
+
+.neutral {
+  background-color: var(--neutral-dark) !important;
+}
+
+.fade-in-correct {
+  animation: fadeIn 0.5s;
+}
+
+.fade-in-wrong {
+  animation: shake 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  75% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--purple);
+  background-color: var(--neutral-dark);
+  color: var(--text-light);
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+select:hover {
+  background-color: var(--purple-hover);
+}
+
+.correct-answer {
+  color: var(--correct-color);
+}
+
+.quit-button-mob {
+  background-color: var(--background-dark);
+}
+
+.quit-button {
+  background: red;
+}
+
+.quit-button:hover {
+  background-color: var(--purple-hover);
+  transform: scale(1.05);
+}
+
+.welcome {
+  text-align: center;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+
+.titre-difficulte {
+  padding: 50px 0;
+}
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 60px;
   }
-  
-  .quiz-page{
-padding-top: 100px;
-padding-bottom: 100px;
-background-color: #151515;
-
-  }
-
-
-  .question-name{
-padding-bottom: 20px;
-text-align: center;
+  h1 {
+      font-size: 30px;
   }
   
   button {
-    background-color: #6200ea;
-    border: none;
-    padding: 15px 30px;
-    margin: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
-    font-size: 16px;
-    transition: background-color 0.3s, transform 0.3s;
+      padding: 12px;
+      font-size: 14px;
   }
   
-  button:hover {
-    background-color: #3700b3;
-    transform: scale(1.05);
+  .quiz {
+      padding: 10px 20px;
   }
-  
-  .answer-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    background-color: #1e1e1e;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    color: #e0e0e0;
-    font-size: 16px;
-    transition: background-color 0.3s, border-color 0.3s;
+
+  .quit-button-mob {
+      display: block;
+      position: absolute;
+      top: 80px;
+      right: 10px;
+      font-size: 18px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-light);
+      transition: color 0.3s;
   }
-  
-  .answer-button:hover {
-    background-color: #3700b3;
-  }
-  
-  .correct {
-    background-color: green !important;
-  }
-  
-  .wrong {
-    background-color: red !important;
-  }
-  
-  .fade-in-correct {
-    animation: fadeIn 0.5s;
-  }
-  
-  .fade-in-wrong {
-    animation: shake 0.5s;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  @keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-10px); }
-    50% { transform: translateX(10px); }
-    75% { transform: translateX(-10px); }
-    100% { transform: translateX(0); }
-  }
-  
-  select {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #6200ea;
-    background-color: #1e1e1e;
-    color: #e0e0e0;
-    margin-top: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  select:hover {
-    background-color: #3700b3;
-  }
-  
-  .correct-answer {
-    color: green;
-  }
-  
-  .quit-button-mob{
-    background-color: #151515;
-  }
+
   .quit-button {
-    background: red;
+      display: block;
+      margin: 10px auto;
+      font-size: 18px;
+      background: red;
+      border: none;
+      cursor: pointer;
+      color: var(--text-light);
+      transition: color 0.3s;
   }
-  
-  .quit-button:hover{
-  background-color: #3700b3;
-    transform: scale(1.05);
+
+  .replay-button {
+      display: block;
+      margin: 10px auto;
+      padding: 15px 30px;
+      background-color: var(--purple);
+      color: white;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.3s;
   }
-  .welcome{text-align: center;
-    padding-bottom: 20px;
-    gap: 20px;
+
+  .quit-button:hover {
+      background-color: var(--purple-hover);
+      transform: scale(1.05);
   }
-  
-  .titre-difficulte{
-    padding: 50px 0;
-   
+
+  .quit-button-mob:hover {
+      background-color: rgba(30, 30, 30, 0.9);
   }
-    
-    @media (max-width: 600px) {
-        h1 {
-            font-size: 60px;
-          }
-          h1 {
-            font-size: 30px;
-          }
-        
-          button {
-            padding: 12px;
-            font-size: 14px;
-          }
-          .quiz {
-    
-       
-            padding: 10px 20px;
-          }
-        
-          .quit-button-mob {
-            display: block;
-            position: absolute;
-            top: 80px;
-            right: 10px;
-            font-size: 18px; /* Taille de l'icône */
-            background: none;
-            border: none;
-            cursor: pointer;
-            color: #e0e0e0; /* Couleur de l'icône */
-            transition: color 0.3s;
-          }
-        
-          .quit-button {
-            display: block;
-            margin: 10px auto; /* Centrer et espacer le bouton */
-            font-size: 18px; /* Taille de l'icône */
-            background: red;
-            border: none;
-            cursor: pointer;
-            color: #e0e0e0; /* Couleur de l'icône */
-            transition: color 0.3s;
-          }
-        
-          .replay-button {
-            display: block; /* S'assurer que ce bouton est aussi un block */
-            margin: 10px auto; /* Centrer et espacer le bouton */
-            padding: 15px 30px; /* Garder le même padding pour consistance */
-            background-color: #6200ea; /* Couleur de fond */
-            color: white; /* Couleur du texte */
-            border-radius: 5px; /* Coins arrondis */
-            font-size: 16px;
-            transition: background-color 0.3s, transform 0.3s;
-          }
-        
-          .quit-button:hover{
-            background-color: #3700b3;
-              transform: scale(1.05);
-            }
-        
-          .quit-button-mob:hover {
-            background-color: #1e1e1e1d;
-          }
-        
-          .quit-button-mob span {
-            display: none; /* Cacher le texte sur mobile */
-          }
-        }
-        @media (max-width: 400px) {
-            h1 {
-              font-size: 20px;
-            }
-            h2 {
-              font-size: 18px;
-            }
-          
-            button {
-              padding: 10px;
-              font-size: 12px;
-            }
-        }  
+
+  .quit-button-mob span {
+      display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+      font-size: 20px;
+  }
+  h2 {
+      font-size: 18px;
+  }
+
+  button {
+      padding: 10px;
+      font-size: 12px;
+  }
+}
