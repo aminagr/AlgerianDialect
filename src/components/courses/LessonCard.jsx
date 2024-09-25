@@ -7,11 +7,11 @@ import lessonsData from '../../data/lessons.json';
 const LessonCard = () => {
   const { courseId } = useParams();
   const navigate = useNavigate();
-  const { language } = useAppContext();
+  const { language, translations } = useAppContext(); // Accédez aux traductions ici
   const course = lessonsData.courses[courseId];
 
   if (!course) {
-    return <div>Course not found</div>;
+    return <div>{translations[language].lesson.title}: Course not found</div>;
   }
 
   const [currentLessonIndex, setCurrentLessonIndex] = React.useState(0);
@@ -38,17 +38,21 @@ const LessonCard = () => {
   return (
     <div className="lesson-card">
       <button className="close-button" onClick={handleClose}>
-        ❌
+        {translations[language].lesson.close}
       </button>
       <h2>{course.title[language]}</h2>
       <h3>{lesson.word.dz}</h3>
-      <p>{lesson.word[language] || "Translation not available"}</p>
+      <p>{lesson.word[language] || translations[language].lesson.note}</p>
       <div className="button-container">
-        <button onClick={handlePrev} disabled={currentLessonIndex === 0}>Previous</button>
+        <button onClick={handlePrev} disabled={currentLessonIndex === 0}>
+          {translations[language].lesson.previous}
+        </button>
         <div className='lesson-progress'>
           {currentLessonIndex + 1} / {totalLessons}
         </div>
-        <button onClick={handleNext} disabled={currentLessonIndex === totalLessons - 1}>Next</button>
+        <button onClick={handleNext} disabled={currentLessonIndex === totalLessons - 1}>
+          {translations[language].lesson.next}
+        </button>
       </div>
     </div>
   );
