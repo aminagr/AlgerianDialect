@@ -5,13 +5,24 @@ import lessonsData from '../data/lessons.json';
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-  const [language, setLanguage] = useState(() => {
-    // Vérifiez si une langue est stockée dans localStorage
-    const storedLanguage = localStorage.getItem('language');
-    return storedLanguage ? storedLanguage : 'en'; // Défaut à 'en'
-  });
+  const supportedLanguages = ['en', 'fr', 'es', 'it', 'ru', 'ar'];
 
-  // Mettre à jour localStorage lorsque la langue change
+  const getDefaultLanguage = () => {
+    const savedLanguage = localStorage.getItem('language');
+    if (savedLanguage && supportedLanguages.includes(savedLanguage)) {
+      return savedLanguage;
+    }
+    const browserLanguage = navigator.language.split('-')[0]; // Get language code
+    return supportedLanguages.includes(browserLanguage) ? browserLanguage : 'en'; // Default to 'en'
+  };
+
+  // Initialize language state
+  const [language, setLanguage] = useState(getDefaultLanguage());
+
+  const [selectedCourse, setSelectedCourse] = useState(null);
+  const [currentLessonIndex, setCurrentLessonIndex] = useState(0);
+  const [currentPage, setCurrentPage] = useState('home');
+
   useEffect(() => {
     localStorage.setItem('language', language);
   }, [language]);
@@ -20,7 +31,14 @@ export const AppProvider = ({ children }) => {
     <AppContext.Provider value={{
       language,
       setLanguage,
-      translations
+      selectedCourse,
+      setSelectedCourse,
+      currentLessonIndex,
+      setCurrentLessonIndex,
+      currentPage,
+      setCurrentPage,
+      translations,
+      courses: lessonsData.courses,
     }}>
       {children}
     </AppContext.Provider>

@@ -1,9 +1,8 @@
-
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../context/AppContext'; // Import the context
 import Quiz from '../components/quiz/Quiz';
 import questions from '../data/questions.json';
-
+import '../styles/Quiz.css';
 const translations = {
   fr: {
     welcome: "Bienvenue dans le quiz de langue algérienne",
@@ -55,11 +54,24 @@ const translations = {
   },
 };
 
+
+
+
 const QuizPage = () => {
   const { language } = useAppContext(); // Get language from context
   const [startQuiz, setStartQuiz] = useState(false);
+  const [difficulty, setDifficulty] = useState('niveau1');
 
-  const handleStartQuiz = () => {
+  useEffect(() => {
+    const savedDifficulty = localStorage.getItem('difficulty');
+    if (savedDifficulty) {
+      setDifficulty(savedDifficulty);
+    }
+  }, []);
+
+  const handleStartQuiz = (selectedDifficulty) => {
+    setDifficulty(selectedDifficulty);
+    localStorage.setItem('difficulty', selectedDifficulty); // Store difficulty in localStorage
     setStartQuiz(true);
   };
 
@@ -74,7 +86,7 @@ const QuizPage = () => {
           <button onClick={() => handleStartQuiz('niveau3')}>{translations[language].level3}</button>
         </div>
       ) : (
-        <Quiz setStartQuiz={setStartQuiz} />
+        <Quiz setStartQuiz={setStartQuiz} difficulty={difficulty} />
       )}
     </div>
   );

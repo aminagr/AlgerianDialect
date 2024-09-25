@@ -6,6 +6,7 @@
     --color-button-hover: rgba(0, 0, 0, 0.4); 
 }
 
+
 .home {
     background-color: var(--color-dark);
     justify-content: flex-start;

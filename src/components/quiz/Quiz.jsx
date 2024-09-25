@@ -44,24 +44,24 @@ const translations = {
   },
 };
 
-const Quiz = ({ setStartQuiz }) => {
-  const { language } = useAppContext(); // Get language from context
-  const [difficulty, setDifficulty] = useState(() => localStorage.getItem('difficulty') || 'niveau1');
+const Quiz = ({ setStartQuiz, difficulty }) => {
+  const { language } = useAppContext();
   const [currentQuestion, setCurrentQuestion] = useState(() => {
     const savedQuestion = localStorage.getItem('currentQuestion');
-    return savedQuestion ? JSON.parse(savedQuestion) : 0; // Default to 0
+    return savedQuestion ? JSON.parse(savedQuestion) : 0;
   });
 
   const [score, setScore] = useState(() => {
     const savedScore = localStorage.getItem('score');
-    return savedScore ? JSON.parse(savedScore) : 0; 
+    return savedScore ? JSON.parse(savedScore) : 0;
   });
 
   const [result, setResult] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isDisabled, setIsDisabled] = useState(false);
 
-  const currentQuestions = questions[language][difficulty];
+  const currentQuestions = questions[language][difficulty]; 
+
 
   useEffect(() => {
     localStorage.setItem('currentQuestion', currentQuestion);
