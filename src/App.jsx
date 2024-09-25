@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { AppProvider, useAppContext } from './context/AppContext.jsx'; 
+import { AppProvider, useAppContext } from './context/AppContext'; 
 import Home from './pages/Home';
 import Quiz from './pages/QuizPage.jsx'; 
 import Courses from './pages/Courses';
@@ -32,8 +32,6 @@ const MainContent = () => {
           <Route path="/quiz/:level" element={<Quiz />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:courseId" element={<LessonCard />} />
-          
-
         </Routes>
       </div>
       <Footer footerText={translations[language].footer} />

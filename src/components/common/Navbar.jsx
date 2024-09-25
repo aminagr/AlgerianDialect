@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom'; 
+import { Link, useLocation } from 'react-router-dom';
 import '../../styles/Navbar.css';
-import LanguageSelector from './LanguageSelector'; 
-import { useAppContext } from '../../context/AppContext'; 
+import LanguageSelector from './LanguageSelector';
+import { useAppContext } from '../../context/AppContext';
 
 const Navbar = () => {
-    const { language } = useAppContext(); 
+    const { language, courses } = useAppContext(); 
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
 
@@ -13,7 +13,6 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    
     const getActiveItem = () => {
         switch (location.pathname) {
             case '/quiz':
@@ -28,48 +27,12 @@ const Navbar = () => {
     const activeItem = getActiveItem();
 
     const menuTranslations = {
-        en: {
-            home: 'Home',
-            quiz: 'Quiz',
-            courses: 'Courses',
-            courseA: 'Course A',
-            courseB: 'Course B',
-        },
-        fr: {
-            home: 'Accueil',
-            quiz: 'Quiz',
-            courses: 'Cours',
-            courseA: 'Cours A',
-            courseB: 'Cours B',
-        },
-        es: {
-            home: 'Inicio',
-            quiz: 'Cuestionario',
-            courses: 'Cursos',
-            courseA: 'Curso A',
-            courseB: 'Curso B',
-        },
-        it: {
-            home: 'Home',
-            quiz: 'Quiz',
-            courses: 'Corsi',
-            courseA: 'Corso A',
-            courseB: 'Corso B',
-        },
-        ru: {
-            home: 'Главная',
-            quiz: 'Викторина',
-            courses: 'Курсы',
-            courseA: 'Курс A',
-            courseB: 'Курс B',
-        },
-        ar: {
-            home: 'الرئيسية',
-            quiz: 'اختبار',
-            courses: 'الدورات',
-            courseA: 'الدورة A',
-            courseB: 'الدورة B',
-        },
+        en: { home: 'Home', quiz: 'Quiz', courses: 'Courses' },
+        fr: { home: 'Accueil', quiz: 'Quiz', courses: 'Cours' },
+        es: { home: 'Inicio', quiz: 'Cuestionario', courses: 'Cursos' },
+        it: { home: 'Home', quiz: 'Quiz', courses: 'Corsi' },
+        ru: { home: 'Главная', quiz: 'Викторина', courses: 'Курсы' },
+        ar: { home: 'الرئيسية', quiz: 'اختبار', courses: 'الدروس' },
     };
 
     return (
@@ -95,7 +58,6 @@ const Navbar = () => {
                         {menuTranslations[language].home}
                     </Link>
                 </li>
-                
                 <li className={activeItem.startsWith('Cours') ? 'active' : ''}>
                     <Link to="/courses" onClick={toggleMenu}>
                         {menuTranslations[language].courses}
@@ -110,16 +72,13 @@ const Navbar = () => {
                         <path d="M4 6l4 4 4-4" stroke="white" strokeWidth="2" />
                     </svg>
                     <ul className="dropdown">
-                        <li className={activeItem === 'Cours A' ? 'active' : ''}>
-                            <Link to="/courses/courseA" onClick={toggleMenu}>
-                                {menuTranslations[language].courseA}
-                            </Link>
-                        </li>
-                        <li className={activeItem === 'Cours B' ? 'active' : ''}>
-                            <Link to="/courses/courseB" onClick={toggleMenu}>
-                                {menuTranslations[language].courseB}
-                            </Link>
-                        </li>
+                        {Object.keys(courses).map(courseKey => (
+                            <li key={courseKey} className={activeItem === courses[courseKey].title[language] ? 'active' : ''}>
+                                <Link to={`/courses/${courseKey}`} onClick={toggleMenu}>
+                                    {courses[courseKey].title[language]}
+                                </Link>
+                            </li>
+                        ))}
                     </ul>
                 </li>
                 <li className={activeItem === 'Quiz' ? 'active' : ''}>

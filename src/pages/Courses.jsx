@@ -1,70 +1,30 @@
 import React from 'react';
 import { useAppContext } from '../context/AppContext';
 import CourseCard from '../components/courses/CourseCard'; 
-import LessonCard from '../components/courses/LessonCard'; 
+import { useNavigate } from 'react-router-dom';
 import lessonsData from '../data/lessons.json';
-import translations from '../data/translations';
 
 const Courses = () => {
-  const {
-    language,
-    selectedCourse,
-    setSelectedCourse,
-    currentLessonIndex,
-    setCurrentLessonIndex,
-    currentPage,
-    setCurrentPage,
-  } = useAppContext();
+  const { language } = useAppContext();
+  const navigate = useNavigate(); // Use navigate hook
 
-  const handleCourseClick = (course) => {
-    setSelectedCourse(course);
-    setCurrentLessonIndex(0);
-    setCurrentPage('course');
-  };
-
-  const handleClose = () => {
-    setSelectedCourse(null);
-    setCurrentLessonIndex(0);
-    setCurrentPage('courses');
+  const handleCourseClick = (courseId) => {
+    navigate(`/courses/${courseId}`); // Navigate to LessonCard directly
   };
 
   const renderCourseCards = () => {
-    return Object.keys(lessonsData.courses).map((course, index) => (
+    return Object.keys(lessonsData.courses).map((courseId, index) => (
       <CourseCard
         key={index}
-        title={lessonsData.courses[course].title[language]}
-        onClick={() => handleCourseClick(course)}
+        title={lessonsData.courses[courseId].title[language]}
+        onClick={() => handleCourseClick(courseId)} // Pass courseId to handleCourseClick
       />
     ));
   };
 
-  const renderContent = () => {
-    if (currentPage === 'course') {
-      if (!selectedCourse) return null;
-  
-      const lesson = lessonsData.courses[selectedCourse].lessons[currentLessonIndex];
-      const totalLessons = lessonsData.courses[selectedCourse].lessons.length;
-  
-      return (
-        <LessonCard
-          lesson={lesson}
-          courseTitle={lessonsData.courses[selectedCourse].title[language]} // Pass course title here
-          language={language}
-          onNext={() => setCurrentLessonIndex((prevIndex) => Math.min(prevIndex + 1, totalLessons - 1))}
-          onPrev={() => setCurrentLessonIndex((prevIndex) => Math.max(prevIndex - 1, 0))}
-          onClose={handleClose}
-          translations={translations[language].lesson}
-          currentLessonIndex={currentLessonIndex}
-          totalLessons={totalLessons}
-        />
-      );
-    } else {
-      return <div className="courses">{renderCourseCards()}</div>;
-    }
-  };
   return (
     <div className="courses-page">
-      {renderContent()}
+      <div className="courses">{renderCourseCards()}</div>
     </div>
   );
 };
