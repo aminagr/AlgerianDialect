@@ -1,15 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../context/AppContext';
 import CourseCard from '../components/courses/CourseCard'; 
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import lessonsData from '../data/lessons.json';
 import '../styles/Courses.css';
 
 const Courses = () => {
   const { language, translations } = useAppContext();
   const navigate = useNavigate();
-  const [searchTerm, setSearchTerm] = useState('');
+  const location = useLocation();
+  const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
   const [searchResults, setSearchResults] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
+
+  useEffect(() => {
+    const debounceSearch = setTimeout(() => {
+      if (searchTerm) {
+        handleSearch();
+      } else {
+        setSearchResults([]);
+      }
+    }, 300); // Délai de 300ms
+
+    return () => clearTimeout(debounceSearch);
+  }, [searchTerm]);
 
   const handleSearch = () => {
     const results = [];
@@ -23,12 +37,8 @@ const Courses = () => {
       });
     });
 
-    if (results.length > 0) {
-      setSearchResults(results); 
-    } else {
-      alert('Aucune leçon trouvée');
-      setSearchResults([]); 
-    }
+    setSearchResults(results);
+    setIsSearching(false);
   };
 
   const handleKeyDown = (e) => {
@@ -40,7 +50,7 @@ const Courses = () => {
   const handleResultClick = (courseId, lessonId) => {
     navigate(`/courses/${courseId}/${lessonId}`);
     setSearchTerm('');
-    setSearchResults([]);
+    setSearchResults([]); 
   };
 
   const renderCourseCards = () => {
@@ -82,9 +92,7 @@ const Courses = () => {
           ))}
         </div>
       ) : (
-        <div className="no-results">
-          {translations[language].search.noResultsFound} 
-        </div>
+        searchTerm && <div className="no-results">{translations[language].search.noResultsFound}</div>
       )}
       {searchResults.length === 0 && (
         <div className="courses">
