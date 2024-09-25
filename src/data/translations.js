@@ -16,6 +16,8 @@ const translations = {
     heroSubtitle: "Découvrez nos leçons interactives conçues juste pour vous et testez vos connaissances avec des quiz amusants. Apprendre l'algérien n'a jamais été aussi simple, facile et agréable ! Commencez votre voyage aujourd'hui !",
     coursesButton: "Cours",
     quizzesButton: "Quiz",
+    searchResultsTitle: "Résultats de recherche",
+    noResultsFound: "Aucun résultat trouvé.",
   },
   en: {
     titre: "Algerian Language Courses",
@@ -34,6 +36,8 @@ const translations = {
     heroSubtitle: "Discover our interactive lessons designed just for you and test your knowledge with fun quizzes. Learning Algerian has never been this simple, easy, and enjoyable! Start your journey today!",
     coursesButton: "Courses",
     quizzesButton: "Quizzes",
+    searchResultsTitle: "Search Results",
+    noResultsFound: "No results found.",
   },
   es: {
     titre: "Cursos de lengua argelina",
@@ -52,6 +56,8 @@ const translations = {
     heroSubtitle: "Descubre nuestras lecciones interactivas diseñadas solo para ti y pon a prueba tus conocimientos con divertidos cuestionarios. ¡Aprender argelino nunca ha sido tan simple, fácil y divertido! ¡Comienza tu viaje hoy!",
     coursesButton: "Cursos",
     quizzesButton: "Cuestionarios",
+    searchResultsTitle: "Resultados de búsqueda",
+    noResultsFound: "No se encontraron resultados.",
   },
   it: {
     titre: "Corsi di lingua algerina",
@@ -70,6 +76,8 @@ const translations = {
     heroSubtitle: "Scopri le nostre lezioni interattive progettate appositamente per te e metti alla prova le tue conoscenze con quiz divertenti. Imparare l'algerino non è mai stato così semplice, facile e divertente! Inizia il tuo viaggio oggi!",
     coursesButton: "Corsi",
     quizzesButton: "Quiz",
+    searchResultsTitle: "Risultati della ricerca",
+    noResultsFound: "Nessun risultato trovato.",
   },
   ru: {
     titre: "Курсы алжирского языка",
@@ -88,6 +96,8 @@ const translations = {
     heroSubtitle: "Откройте для себя наши интерактивные уроки, созданные специально для вас, и проверьте свои знания с помощью веселых викторин. Изучать алжирский язык никогда не было так просто, легко и приятно! Начните свое путешествие сегодня!",
     coursesButton: "Курсы",
     quizzesButton: "Викторины",
+    searchResultsTitle: "Результаты поиска",
+    noResultsFound: "Результаты не найдены.",
   },
   ar: {
     titre: "دروس اللغة الجزائرية",
@@ -106,6 +116,8 @@ const translations = {
     heroSubtitle: "اكتشف دروسنا التفاعلية المصممة خصيصًا لك و اختبار معرفتك من خلال اختبارات ممتعة. لم يكن تعلم الجزائرية بهذه السهولة واليسر والمرح من قبل! ابدأ رحلتك اليوم!",
     coursesButton: "الدروس ",
     quizzesButton: "الأسئلة",
+    searchResultsTitle: "نتائج البحث",
+    noResultsFound: "لم يتم العثور على نتائج.",
   },
 };
 

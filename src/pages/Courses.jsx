@@ -1,32 +1,99 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useAppContext } from '../context/AppContext';
 import CourseCard from '../components/courses/CourseCard'; 
 import { useNavigate } from 'react-router-dom';
 import lessonsData from '../data/lessons.json';
+import '../styles/Courses.css';
 
 const Courses = () => {
   const { language } = useAppContext();
-  const navigate = useNavigate(); // Use navigate hook
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+/*
+  const handleSearch = () => {
+    const results = [];
+    
+    Object.keys(lessonsData.courses).forEach(courseId => {
+      lessonsData.courses[courseId].lessons.forEach(lesson => {
+        const words = Object.values(lesson.word);
+        if (words.some(word => word.toLowerCase().includes(searchTerm.toLowerCase()))) {
+          results.push({ courseId, lesson }); 
+        }
+      });
+    });
 
-  const handleCourseClick = (courseId) => {
-    navigate(`/courses/${courseId}`); // Navigate to LessonCard directly
+    if (results.length > 0) {
+      setSearchResults(results); 
+    } else {
+      alert('Aucune leçon trouvée');
+      setSearchResults([]); 
+    }
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch(); 
+    }
+  };
+
+  const handleResultClick = (courseId, lessonId) => {
+    navigate(`/courses/${courseId}`); 
+    setSearchTerm(''); 
+    setSearchResults([]); 
+  };
+*/
   const renderCourseCards = () => {
     return Object.keys(lessonsData.courses).map((courseId, index) => (
       <CourseCard
         key={index}
         title={lessonsData.courses[courseId].title[language]}
-        onClick={() => handleCourseClick(courseId)} // Pass courseId to handleCourseClick
+        onClick={() => navigate(`/courses/${courseId}`)} 
       />
     ));
   };
-
+  {/*
   return (
     <div className="courses-page">
-      <div className="courses">{renderCourseCards()}</div>
+      <div className="search-bar">
+        <input 
+          type="text" 
+          placeholder="🔍 Rechercher un mot..." 
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          onKeyDown={handleKeyDown} 
+        />
+      <button onClick={handleSearch}>Rechercher</button>
+      </div>
+      {searchResults.length > 0 && (
+        <div className="search-results">
+          {searchResults.map((result, index) => (
+            <div 
+              key={index} 
+              className="search-result" 
+              onClick={() => handleResultClick(result.courseId, result.lesson.id)}
+            >
+              <strong>{result.lesson.word.dz}</strong>: {result.lesson.word[language]}
+            </div>
+          ))}
+        </div>
+      )}
+      {searchResults.length === 0 && (
+        <div className="courses">
+          {renderCourseCards()}
+        </div>
+      )}
     </div>
   );
 };
+*/}
+
+return (
+  <div className="courses-page">
+    <div className="courses">{renderCourseCards()}</div>
+  </div>
+);
+};
+
 
 export default Courses;

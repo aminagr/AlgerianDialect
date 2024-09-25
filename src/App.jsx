@@ -8,6 +8,7 @@ import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import translations from './data/translations'; 
 import LessonCard from './components/courses/LessonCard.jsx';
+import SearchResults from './pages/SearchResults.jsx';
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const MainContent = () => {
           <Route path="/quiz/:level" element={<QuizPage />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:courseId" element={<LessonCard />} />
+          <Route path="/search" element={<SearchResults />} />
         </Routes>
       </div>
       <Footer footerText={translations[language].footer} />
