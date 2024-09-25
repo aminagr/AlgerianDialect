@@ -5,7 +5,7 @@ import '../../styles/Courses.css';
 import lessonsData from '../../data/lessons.json';
 
 const LessonCard = () => {
-  const { courseId } = useParams();
+  const { courseId, lessonId } = useParams();
   const navigate = useNavigate();
   const { language, translations } = useAppContext(); 
   const course = lessonsData.courses[courseId];
@@ -14,18 +14,28 @@ const LessonCard = () => {
     return <div>{translations[language].lesson.title}: Course not found</div>;
   }
 
-  const [currentLessonIndex, setCurrentLessonIndex] = React.useState(0);
+  const lesson = lessonId 
+    ? course.lessons.find(lesson => lesson.id === parseInt(lessonId)) 
+    : course.lessons[0]; 
+
+  if (!lesson) {
+    return <div>{translations[language].lesson.title}: Lesson not found</div>;
+  }
+
+  const currentLessonIndex = course.lessons.indexOf(lesson);
   const totalLessons = course.lessons.length;
 
   const handleNext = () => {
-    if (currentLessonIndex < totalLessons - 1) {
-      setCurrentLessonIndex(prevIndex => prevIndex + 1);
+    const nextLessonId = currentLessonIndex + 1;
+    if (nextLessonId < totalLessons) {
+      navigate(`/courses/${courseId}/${course.lessons[nextLessonId].id}`);
     }
   };
 
   const handlePrev = () => {
-    if (currentLessonIndex > 0) {
-      setCurrentLessonIndex(prevIndex => prevIndex - 1);
+    const prevLessonId = currentLessonIndex - 1;
+    if (prevLessonId >= 0) {
+      navigate(`/courses/${courseId}/${course.lessons[prevLessonId].id}`);
     }
   };
 
@@ -33,12 +43,10 @@ const LessonCard = () => {
     navigate('/courses'); 
   };
 
-  const lesson = course.lessons[currentLessonIndex]; 
-
   return (
     <div className="lesson-card">
       <button className="close-button" onClick={handleClose}>
-      ❌
+        ❌
       </button>
       <h2>{course.title[language]}</h2>
       <h3>{lesson.word.dz}</h3>

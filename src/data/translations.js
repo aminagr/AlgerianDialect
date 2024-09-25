@@ -18,6 +18,9 @@ const translations = {
     quizzesButton: "Quiz",
     searchResultsTitle: "Résultats de recherche",
     noResultsFound: "Aucun résultat trouvé.",
+    search: {
+      placeholder: "Rechercher un mot...",
+    },
   },
   en: {
     titre: "Algerian Language Courses",
@@ -38,6 +41,9 @@ const translations = {
     quizzesButton: "Quizzes",
     searchResultsTitle: "Search Results",
     noResultsFound: "No results found.",
+    search: {
+      placeholder: "Search for a word...",
+    },
   },
   es: {
     titre: "Cursos de lengua argelina",
@@ -58,6 +64,9 @@ const translations = {
     quizzesButton: "Cuestionarios",
     searchResultsTitle: "Resultados de búsqueda",
     noResultsFound: "No se encontraron resultados.",
+    search: {
+      placeholder: "Buscar una palabra...",
+    },
   },
   it: {
     titre: "Corsi di lingua algerina",
@@ -78,6 +87,9 @@ const translations = {
     quizzesButton: "Quiz",
     searchResultsTitle: "Risultati della ricerca",
     noResultsFound: "Nessun risultato trovato.",
+    search: {
+      placeholder: "Cerca una parola...",
+    },
   },
   ru: {
     titre: "Курсы алжирского языка",
@@ -98,6 +110,9 @@ const translations = {
     quizzesButton: "Викторины",
     searchResultsTitle: "Результаты поиска",
     noResultsFound: "Результаты не найдены.",
+    search: {
+      placeholder: "Искать слово...",
+    },
   },
   ar: {
     titre: "دروس اللغة الجزائرية",
@@ -114,10 +129,13 @@ const translations = {
     selectLanguage: "اختر اللغة",
     heroTitle: "تعلم اللهجة الجزائرية بسهولة 🇩🇿",
     heroSubtitle: "اكتشف دروسنا التفاعلية المصممة خصيصًا لك و اختبار معرفتك من خلال اختبارات ممتعة. لم يكن تعلم الجزائرية بهذه السهولة واليسر والمرح من قبل! ابدأ رحلتك اليوم!",
-    coursesButton: "الدروس ",
+    coursesButton: "الدروس",
     quizzesButton: "الأسئلة",
     searchResultsTitle: "نتائج البحث",
     noResultsFound: "لم يتم العثور على نتائج.",
+    search: {
+      placeholder: "ابحث عن كلمة...",
+    },
   },
 };
 

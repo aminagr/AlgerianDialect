@@ -6,11 +6,11 @@ import lessonsData from '../data/lessons.json';
 import '../styles/Courses.css';
 
 const Courses = () => {
-  const { language } = useAppContext();
+  const { language, translations } = useAppContext();
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-/*
+
   const handleSearch = () => {
     const results = [];
     
@@ -38,11 +38,11 @@ const Courses = () => {
   };
 
   const handleResultClick = (courseId, lessonId) => {
-    navigate(`/courses/${courseId}`); 
-    setSearchTerm(''); 
-    setSearchResults([]); 
+    navigate(`/courses/${courseId}/${lessonId}`);
+    setSearchTerm('');
+    setSearchResults([]);
   };
-*/
+
   const renderCourseCards = () => {
     return Object.keys(lessonsData.courses).map((courseId, index) => (
       <CourseCard
@@ -52,20 +52,20 @@ const Courses = () => {
       />
     ));
   };
-  {/*
+  
   return (
     <div className="courses-page">
       <div className="search-bar">
         <input 
           type="text" 
-          placeholder="🔍 Rechercher un mot..." 
+          placeholder={translations[language].search.placeholder}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           onKeyDown={handleKeyDown} 
         />
-      <button onClick={handleSearch}>Rechercher</button>
+        <button className="searchIconBtn" onClick={handleSearch}>🔍</button>
       </div>
-      {searchResults.length > 0 && (
+      {searchResults.length > 0 ? (
         <div className="search-results">
           {searchResults.map((result, index) => (
             <div 
@@ -77,6 +77,10 @@ const Courses = () => {
             </div>
           ))}
         </div>
+      ) : (
+        <div className="no-results">
+          {translations[language].search.noResultsFound} 
+        </div>
       )}
       {searchResults.length === 0 && (
         <div className="courses">
@@ -85,15 +89,7 @@ const Courses = () => {
       )}
     </div>
   );
+  
 };
-*/}
-
-return (
-  <div className="courses-page">
-    <div className="courses">{renderCourseCards()}</div>
-  </div>
-);
-};
-
 
 export default Courses;
