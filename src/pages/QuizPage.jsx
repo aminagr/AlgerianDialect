@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useAppContext } from '../context/AppContext'; // Import the context
+import { useAppContext } from '../context/AppContext'; 
+import { useParams, useNavigate } from 'react-router-dom';
 import Quiz from '../components/quiz/Quiz';
 import questions from '../data/questions.json';
 import '../styles/Quiz.css';
@@ -58,26 +59,23 @@ const translations = {
 
 
 const QuizPage = () => {
-  const { language } = useAppContext(); // Obtenez la langue du contexte
+  const { language } = useAppContext(); 
+  const { level } = useParams();
+  const navigate = useNavigate(); // Hook to navigate programmatically
   const [startQuiz, setStartQuiz] = useState(false);
-  const [difficulty, setDifficulty] = useState('niveau1');
-  const [levels, setLevels] = useState([]);
+  const [difficulty, setDifficulty] = useState(level || 'niveau1');
 
   useEffect(() => {
-    const savedDifficulty = localStorage.getItem('difficulty');
-    if (savedDifficulty) {
-      setDifficulty(savedDifficulty);
+    if (level && questions[language][level]) {
+      setDifficulty(level);
+      setStartQuiz(true);
     }
+  }, [level, language]);
 
-    // Récupérer dynamiquement les niveaux de difficulté
-    const availableLevels = Object.keys(questions[language]);
-    setLevels(availableLevels);
-  }, [language]);
-
-  const handleStartQuiz = (selectedDifficulty) => {
-    setDifficulty(selectedDifficulty);
-    localStorage.setItem('difficulty', selectedDifficulty); 
+  const handleStartQuiz = (lvl) => {
+    setDifficulty(lvl);
     setStartQuiz(true);
+    navigate(`/quiz/${lvl}`); // Update the URL with the selected level
   };
 
   return (
@@ -86,13 +84,13 @@ const QuizPage = () => {
         <div className="welcome">
           <h1>{translations[language].welcome}</h1>
           <h2 className='titre-difficulte'>{translations[language].difficultyTitle}</h2>
-          {levels.map((level, index) => (
+          {['niveau1', 'niveau2', 'niveau3'].map((lvl) => (
             <button
-              key={index}
+              key={lvl}
               className="level-button"
-              onClick={() => handleStartQuiz(level)}
+              onClick={() => handleStartQuiz(lvl)} // Use the new handler
             >
-              {translations[language][level]} {/* Assurez-vous que les traductions existent pour chaque niveau */}
+              {translations[language][lvl]}
             </button>
           ))}
         </div>

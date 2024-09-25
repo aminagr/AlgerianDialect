@@ -28,8 +28,7 @@ const Question = ({ question, handleAnswer, result, selectedAnswer, isDisabled }
         );
       })}
       {result !== null && (
-        <p className={result === false ? 'wrong-answer' : 'correct-answer'}>
-        </p>
+        <p className={result === false ? 'wrong-answer' : 'correct-answer'}></p>
       )}
     </div>
   );

@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 import '../../styles/Navbar.css';
 import LanguageSelector from './LanguageSelector';
 import { useAppContext } from '../../context/AppContext';
 
 const Navbar = () => {
-    const { language, courses } = useAppContext(); 
+    const { language, courses } = useAppContext();
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
+    const { courseId } = useParams();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -19,8 +20,10 @@ const Navbar = () => {
                 return 'Quiz';
             case '/courses':
                 return 'Cours';
+            case '/courses/:courseId':
+                return 'Cours'; 
             default:
-                return 'Accueil';
+                return '';
         }
     };
 
@@ -53,7 +56,7 @@ const Navbar = () => {
                 )}
             </div>
             <ul className={`menu ${isOpen ? 'open' : ''}`}>
-                <li className={activeItem === 'Accueil' ? 'active' : ''}>
+                <li className={location.pathname === '/' ? 'active' : ''}>
                     <Link to="/" onClick={toggleMenu}>
                         {menuTranslations[language].home}
                     </Link>
@@ -86,7 +89,6 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </li>
-          
             </ul>
         </nav>
     );

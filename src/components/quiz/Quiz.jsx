@@ -61,13 +61,12 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
 
   const handleAnswer = (index) => {
     if (isDisabled) return;
-
+    
     setSelectedAnswer(index);
     const isCorrect = index === currentQuestions[currentQuestion].correct;
     if (isCorrect) {
       setScore((prevScore) => prevScore + 1);
     }
-
     setResult(isCorrect);
     setIsDisabled(true);
 
@@ -97,7 +96,6 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
           <p className="question-number">
             {translations[language].question} {currentQuestion + 1} / {currentQuestions.length}
           </p>
-
           <Question
             question={currentQuestions[currentQuestion]}
             handleAnswer={handleAnswer}
@@ -110,9 +108,7 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
       ) : (
         <>
           <h2>{translations[language].quizFinished} {score}/{currentQuestions.length}</h2>
-          <button onClick={handleQuit} className="quit-button">
-            <span>{translations[language].exit}</span>❌
-          </button>
+          <button onClick={handleQuit} className="quit-button">❌ {translations[language].exit}</button>
           <button onClick={handleReplay} className="replay-button">{translations[language].replay}</button>
         </>
       )}

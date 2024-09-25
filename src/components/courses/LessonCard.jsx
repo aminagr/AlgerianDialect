@@ -7,7 +7,7 @@ import lessonsData from '../../data/lessons.json';
 const LessonCard = () => {
   const { courseId } = useParams();
   const navigate = useNavigate();
-  const { language, translations } = useAppContext(); // Accédez aux traductions ici
+  const { language, translations } = useAppContext(); 
   const course = lessonsData.courses[courseId];
 
   if (!course) {
@@ -38,7 +38,7 @@ const LessonCard = () => {
   return (
     <div className="lesson-card">
       <button className="close-button" onClick={handleClose}>
-        {translations[language].lesson.close}
+      ❌
       </button>
       <h2>{course.title[language]}</h2>
       <h3>{lesson.word.dz}</h3>
