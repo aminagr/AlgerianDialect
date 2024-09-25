@@ -20,7 +20,7 @@ const Courses = () => {
       } else {
         setSearchResults([]);
       }
-    }, 300); // Délai de 300ms
+    }, 300); 
 
     return () => clearTimeout(debounceSearch);
   }, [searchTerm]);
