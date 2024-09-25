@@ -95,11 +95,7 @@ const Navbar = () => {
                         {menuTranslations[language].home}
                     </Link>
                 </li>
-                <li className={activeItem === 'Quiz' ? 'active' : ''}>
-                    <Link to="/quiz" onClick={toggleMenu}>
-                        {menuTranslations[language].quiz}
-                    </Link>
-                </li>
+                
                 <li className={activeItem.startsWith('Cours') ? 'active' : ''}>
                     <Link to="/courses" onClick={toggleMenu}>
                         {menuTranslations[language].courses}
@@ -125,6 +121,11 @@ const Navbar = () => {
                             </Link>
                         </li>
                     </ul>
+                </li>
+                <li className={activeItem === 'Quiz' ? 'active' : ''}>
+                    <Link to="/quiz" onClick={toggleMenu}>
+                        {menuTranslations[language].quiz}
+                    </Link>
                 </li>
             </ul>
         </nav>

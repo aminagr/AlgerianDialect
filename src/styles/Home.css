@@ -62,7 +62,8 @@
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700; 
     font-size: 18px;
     width: 100%;
     max-width: 300px;

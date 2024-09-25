@@ -11,36 +11,42 @@ const translations = {
     exit: 'Quitter',
     replay: 'Rejouer',
     score: 'Score:',
+    question : 'Question',
   },
   en: {
     quizFinished: 'Quiz finished! Your score is:',
     exit: 'Exit',
     replay: 'Replay',
     score: 'Score:',
+    question : 'Question',
   },
   es: {
     quizFinished: '¡Quiz terminado! Tu puntuación es:',
     exit: 'Salir',
     replay: 'Repetir',
     score: 'Puntuación:',
+    question :'Pregunta',
   },
   it: {
     quizFinished: 'Quiz terminato! Il tuo punteggio è:',
     exit: 'Esci',
     replay: 'Rigiocare',
     score: 'Punteggio:',
+    question :'Domanda',
   },
   ru: {
     quizFinished: 'Викторина завершена! Ваш результат:',
     exit: 'Выход',
     replay: 'Перезапуск',
     score: 'Результат:',
+    question : 'Вопрос',
   },
   ar: {
     quizFinished: 'انتهى الاختبار! نتيجتك هي:',
     exit: 'خروج',
     replay: 'إعادة اللعب',
     score: 'النقاط:',
+    question : 'السؤال',
   },
 };
 
@@ -109,7 +115,8 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
       {currentQuestion < currentQuestions.length ? (
         <>
           <button onClick={handleQuit} className="quit-button-mob">❌</button>
-          <p className="question-number">{language === 'fr' ? 'Question' : 'Question'} {currentQuestion + 1} / {currentQuestions.length}</p>
+          <p className="question-number">{translations[language].question} {currentQuestion + 1} / {currentQuestions.length}</p>
+
           <Question 
             question={currentQuestions[currentQuestion]} 
             handleAnswer={handleAnswer} 

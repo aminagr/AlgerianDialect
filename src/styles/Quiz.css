@@ -1,11 +1,11 @@
 :root {
   --background-dark: #151515;
-  --purple: #6200ea;
-  --purple-hover: #3700b3;
+  --purple: #5500f9;
+  --purple-hover: #6b28e9;
   --neutral-dark: #1e1e1e;
   --text-light: #e0e0e0;
   --correct-color: green;
-  --wrong-color: red;
+  --wrong-color: #8B0000;
 }
 
 .quiz {
@@ -68,7 +68,7 @@ button {
 }
 
 .answer-button:hover {
-  background-color: var(--purple-hover) !important;
+  background-color: var(--purple) !important;
 }
 
 button:hover {
@@ -134,7 +134,7 @@ select:hover {
 }
 
 .quit-button {
-  background: red;
+  background: var(--wrong-color);
 }
 
 .quit-button:hover {
@@ -202,6 +202,9 @@ select:hover {
       border-radius: 5px;
       font-size: 16px;
       transition: background-color 0.3s, transform 0.3s;
+  }
+  .replay-button:hover{
+    background-color: var(--purple-hover);
   }
 
   .quit-button:hover {

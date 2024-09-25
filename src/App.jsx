@@ -7,6 +7,7 @@ import Courses from './pages/Courses';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import translations from './data/translations'; 
+import LessonCard from './components/courses/LessonCard.jsx';
 
 const App = () => {
   return (
@@ -28,7 +29,11 @@ const MainContent = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/quiz/:level" element={<Quiz />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/courses/:courseId" element={<LessonCard />} />
+          
+
         </Routes>
       </div>
       <Footer footerText={translations[language].footer} />
