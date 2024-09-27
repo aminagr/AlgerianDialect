@@ -9,7 +9,7 @@ import useSearch from '../hooks/useSearch';
 const translations = {
   fr: {
     search: {
-      placeholder: "Recherchez un cours...",
+      placeholder: "Recherchez un mot...",
       noResultsFound: "Aucun résultat trouvé",
     },
     seo: {
@@ -20,7 +20,7 @@ const translations = {
   },
   en: {
     search: {
-      placeholder: "Search for a course...",
+      placeholder: "Search for a word...",
       noResultsFound: "No results found",
     },
     seo: {
@@ -31,7 +31,7 @@ const translations = {
   },
   es: {
     search: {
-      placeholder: "Busca palabra argelina o española...",
+      placeholder: "Busca una palabra argelina o española...",
       noResultsFound: "No se encontraron resultados",
     },
     seo: {
@@ -42,7 +42,7 @@ const translations = {
   },
   it: {
     search: {
-      placeholder: "Cerca parola algerina o italiana...",
+      placeholder: "Cerca una parola algerina o italiana...",
       noResultsFound: "Nessun risultato trovato",
     },
     seo: {

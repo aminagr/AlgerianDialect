@@ -9,7 +9,7 @@ import SEO from '../components/SEO';
 const translations = {
   fr: {
     search: {
-      placeholder: "Recherchez un cours...",
+      placeholder: "Recherchez un mot...",
       noResultsFound: "Aucun résultat trouvé",
     },
     seo: {
