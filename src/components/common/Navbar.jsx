@@ -8,7 +8,7 @@ const Navbar = () => {
     const { language, courses } = useAppContext();
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
-    const navigate = useNavigate(); // Use useNavigate
+    const navigate = useNavigate(); 
     const { courseId } = useParams();
     const [searchTerm, setSearchTerm] = useState('');
 

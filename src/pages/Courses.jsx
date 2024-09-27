@@ -5,7 +5,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import lessonsData from '../data/lessons.json';
 import '../styles/Courses.css';
 import SEO from '../components/SEO';
-
+import useSearch from '../hooks/useSearch';
 const translations = {
   fr: {
     search: {
@@ -75,57 +75,24 @@ const translations = {
   },
 };
 
-
 const Courses = () => {
   const { language } = useAppContext();
   const navigate = useNavigate();
   const location = useLocation();
   const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
-  const [searchResults, setSearchResults] = useState([]);
 
-  useEffect(() => {
-    const debounceSearch = setTimeout(() => {
-      if (searchTerm) {
-        handleSearch();
-      } else {
-        setSearchResults([]);
-      }
-    }, 300);
-
-    return () => clearTimeout(debounceSearch);
-  }, [searchTerm]);
-
-  const handleSearch = () => {
-    const options = {
-      keys: ['lessons.word.dz', 'lessons.word.fr', 'lessons.word.en'], // Ajoutez d'autres langues si nécessaire
-      threshold: 0.3,
-    };
-
-    const coursesArray = Object.entries(lessonsData.courses).map(([courseId, course]) => ({
-      courseId,
-      ...course,
-    }));
-
-    const fuse = new Fuse(coursesArray, options);
-    const results = fuse.search(searchTerm);
-
-    const lessonsResults = results.flatMap(result => 
-      result.item.lessons.map(lesson => ({ courseId: result.item.courseId, lesson }))
-    );
-
-    setSearchResults(lessonsResults);
-  };
+  // Utilize the custom useSearch hook
+  const searchResults = useSearch(searchTerm, language);
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
-      handleSearch(); 
+      setSearchTerm(searchTerm);
     }
   };
 
   const handleResultClick = (courseId, lessonId) => {
     navigate(`/courses/${courseId}/${lessonId}`);
     setSearchTerm('');
-    setSearchResults([]); 
   };
 
   const renderCourseCards = () => {
@@ -155,7 +122,7 @@ const Courses = () => {
             onChange={(e) => setSearchTerm(e.target.value)}
             onKeyDown={handleKeyDown} 
           />
-          <button className="search-icon" onClick={handleSearch}>
+          <button className="search-icon" onClick={() => setSearchTerm(searchTerm)}>
             🔍
           </button>
         </div>

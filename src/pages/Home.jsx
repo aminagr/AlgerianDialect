@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; 
 import { useAppContext } from '../context/AppContext';
-import lessonsData from '../data/lessons.json';
+
 import '../styles/Home.css';
 import SEO from '../components/SEO';
-import Fuse from 'fuse.js';
+
 import useSearch from '../hooks/useSearch';
 const translations = {
   fr: {
@@ -79,13 +79,7 @@ const Home = () => {
   const { language, translations: appTranslations } = useAppContext();
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');
-  const searchResults = useSearch(searchTerm, language); 
-
-  const handleKeyDown = (e) => {
-    if (e.key === 'Enter') {
-      setSearchTerm(searchTerm); 
-    }
-  };
+  const searchResults = useSearch(searchTerm, language);
 
   return (
     <div className="home">
@@ -102,31 +96,36 @@ const Home = () => {
             placeholder={translations[language].search.placeholder}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            onKeyDown={handleKeyDown}
           />
-          <button className="search-icon" onClick={() => setSearchTerm(searchTerm)}>
+          <button 
+            className="search-icon" 
+            onClick={() => setSearchTerm(searchTerm)}
+            disabled={!searchTerm} // Disable if searchTerm is empty
+          >
             🔍
           </button>
         </div>
       </div>
 
-      {searchResults.length > 0 ? (
-        <div className="search-results">
-          {searchResults.map((result, index) => (
-            <div 
-              key={index} 
-              className="search-result" 
-              onClick={() => navigate(`/courses/${result.courseId}/${result.lesson.id}`)}
-            >
-              <strong>{result.lesson.word.dz}</strong>: {result.lesson.word[language]}
-            </div>
-          ))}
-        </div>
-      ) : (
-        searchTerm && <div className="no-results">{translations[language].search.noResultsFound}</div>
+      {searchTerm && (
+        searchResults.length > 0 ? (
+          <div className="search-results">
+            {searchResults.map((result, index) => (
+              <div 
+                key={index} 
+                className="search-result" 
+                onClick={() => navigate(`/courses/${result.courseId}/${result.lesson.id}`)}
+              >
+                <strong>{result.lesson.word.dz}</strong>: {result.lesson.word[language]}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="no-results">{translations[language].search.noResultsFound}</div>
+        )
       )}
 
-      {searchResults.length === 0 && (
+      {searchResults.length === 0 && !searchTerm && (
         <div className="hero-content">
           <h1 className="hero-title">{appTranslations[language].heroTitle}</h1>
           <p className="hero-subtitle">{appTranslations[language].heroSubtitle}</p>
