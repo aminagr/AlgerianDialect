@@ -4,7 +4,7 @@ import { useAppContext } from '../context/AppContext';
 import lessonsData from '../data/lessons.json';
 import '../styles/Home.css';
 import SEO from '../components/SEO';
-
+import Fuse from 'fuse.js';
 const translations = {
   fr: {
     search: {
@@ -93,16 +93,24 @@ const Home = () => {
   }, [searchTerm]);
 
   const handleSearch = () => {
-    const results = [];
-    Object.keys(lessonsData.courses).forEach(courseId => {
-      lessonsData.courses[courseId].lessons.forEach(lesson => {
-        const words = Object.values(lesson.word);
-        if (words.some(word => word.toLowerCase().includes(searchTerm.toLowerCase()))) {
-          results.push({ courseId, lesson }); 
-        }
-      });
-    });
-    setSearchResults(results);
+    const options = {
+      keys: ['lessons.word.dz', `lessons.word.${language}`], // Utilisez les mots dans la langue sélectionnée
+      threshold: 0.3, // Seuil pour la recherche fuzzy
+    };
+
+    const coursesArray = Object.entries(lessonsData.courses).map(([courseId, course]) => ({
+      courseId,
+      ...course,
+    }));
+
+    const fuse = new Fuse(coursesArray, options);
+    const results = fuse.search(searchTerm);
+
+    const lessonsResults = results.flatMap(result => 
+      result.item.lessons.map(lesson => ({ courseId: result.item.courseId, lesson }))
+    );
+
+    setSearchResults(lessonsResults);
   };
 
   const handleKeyDown = (e) => {

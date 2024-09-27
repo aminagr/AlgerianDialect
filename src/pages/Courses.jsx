@@ -5,7 +5,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import lessonsData from '../data/lessons.json';
 import '../styles/Courses.css';
 import SEO from '../components/SEO';
-
+import Fuse from 'fuse.js';
 const translations = {
   fr: {
     search: {
@@ -96,18 +96,24 @@ const Courses = () => {
   }, [searchTerm]);
 
   const handleSearch = () => {
-    const results = [];
-    
-    Object.keys(lessonsData.courses).forEach(courseId => {
-      lessonsData.courses[courseId].lessons.forEach(lesson => {
-        const words = Object.values(lesson.word);
-        if (words.some(word => word.toLowerCase().includes(searchTerm.toLowerCase()))) {
-          results.push({ courseId, lesson }); 
-        }
-      });
-    });
+    const options = {
+      keys: ['lessons.word.dz', 'lessons.word.fr', 'lessons.word.en'], // Ajoutez d'autres langues si nécessaire
+      threshold: 0.3,
+    };
 
-    setSearchResults(results);
+    const coursesArray = Object.entries(lessonsData.courses).map(([courseId, course]) => ({
+      courseId,
+      ...course,
+    }));
+
+    const fuse = new Fuse(coursesArray, options);
+    const results = fuse.search(searchTerm);
+
+    const lessonsResults = results.flatMap(result => 
+      result.item.lessons.map(lesson => ({ courseId: result.item.courseId, lesson }))
+    );
+
+    setSearchResults(lessonsResults);
   };
 
   const handleKeyDown = (e) => {
