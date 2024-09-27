@@ -5,7 +5,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import lessonsData from '../data/lessons.json';
 import '../styles/Courses.css';
 import SEO from '../components/SEO';
-import Fuse from 'fuse.js';
+
 const translations = {
   fr: {
     search: {

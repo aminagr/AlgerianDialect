@@ -5,6 +5,7 @@ import lessonsData from '../data/lessons.json';
 import '../styles/Home.css';
 import SEO from '../components/SEO';
 import Fuse from 'fuse.js';
+import useSearch from '../hooks/useSearch';
 const translations = {
   fr: {
     search: {
@@ -75,57 +76,24 @@ const translations = {
 };
 
 const Home = () => {
-  const { language, translations: appTranslations } = useAppContext(); 
+  const { language, translations: appTranslations } = useAppContext();
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
-
-  useEffect(() => {
-    const debounceSearch = setTimeout(() => {
-      if (searchTerm) {
-        handleSearch();
-      } else {
-        setSearchResults([]);
-      }
-    }, 300); 
-
-    return () => clearTimeout(debounceSearch);
-  }, [searchTerm]);
-
-  const handleSearch = () => {
-    const options = {
-      keys: ['lessons.word.dz', `lessons.word.${language}`], // Utilisez les mots dans la langue sélectionnée
-      threshold: 0.3, // Seuil pour la recherche fuzzy
-    };
-
-    const coursesArray = Object.entries(lessonsData.courses).map(([courseId, course]) => ({
-      courseId,
-      ...course,
-    }));
-
-    const fuse = new Fuse(coursesArray, options);
-    const results = fuse.search(searchTerm);
-
-    const lessonsResults = results.flatMap(result => 
-      result.item.lessons.map(lesson => ({ courseId: result.item.courseId, lesson }))
-    );
-
-    setSearchResults(lessonsResults);
-  };
+  const searchResults = useSearch(searchTerm, language); 
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
-      handleSearch(); 
+      setSearchTerm(searchTerm); 
     }
   };
 
   return (
     <div className="home">
       <SEO 
-        title={translations[language].seo.title} 
-        description={translations[language].seo.description} 
-        keywords={translations[language].seo.keywords} 
-        image="url-to-default-image.jpg" 
+        title={translations[language].seo.title}
+        description={translations[language].seo.description}
+        keywords={translations[language].seo.keywords}
+        image="url-to-default-image.jpg"
       />
       <div className="search-bar">
         <div className="input-container">
@@ -134,9 +102,9 @@ const Home = () => {
             placeholder={translations[language].search.placeholder}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            onKeyDown={handleKeyDown} 
+            onKeyDown={handleKeyDown}
           />
-          <button className="search-icon" onClick={handleSearch}>
+          <button className="search-icon" onClick={() => setSearchTerm(searchTerm)}>
             🔍
           </button>
         </div>
@@ -174,6 +142,6 @@ const Home = () => {
       )}
     </div>
   );
-}
+};
 
 export default Home;

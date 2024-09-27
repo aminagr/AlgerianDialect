@@ -1,35 +1,23 @@
-import React, { useEffect, useState } from 'react';
+// src/components/SearchResults.jsx
+import React, { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useAppContext } from '../context/AppContext';
-import lessonsData from '../data/lessons.json';
+import useSearch from '../hooks/useSearch';
 
 const SearchResults = () => {
     const location = useLocation();
     const navigate = useNavigate();
-    const [searchResults, setSearchResults] = useState([]);
     const { language, translations } = useAppContext();
+    
+    // Récupérer le terme de recherche depuis les paramètres de l'URL
+    const params = new URLSearchParams(location.search);
+    const searchTerm = params.get('term') || '';
 
-    useEffect(() => {
-        const params = new URLSearchParams(location.search);
-        const searchTerm = params.get('term');
-        handleSearch(searchTerm);
-    }, [location]);
-
-    const handleSearch = (searchTerm) => {
-        const results = [];
-        Object.keys(lessonsData.courses).forEach(courseId => {
-            lessonsData.courses[courseId].lessons.forEach(lesson => {
-                const words = Object.values(lesson.word);
-                if (words.some(word => word.toLowerCase().includes(searchTerm.toLowerCase()))) {
-                    results.push({ courseId, lesson });
-                }
-            });
-        });
-        setSearchResults(results);
-    };
+    // Utiliser le hook useSearch pour obtenir les résultats de recherche
+    const searchResults = useSearch(searchTerm, language);
 
     const handleResultClick = (courseId, lessonId) => {
-        navigate(`/courses/${courseId}`); 
+        navigate(`/courses/${courseId}/${lessonId}`);
     };
 
     return (
