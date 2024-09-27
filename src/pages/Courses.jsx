@@ -4,14 +4,84 @@ import CourseCard from '../components/courses/CourseCard';
 import { useNavigate, useLocation } from 'react-router-dom';
 import lessonsData from '../data/lessons.json';
 import '../styles/Courses.css';
+import SEO from '../components/SEO';
+
+const translations = {
+  fr: {
+    search: {
+      placeholder: "Recherchez un cours...",
+      noResultsFound: "Aucun résultat trouvé",
+    },
+    seo: {
+      title: "Cours de Dialècte Algérien",
+      description: "Découvrez nos cours de dialècte algérien",
+      keywords: "cours algérien, apprendre l'algérien, langue algérienne, dialècte algérien, algérie",
+    },
+  },
+  en: {
+    search: {
+      placeholder: "Search for a course...",
+      noResultsFound: "No results found",
+    },
+    seo: {
+      title: "Algerian Dialect Courses",
+      description: "Explore our Algerian language courses to enhance your skills.",
+      keywords: "algerian courses, learn algerian, algerian language",
+    },
+  },
+  es: {
+    search: {
+      placeholder: "Busca un curso...",
+      noResultsFound: "No se encontraron resultados",
+    },
+    seo: {
+      title: "Cursos de Lengua Argelina",
+      description: "Descubre nuestros cursos de lengua argelina para mejorar tus habilidades.",
+      keywords: "cursos argelinos, aprender argelino, lengua argelina",
+    },
+  },
+  it: {
+    search: {
+      placeholder: "Cerca un corso...",
+      noResultsFound: "Nessun risultato trovato",
+    },
+    seo: {
+      title: "Corsi di Lingua Algerina",
+      description: "Scopri i nostri corsi di lingua algerina per migliorare le tue abilità.",
+      keywords: "corsi algerini, imparare l'algerino, lingua algerina",
+    },
+  },
+  ru: {
+    search: {
+      placeholder: "Ищите курс...",
+      noResultsFound: "Результатов не найдено",
+    },
+    seo: {
+      title: "Курсы по Алжирскому Языку",
+      description: "Изучите наши курсы по алжирскому языку для повышения ваших навыков.",
+      keywords: "алжирские курсы, изучать алжирский, алжирский язык",
+    },
+  },
+  ar: {
+    search: {
+      placeholder: "ابحث عن دورة...",
+      noResultsFound: "لم يتم العثور على نتائج",
+    },
+    seo: {
+      title: "دروس الهجة الجزائرية",
+      description: "اكتشف دروس اللهجة الجزائرية لتعلمها بكل سهولة.",
+      keywords: "دروس جزائرية، تعلم الجزائرية، اللهجة الجزائرية",
+    },
+  },
+};
+
 
 const Courses = () => {
-  const { language, translations } = useAppContext();
+  const { language } = useAppContext();
   const navigate = useNavigate();
   const location = useLocation();
   const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
   const [searchResults, setSearchResults] = useState([]);
-  const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
     const debounceSearch = setTimeout(() => {
@@ -20,7 +90,7 @@ const Courses = () => {
       } else {
         setSearchResults([]);
       }
-    }, 300); 
+    }, 300);
 
     return () => clearTimeout(debounceSearch);
   }, [searchTerm]);
@@ -38,7 +108,6 @@ const Courses = () => {
     });
 
     setSearchResults(results);
-    setIsSearching(false);
   };
 
   const handleKeyDown = (e) => {
@@ -62,9 +131,15 @@ const Courses = () => {
       />
     ));
   };
-  
+
   return (
     <div className="courses-page">
+      <SEO 
+        title={translations[language].seo.title} 
+        description={translations[language].seo.description} 
+        keywords={translations[language].seo.keywords} 
+        image="url-to-courses-image.jpg" 
+      />
       <div className="search-bar">
         <div className="input-container">
           <input 

@@ -47,7 +47,7 @@ button {
 }
 .level-button:hover{
   background-color: var(--purple-hover);
-  padding: 25px 50px;
+
 }
 
 .answer-button {

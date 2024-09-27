@@ -9,6 +9,7 @@ import Footer from './components/common/Footer';
 import translations from './data/translations'; 
 import LessonCard from './components/courses/LessonCard.jsx';
 import SearchResults from './pages/SearchResults.jsx';
+import SEO from './components/SEO.jsx';
 
 const App = () => {
   return (
@@ -35,7 +36,6 @@ const MainContent = () => {
           <Route path="/courses/:courseId" element={<LessonCard />} />
           <Route path="/courses/:courseId/:lessonId" element={<LessonCard />} />
           <Route path="/search" element={<SearchResults />} />
-          
         </Routes>
       </div>
       <Footer footerText={translations[language].footer} />

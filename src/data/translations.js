@@ -33,7 +33,7 @@ const translations = {
       close: "X",
       note: "Note",
     },
-    footer: "Created by Amina Grine. All rights reserved.",
+    footer: "Designed and Developped by Amina Grine. All rights reserved.",
     selectLanguage: "Select Language",
     heroTitle: "Learn Algerian Dialect Easily 🇩🇿",
     heroSubtitle: "Discover our interactive lessons designed just for you and test your knowledge with fun quizzes. Learning Algerian has never been this simple, easy, and enjoyable! Start your journey today!",
@@ -93,8 +93,8 @@ const translations = {
   },
   ru: {
     titre: "Курсы алжирского языка",
-    accueil: "Домой",
-    courses: "Курсы",
+    accueil: "Главная",
+    courses: "Уроки",
     lesson: {
       title: "Урок",
       next: "Далее",

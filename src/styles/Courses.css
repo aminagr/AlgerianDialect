@@ -89,9 +89,9 @@
   .button-container {
     margin-top: 20px;
     display: flex !important;
+    flex-direction: row !important;
     justify-content: space-between;
-    flex-direction: row;
-   
+
   }
   
   button {
@@ -207,7 +207,7 @@ text-align: center;
   @media (max-width: 600px) {
     .lesson-card {
     
-      padding: 50px 40px;
+      padding: 20px 100px;
     }
     .courses {
       grid-template-columns: 1fr; 
