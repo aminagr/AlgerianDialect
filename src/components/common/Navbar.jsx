@@ -35,18 +35,18 @@ const Navbar = () => {
         en: { home: 'Home', quiz: 'Quiz', courses: 'Courses' },
         fr: { home: 'Accueil', quiz: 'Quiz', courses: 'Cours' },
         es: { home: 'Inicio', quiz: 'Cuestionario', courses: 'Cursos' },
-        it: { home: 'Home', quiz: 'Quiz', courses: 'Corsi' },
-        ru: { home: 'Главная', quiz: 'Викторина', courses: 'Курсы' },
+        it: { home: 'Home', quiz: 'Quiz', courses: 'Lezioni' },
+        ru: { home: 'Главная', quiz: 'Викторина', courses: 'Уроки' },
         ar: { home: 'الرئيسية', quiz: 'اختبار', courses: 'الدروس' },
     };
 
     const handleLinkClick = (path) => {
         if (location.pathname === path) {
-            window.location.reload(); // Reload if already on the path
+            window.location.reload(); 
         } else {
-            navigate(path); // Navigate to the new path
+            navigate(path);
         }
-        toggleMenu(); // Close the menu after navigation
+        toggleMenu(); 
     };
 
     return (
