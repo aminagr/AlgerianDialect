@@ -68,19 +68,14 @@ const Navbar = () => {
                 <li className={location.pathname === '/' ? 'active' : ''}>
                     <Link to="/" onClick={() => handleLinkClick('/')} className="link">{menuTranslations[language].home}</Link>
                 </li>
+                <li className={activeItem.startsWith('Cours') ? 'active' : ''}>
+                    <Link to="/courses" onClick={() => handleLinkClick('/courses')} className="link">{menuTranslations[language].courses}</Link>
+               
+                </li>
                 <li className={activeItem === 'Quiz' ? 'active' : ''}>
                     <Link to="/quiz" onClick={() => handleLinkClick('/quiz')} className="link">{menuTranslations[language].quiz}</Link>
                 </li>
-                <li className={activeItem.startsWith('Cours') ? 'active' : ''}>
-                    <Link to="/courses" onClick={() => handleLinkClick('/courses')} className="link">{menuTranslations[language].courses}</Link>
-                    <ul className="dropdown">
-                        {Object.keys(courses).map(courseKey => (
-                            <li key={courseKey} className={activeItem === courses[courseKey].title[language] ? 'active' : ''}>
-                                <Link to={`/courses/${courseKey}`} onClick={() => handleLinkClick(`/courses/${courseKey}`)} className="link">{courses[courseKey].title[language]}</Link>
-                            </li>
-                        ))}
-                    </ul>
-                </li>
+             
             </ul>
         </nav>
     );

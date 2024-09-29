@@ -2,12 +2,13 @@
     background-color:#151515; /*#121212;*/
     color: white;
     text-align: center;
-    padding: 20px;
-    position: fixed;
+    padding: 20px 0;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
 @media (max-width: 600px) {
     .footer { position: relative;
+        margin-top: auto;
     }
 }
