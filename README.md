@@ -1,7 +1,7 @@
 # Learn Algerian Dialect 🇩🇿
-Learn Algerian is an innovative language learning app designed to teach users the Algerian dialect in a fun and engaging way. Built with React and Vite, this app offers a seamless user experience with a clean and simple design, making it easy for anyone to dive into the world of Algerian vocabulary.
-Users can explore a rich vocabulary through interactive lessons presented as engaging cards, making learning both fun and effective. The app also features an advanced multilingual dictionary that supports Algerian, Arabic, French, English, Spanish, Italian, and Russian, allowing users to easily find translations and meanings.
-To reinforce learning, the app includes interactive quizzes that test knowledge and track progress, ensuring users not only learn new words but also retain them. With its focus on user experience and accessibility, Learn Algerian makes mastering the dialect a delightful journey for everyone.
+- Learn Algerian is an innovative language learning app designed to teach users the Algerian dialect in a fun and engaging way. Built with React and Vite, this app offers a seamless user experience with a clean and simple design, making it easy for anyone to dive into the world of Algerian vocabulary.
+- Users can explore a rich vocabulary through interactive lessons presented as engaging cards, making learning both fun and effective. The app also features an advanced multilingual dictionary that supports Algerian, Arabic, French, English, Spanish, Italian, and Russian, allowing users to easily find translations and meanings.
+- To reinforce learning, the app includes interactive quizzes that test knowledge and track progress, ensuring users not only learn new words but also retain them. With its focus on user experience and accessibility, Learn Algerian makes mastering the dialect a delightful journey for everyone.
 
 ## 🌟 Features
 
