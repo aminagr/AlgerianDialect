@@ -69,11 +69,11 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
     }
     setResult(isCorrect);
     setIsDisabled(true);
-
+  
     setTimeout(() => {
       setResult(null);
-      setSelectedAnswer(null);
       setCurrentQuestion((prevQuestion) => prevQuestion + 1);
+      setSelectedAnswer(null); // Réinitialiser la sélection
       setIsDisabled(false);
     }, 1000);
   };
