@@ -108,12 +108,17 @@
     justify-content: space-between;
 
   }
-  
+  .prv{
+    background-color: var(--button-background);
+  }
+  .nxt{ 
+    background-color: var(--button-background);
+  }
   button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: var(--button-background);
+    background-color: #1e1e1e;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;

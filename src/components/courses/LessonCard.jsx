@@ -142,13 +142,13 @@ const LessonCard = () => {
 
 
       <div className="button-container">
-        <button onClick={handlePrev} disabled={currentLessonIndex === 0}>
+        <button className='prv' onClick={handlePrev} disabled={currentLessonIndex === 0}>
           {translations[language].lesson.previous}
         </button>
         <div className='lesson-progress'>
           {currentLessonIndex + 1} / {totalLessons}
         </div>
-        <button onClick={handleNext} disabled={currentLessonIndex === totalLessons - 1}>
+        <button className='nxt' onClick={handleNext} disabled={currentLessonIndex === totalLessons - 1}>
           {translations[language].lesson.next}
         </button>
       </div>
