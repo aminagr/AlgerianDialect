@@ -17,7 +17,13 @@
 
 - **User-Friendly Design**: Focused on simplicity and effectiveness, the app is designed to enhance user experience and make learning enjoyable.
 
-- **100% Free**:  All features are completely free, with no prior registration required.
+- **100% Free**:  All features are completely free, with no prior registration required. 
+
+- **Responsive Design**: The app is fully responsive, ensuring a seamless experience across all devices, including desktops, tablets, and smartphones. The layout adjusts automatically to various screen sizes for optimal usability.
+
+## 📸 Screenshots
+
+
 
 ## 📥 Installation
 To run the app locally, follow these simple steps:
