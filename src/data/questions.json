@@ -128,13 +128,13 @@
             { "question": "Как сказать нет на алжирском?", "answers": ["Lala", "Lish", "Lil", "Lyom"], "correct": 0 },
             { "question": "Как сказать да на алжирском?", "answers": ["Ih", "Wa", "Iya", "Ana"], "correct": 0 },
             { "question": "Что значит 'ana' на алжирском?", "answers": ["Я", "Ты мужской", "Ты женский", "Он"], "correct": 0 },
-            { "question": "Что значит 'nti' на алжирском?", "answers": ["Я", "Ты мужской", "Ты женский", "Он", "Она"], "correct": 2 },
+            { "question": "Что значит 'nti' на алжирском?", "answers": ["Я", "Ты мужской", "Ты женский", "Он"], "correct": 2 },
             { "question": "Что значит '3lesh'?", "answers": ["Где", "Когда", "Как", "Почему"], "correct": 3 },
             { "question": "Что значит 'kifesh'?", "answers": ["Кто", "Как", "Где", "Когда"], "correct": 1 },
             { "question": "Что значит 'win'?", "answers": ["Где", "Почему", "Как", "Когда"], "correct": 0 }
           ],
           "niveau2": [
-            { "question": "Что значит 'khoya' на алжирском?", "answers": ["Мой друг", "Мой кузен", "Мой брат", "Мой дорогой"], "correct": 2 },
+            { "question": "Что значит 'khoya' на алжирском?", "answers": ["Мой друг", "Мой кузен", "Мой брат", "дорогой"], "correct": 2 },
             { "question": "Что значит 'chouf' на алжирском?", "answers": ["Слушай", "Выйди", "Приходи", "Смотри"], "correct": 3 },
             { "question": "Как сказать 'кто' на алжирском?", "answers": ["Weqtach", "Chkoun", "Win", "Chehal"], "correct": 1 },
             { "question": "Как сказать 'спасибо' на алжирском?", "answers": ["Saha", "Techekur", "Iselmek", "bsahtek"], "correct": 0 },
@@ -144,7 +144,7 @@
           "niveau3": [
             { "question": "Как ответить на 'bsahtek'?", "answers": ["Ichoufek", "Sebtek", "Iselmek", "Darek"], "correct": 2 },
             { "question": "Что значит 'chbab' на алжирском?", "answers": ["Красивый", "Высокий", "Богатый", "Умный"], "correct": 0 },
-            { "question": "Что значит 'ropa' на алжирском?", "answers": ["Обувь", "Одежда", "Штаны", "Платье"], "correct": 3 },
+            { "question": "Что значит 'Ropa' на алжирском?", "answers": ["Обувь", "Одежда", "Штаны", "Платье"], "correct": 3 },
             { "question": "Как сказать 'стол' на алжирском?", "answers": ["Bab", "Frach", "Tabla", "Koursi"], "correct": 2 },
             { "question": "Как сказать 'дом' на алжирском?", "answers": ["Jnan", "Dar", "Bit", "Houch"], "correct": 1 },
             { "question": "Как сказать 'сегодня' на алжирском?", "answers": ["Ghedwa", "Lbareh", "Smana", "Lyom"], "correct": 3 },

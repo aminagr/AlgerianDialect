@@ -52,7 +52,7 @@
         {
           "id": 4,
           "word": {
-            "dz": "Huwa",
+            "dz": "Howa",
             "fr": "Il",
             "en": "He",
             "es": "Él",
@@ -78,7 +78,7 @@
         {
           "id": 6,
           "word": {
-            "dz": "Nahna",
+            "dz": "Hna",
             "fr": "Nous",
             "en": "We",
             "es": "Nosotros",
@@ -91,7 +91,7 @@
         {
           "id": 7,
           "word": {
-            "dz": "Entouma",
+            "dz": "Ntouma",
             "fr": "Vous",
             "en": "You (plural)",
             "es": "Ustedes",
@@ -104,26 +104,13 @@
         {
           "id": 8,
           "word": {
-            "dz": "Homa",
+            "dz": "Houma",
             "fr": "Ils",
-            "en": "They (masculine)",
+            "en": "They",
             "es": "Ellos",
-            "it": "Loro (maschile)",
+            "it": "Loro",
             "ru": "Они",
             "ar": "هم"
-          },
-          "note": ""
-        },
-        {
-          "id": 9,
-          "word": {
-            "dz": "Homa",
-            "fr": "Elles",
-            "en": "They (feminine)",
-            "es": "Ellas",
-            "it": "Loro (femminile)",
-            "ru": "Они",
-            "ar": "هن"
           },
           "note": ""
         }
@@ -131,102 +118,102 @@
     },
     "questions": {
       "title": {
-        "fr": "Questions",
-        "en": "Questions",
-        "es": "Preguntas",
-        "it": "Domande",
-        "ru": "Вопросы",
-        "ar": "أسئلة"
+        "fr": "Mots d'interrogations",
+        "en": "Question words",
+        "es": "Oraciones interrogativas",
+        "it": "Pronomi interrogativi",
+        "ru": "Вопросительные слова",
+        "ar": "علامات الاستفهام"
       },
       "lessons": [
         {
           "id": 1,
           "word": {
-            "dz": "Chkoun?",
-            "fr": "Qui?",
-            "en": "Who?",
-            "es": "¿Quién?",
-            "it": "Chi?",
-            "ru": "Кто?",
-            "ar": "من؟"
+            "dz": "Chkoun",
+            "fr": "Qui",
+            "en": "Who",
+            "es": "¿Quién",
+            "it": "Chi",
+            "ru": "Кто",
+            "ar": "من"
           },
           "note": ""
         },
         {
           "id": 2,
           "word": {
-            "dz": "Weshnou?",
-            "fr": "Quoi?",
-            "en": "What?",
-            "es": "¿Qué?",
-            "it": "Cosa?",
-            "ru": "Что?",
-            "ar": "ماذا؟"
+            "dz": "Weshnou",
+            "fr": "Quoi",
+            "en": "What",
+            "es": "Qué",
+            "it": "Cosa",
+            "ru": "Что",
+            "ar": "ماذا"
           },
           "note": ""
         },
         {
           "id": 3,
           "word": {
-            "dz": "Win?",
-            "fr": "Où?",
-            "en": "Where?",
-            "es": "¿Dónde?",
-            "it": "Dove?",
-            "ru": "Где?",
-            "ar": "أين؟"
+            "dz": "Win",
+            "fr": "Où",
+            "en": "Where",
+            "es": "Dónde",
+            "it": "Dove",
+            "ru": "Где",
+            "ar": "أين"
           },
           "note": ""
         },
         {
           "id": 4,
           "word": {
-            "dz": "Weqtash?",
-            "fr": "Quand?",
-            "en": "When?",
-            "es": "¿Cuándo?",
-            "it": "Quando?",
-            "ru": "Когда?",
-            "ar": "متى؟"
+            "dz": "Weqtash",
+            "fr": "Quand",
+            "en": "When",
+            "es": "Cuándo",
+            "it": "Quando",
+            "ru": "Когда",
+            "ar": "متى"
           },
           "note": ""
         },
         {
           "id": 5,
           "word": {
-            "dz": "Alash?",
-            "fr": "Pourquoi?",
-            "en": "Why?",
-            "es": "¿Por qué?",
-            "it": "Perché?",
-            "ru": "Почему?",
-            "ar": "لماذا؟"
+            "dz": "Alash",
+            "fr": "Pourquoi",
+            "en": "Why",
+            "es": "Por qué",
+            "it": "Perché",
+            "ru": "Почему",
+            "ar": "لماذا"
           },
           "note": ""
         },
         {
           "id": 6,
           "word": {
-            "dz": "Kifesh?",
-            "fr": "Comment?",
-            "en": "How?",
-            "es": "¿Cómo?",
-            "it": "Come?",
-            "ru": "Как?",
-            "ar": "كيف؟"
+            "dz": "Kifesh",
+            "fr": "Comment",
+            "en": "How",
+            "es": "Cómo",
+            "it": "Come",
+            "ru": "Как",
+            "ar": "كيف"
           },
           "note": ""
         },
         {
           "id": 7,
           "word": {
-            "dz": "Chehal?",
-            "fr": "Combien?",
-            "en": "How many?",
-            "es": "¿Cuánto?",
-            "it": "Quanto?",
-            "ru": "Сколько?",
-            "ar": "كم؟"
+            "dz": "Chehal",
+            "fr": "Combien",
+            "en": "How many",
+            "es": "¿Cuánto",
+            "it": "Quanto",
+            "ru": "Сколько",
+            "ar": "كم"
           },
           "note": ""
         }
@@ -405,7 +392,7 @@
             "en": "Not",
             "es": "No",
             "it": "Non",
-            "ru": "Нет",
+            "ru": "Не",
             "ar": "لا"
           },
           "note": ""
@@ -413,7 +400,7 @@
         {
           "id": 8,
           "word": {
-            "dz": "Men de Heta",
+            "dz": "Heta",
             "fr": "Jusqu'à",
             "en": "Until",
             "es": "Hasta",
