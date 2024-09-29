@@ -22,7 +22,14 @@
 - **Responsive Design**: The app is fully responsive, ensuring a seamless experience across all devices, including desktops, tablets, and smartphones. The layout adjusts automatically to various screen sizes for optimal usability.
 
 ## 📸 Screenshots
-
+![image](https://github.com/user-attachments/assets/cedec62f-dc9f-480d-bebf-f16881ea862c)
+![image](https://github.com/user-attachments/assets/38841bad-a945-4607-b1d7-91d46e9feb55)
+![image](https://github.com/user-attachments/assets/4fa9d103-871b-4177-86d5-297767fc7543)
+![image](https://github.com/user-attachments/assets/78192084-7e37-463c-b000-79c6091e651a)
+![image](https://github.com/user-attachments/assets/d34192e3-fa24-4f27-b6a0-23f2689c86f4)
+![image](https://github.com/user-attachments/assets/206fa5e7-6f52-4d55-b2b4-ed58f208c7ae)
+![image](https://github.com/user-attachments/assets/57d99530-0bc2-4531-9f27-58e7e327662c)
+![image](https://github.com/user-attachments/assets/16df3b11-6c80-49ea-9060-062ad240db4e)
 
 
 ## 📥 Installation
