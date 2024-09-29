@@ -6,14 +6,10 @@ const Question = ({ question, handleAnswer, result, selectedAnswer, isDisabled }
       <h2 className='question-name'>{question.question}</h2>
       {question.answers.map((answer, index) => {
         let buttonClass = 'answer-button';
-
+        
         if (result !== null) {
-          if (index === question.correct) {
-            buttonClass += ' correct';
-          }
-          if (!result && index === selectedAnswer) {
-            buttonClass += ' wrong';
-          }
+          buttonClass += index === question.correct ? ' correct' : '';
+          buttonClass += !result && index === selectedAnswer ? ' wrong' : '';
         }
 
         return (
@@ -22,6 +18,7 @@ const Question = ({ question, handleAnswer, result, selectedAnswer, isDisabled }
             onClick={() => handleAnswer(index)} 
             className={buttonClass}
             disabled={isDisabled}
+            onTouchEnd={() => handleAnswer(index)} // Ajout pour gérer le touchend
           >
             {answer}
           </button>
