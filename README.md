@@ -21,6 +21,11 @@
 
 - **Responsive Design**: The app is fully responsive, ensuring a seamless experience across all devices, including desktops, tablets, and smartphones. The layout adjusts automatically to various screen sizes for optimal usability.
 
+## Live Demo
+
+You can view the application live at [https://learnalgerian.vercel.app/](https://learnalgerian.vercel.app/).
+
+
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/cedec62f-dc9f-480d-bebf-f16881ea862c)
 ![image](https://github.com/user-attachments/assets/38841bad-a945-4607-b1d7-91d46e9feb55)
