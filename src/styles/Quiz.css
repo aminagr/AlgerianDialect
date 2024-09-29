@@ -233,10 +233,14 @@ select:hover {
       display: none;
   }
 
-  .answer-button:hover {
-    background-color: transparent;
-    transform: none; 
+  .answer-button {
+    background-color: var(--neutral-dark); 
+    outline: none;
+    transition: none; 
   }
+  
+  .answer-button:hover {
+    background-color: var(--neutral-dark); 
 }
 
 @media (max-width: 400px) {
