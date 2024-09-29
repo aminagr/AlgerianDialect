@@ -141,7 +141,7 @@ const QuizPage = () => {
       />
       {!startQuiz ? (
         <div className="welcome">
-          <h1>{translations[language].welcome}</h1>
+          <h1 className='welcomeText'>{translations[language].welcome}</h1>
           <h2 className='titre-difficulte'>{translations[language].difficultyTitle}</h2>
           {['niveau1', 'niveau2', 'niveau3'].map((lvl) => (
             <button

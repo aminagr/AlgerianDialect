@@ -44,6 +44,7 @@ button {
 .level-button{
   background-color: #9b59b6;
   padding: 30px 40px;
+  font-size: 18px;
 }
 .level-button:hover{
   background-color: var(--purple-hover);
@@ -153,6 +154,18 @@ select:hover {
 }
 
 @media (max-width: 600px) {
+
+  titre-difficulte{font-size: 18px;
+  }
+  .welcomeTitre{ 
+    font-size: 20px;
+  }
+  .level-button{
+  
+    padding: 20px 40px;
+    font-size: 16px;
+  }
+
   h1 {
       font-size: 60px;
   }
