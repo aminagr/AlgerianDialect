@@ -129,9 +129,9 @@ const LessonCard = () => {
       <button className="close-button" onClick={handleClose}>
         ❌
       </button>
-      <h2>{course.title[language]}</h2>
-      <h3>{lesson.word.dz}</h3>
-      <p>{lesson.word[language] || translations[language].lesson.note}</p>
+      <h2 className='categorie'>{course.title[language]}</h2>
+      <h3 className='motDz'>{lesson.word.dz}</h3>
+      <p className='motTraduit'>{lesson.word[language] || translations[language].lesson.note}</p>
       <div className="button-container">
         <button onClick={handlePrev} disabled={currentLessonIndex === 0}>
           {translations[language].lesson.previous}

@@ -8,7 +8,7 @@ import SEO from '../components/SEO';
 
 const translations = {
   fr: {
-    welcome: "Bienvenue dans le quiz de langue algérienne",
+    welcome: "Bienvenue dans le quiz du dialecte algérien",
     title: "Choisissez votre langue",
     difficultyTitle: "Choisissez le niveau de difficulté",
     niveau1: "Niveau 1",
@@ -25,7 +25,7 @@ const translations = {
     },
   },
   en: {
-    welcome: "Welcome to the Algerian Language Quiz",
+    welcome: "Welcome to the Algerian Dialect Quiz",
     title: "Choose Your Language",
     difficultyTitle: "Choose Difficulty Level",
     niveau1: "Level 1",

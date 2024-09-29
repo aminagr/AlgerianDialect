@@ -20,7 +20,7 @@ const translations = {
   },
   en: {
     search: {
-      placeholder: "Search for a course...",
+      placeholder: "Search for a word...",
       noResultsFound: "No results found",
     },
     seo: {
@@ -31,7 +31,7 @@ const translations = {
   },
   es: {
     search: {
-      placeholder: "Busca un curso...",
+      placeholder: "Busca una palabra argelina o española...",
       noResultsFound: "No se encontraron resultados",
     },
     seo: {
@@ -42,7 +42,7 @@ const translations = {
   },
   it: {
     search: {
-      placeholder: "Cerca un corso...",
+      placeholder: "Cerca una parola algerina o italiana...",
       noResultsFound: "Nessun risultato trovato",
     },
     seo: {
@@ -53,7 +53,7 @@ const translations = {
   },
   ru: {
     search: {
-      placeholder: "Ищите курс...",
+      placeholder: "Поиск алжирский или русский...",
       noResultsFound: "Результатов не найдено",
     },
     seo: {
