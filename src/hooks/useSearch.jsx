@@ -26,7 +26,8 @@ const useSearch = (searchTerm) => {
       keys: Object.keys(lessonsData.courses).flatMap(courseId => {
         const lessons = lessonsData.courses[courseId].lessons;
         return lessons.map(lesson => [
-          ...Object.keys(lesson.word).map(lang => `lessons.word.${lang}`)
+          ...Object.keys(lesson.word).map(lang => `lessons.word.${lang}`),
+          ...Object.keys(lesson.note).map(lang => `lessons.note.${lang}`) // Ajout des notes ici
         ]);
       }).flat(),
       threshold: 0.4,
@@ -48,8 +49,13 @@ const useSearch = (searchTerm) => {
 
     const matchedResults = results.flatMap(result =>
       result.item.lessons.filter(lesson => {
-        return Object.values(lesson.word).some(word =>
-          normalizeString(word).includes(normalizedSearchTerm)
+        return (
+          Object.values(lesson.word).some(word =>
+            normalizeString(word).includes(normalizedSearchTerm)
+          ) ||
+          Object.values(lesson.note).some(note =>
+            normalizeString(note).includes(normalizedSearchTerm)
+          ) // Vérification des notes
         );
       }).map(lesson => ({ courseId: result.item.courseId, lesson }))
     );
