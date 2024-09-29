@@ -27,7 +27,7 @@ const useSearch = (searchTerm) => {
         const lessons = lessonsData.courses[courseId].lessons;
         return lessons.map(lesson => [
           ...Object.keys(lesson.word).map(lang => `lessons.word.${lang}`),
-          ...Object.keys(lesson.note).map(lang => `lessons.note.${lang}`) // Ajout des notes ici
+          ...Object.keys(lesson.note).map(lang => `lessons.note.${lang}`) 
         ]);
       }).flat(),
       threshold: 0.4,
@@ -55,7 +55,7 @@ const useSearch = (searchTerm) => {
           ) ||
           Object.values(lesson.note).some(note =>
             normalizeString(note).includes(normalizedSearchTerm)
-          ) // Vérification des notes
+          )
         );
       }).map(lesson => ({ courseId: result.item.courseId, lesson }))
     );

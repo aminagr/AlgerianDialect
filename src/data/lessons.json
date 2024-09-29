@@ -86,11 +86,11 @@
           },
           "note": {
             "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
+            "fr": "S'écrit aussi sous forme de: Hwa, Houa",
+            "en": "Also written as: Hwa, Houa",
+            "es": "Se escribe como: Hwa, Houa",
+            "it": "scritto anche come: Hwa, Houa",
+            "ru": "Читается: Хуа, также пишется как: Hwa, Houa ",
             "ar": ""
           }
         },
@@ -111,7 +111,7 @@
             "en": "",
             "es": "",
             "it": "",
-            "ru": "",
+            "ru": "Читается: Хия",
             "ar": ""
           }
         },
@@ -214,7 +214,7 @@
         {
           "id": 2,
           "word": {
-            "dz": "Weshnou",
+            "dz": "Wesh",
             "fr": "Quoi",
             "en": "What",
             "es": "Qué",
@@ -224,12 +224,12 @@
           },
           "note": {
             "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "Читается: Уэшну",
-            "ar": ""
+            "fr": "Se dit aussi : weshnou.",
+            "en": "Also said as: Weshnou.",
+            "es": "También se dice: Weshnou.",
+            "it": "Si dice anche: Weshnou",
+            "ru": "Читается: Уэш, также говорится как : Weshnou (Уэшну)",
+            "ar": "يقال أيضا: وشنو"
           }
         },
         {
@@ -312,7 +312,7 @@
             "en": "",
             "es": "",
             "it": "",
-            "ru": "",
+            "ru": "Читается: Кифеш",
             "ar": ""
           }
         },
@@ -322,7 +322,7 @@
             "dz": "Chehal",
             "fr": "Combien",
             "en": "How many",
-            "es": "¿Cuánto?",
+            "es": "Cuánto",
             "it": "Quanto",
             "ru": "Сколько",
             "ar": "كم"
@@ -333,7 +333,7 @@
             "en": "",
             "es": "",
             "it": "",
-            "ru": "",
+            "ru": "Читается: Шехал",
             "ar": ""
           }
         }
@@ -373,7 +373,7 @@
           "id": 2,
           "word": {
             "dz": "Sbah lkhir",
-            "fr": "Bonjour (matin)",
+            "fr": "Bonjour",
             "en": "Good morning",
             "es": "Buenos días",
             "it": "Buongiorno",
@@ -426,7 +426,7 @@
             "en": "",
             "es": "",
             "it": "",
-            "ru": "",
+            "ru": "Читается: Уэш рак",
             "ar": ""
           }},
         {
@@ -446,296 +446,444 @@
             "en": "",
             "es": "",
             "it": "",
-            "ru": "",
+            "ru": "Читается: Уэш раки",
             "ar": ""
-          }}
+          }},
+          {
+            "id": 6,
+            "word": {
+              "dz": "Labass",
+              "fr": "Bien",
+              "en": "Fine",
+              "es": "Bien",
+              "it": "Bene",
+              "ru": "нормально",
+              "ar": "أنا بخير"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "Читается: Лабас",
+              "ar": ""
+            }
+          },
+          {
+            "id": 7,
+            "word": {
+              "dz": "Bkhir",
+              "fr": "Bien",
+              "en": "Good",
+              "es": "Bien",
+              "it": "Bene",
+              "ru": "Хорошо",
+              "ar": "بخير"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "Читается: Бхир",
+              "ar": ""
+            }
+          },
+          {
+            "id": 8,
+            "word": {
+              "dz": "Rani mlih",
+              "fr": "Je vais bien (masculin)",
+              "en": "I'm doing well (masculine)",
+              "es": "Estoy bien (masculino)",
+              "it": "Sto bene (maschile)",
+              "ru": "Я в порядке (мужчина)",
+              "ar": "أنا بخير (مذكر)"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "Читается: Рани млих",
+              "ar": ""
+            }
+          },
+          {
+            "id": 9,
+            "word": {
+              "dz": "Rani mliha",
+              "fr": "Je vais bien (féminin)",
+              "en": "I'm doing well (feminine)",
+              "es": "Estoy bien (femenino)",
+              "it": "Sto bene (femminile)",
+              "ru": "Я в порядке (женщина)",
+              "ar": "أنا بخير (مؤنث)"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "Читается: Рани млиха",
+              "ar": ""
+            }
+          },
+          {
+            "id": 10,
+            "word": {
+              "dz": "W nta?",
+              "fr": "Et toi? (masculin)",
+              "en": "And you? (masculine)",
+              "es": "¿Y tú? (masculino)",
+              "it": "E tu? (maschile)",
+              "ru": "А ты? (мужчина)",
+              "ar": "وأنت؟"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "Читается: У нта",
+              "ar": ""
+            }
+          },
+          {
+            "id": 11,
+            "word": {
+              "dz": "W nti?",
+              "fr": "Et toi? (féminin)",
+              "en": "And you? (feminine)",
+              "es": "¿Y tú? (femenino)",
+              "it": "E tu? (femminile)",
+              "ru": "А ты? (женщина)",
+              "ar": "وأنتِ؟"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "Читается: У нти",
+              "ar": ""
+            }
+          }
       ]
     },
-    "common_expressions": {
-      "title": {
-        "fr": "Expressions courantes",
-        "en": "Common Expressions",
-        "es": "Expresiones Comunes",
-        "it": "Espressioni Comuni",
-        "ru": "Распространенные выражения",
-        "ar": "عبارات شائعة"
+    "common_expressions": { 
+  "title": {
+    "fr": "Expressions courantes",
+    "en": "Common Expressions",
+    "es": "Expresiones Comunes",
+    "it": "Espressioni Comuni",
+    "ru": "Распространенные выражения",
+    "ar": "عبارات شائعة"
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "word": {
+        "dz": "Saha",
+        "fr": "Merci",
+        "en": "Thank you",
+        "es": "Gracias",
+        "it": "Grazie",
+        "ru": "Спасибо",
+        "ar": "شكرا"
       },
-      "lessons": [
-        {
-          "id": 1,
-          "word": {
-            "dz": "Saha",
-            "fr": "Merci",
-            "en": "Thank you",
-            "es": "Gracias",
-            "it": "Grazie",
-            "ru": "Спасибо",
-            "ar": "شكرا"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 2,
-          "word": {
-            "dz": "Ysselmek",
-            "fr": "De rien",
-            "en": "You're welcome",
-            "es": "De nada",
-            "it": "Prego",
-            "ru": "Пожалуйста",
-            "ar": "عفوا"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 3,
-          "word": {
-            "dz": "Bsahtek",
-            "fr": "Bon appétit",
-            "en": "Enjoy your meal",
-            "es": "Buen provecho",
-            "it": "Buon appetito",
-            "ru": "Приятного аппетита",
-            "ar": "صحة"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 4,
-          "word": {
-            "dz": "Mebrouk",
-            "fr": "Félicitations",
-            "en": "Congratulations",
-            "es": "Felicidades",
-            "it": "Congratulazioni",
-            "ru": "Поздравляю",
-            "ar": "مبروك"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 5,
-          "word": {
-            "dz": "Inshallah",
-            "fr": "Si Dieu le veut",
-            "en": "God willing",
-            "es": "Si Dios quiere",
-            "it": "Se Dio vuole",
-            "ru": "Если Бог даст",
-            "ar": "إن شاء الله"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 6,
-          "word": {
-            "dz": "Hamdoullah",
-            "fr": "Dieu merci",
-            "en": "Thank God",
-            "es": "Gracias a Dios",
-            "it": "Grazie a Dio",
-            "ru": "Слава Богу",
-            "ar": "الحمد لله"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 7,
-          "word": {
-            "dz": "Machi",
-            "fr": "Négation",
-            "en": "Not",
-            "es": "No",
-            "it": "Non",
-            "ru": "Не",
-            "ar": "لا"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 8,
-          "word": {
-            "dz": "Heta",
-            "fr": "Jusqu'à",
-            "en": "Until",
-            "es": "Hasta",
-            "it": "Fino a",
-            "ru": "До",
-            "ar": "حتى"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 9,
-          "word": {
-            "dz": "Balak",
-            "fr": "Peut-être",
-            "en": "Maybe",
-            "es": "Tal vez",
-            "it": "Forse",
-            "ru": "Может быть",
-            "ar": "ربما"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 10,
-          "word": {
-            "dz": "Sur",
-            "fr": "Sûr",
-            "en": "Sure",
-            "es": "Seguro",
-            "it": "Sicuro",
-            "ru": "Уверенный",
-            "ar": "متأكد"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 11,
-          "word": {
-            "dz": "Waqil",
-            "fr": "Peut-être",
-            "en": "Maybe",
-            "es": "Tal vez",
-            "it": "Forse",
-            "ru": "Может быть",
-            "ar": "ربما"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 12,
-          "word": {
-            "dz": "Bezaf",
-            "fr": "Très",
-            "en": "Very",
-            "es": "Muy",
-            "it": "Molto",
-            "ru": "Очень",
-            "ar": "كثير"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        },
-        {
-          "id": 13,
-          "word": {
-            "dz": "Chwiya",
-            "fr": "Peu",
-            "en": "A little",
-            "es": "Un poco",
-            "it": "Un po'",
-            "ru": "Немного",
-            "ar": "قليلاً"
-          },
-          "note": {
-            "dz": "",
-            "fr": "",
-            "en": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "ar": ""
-          }
-        }
-      ]
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
     },
+    {
+      "id": 2,
+      "word": {
+        "dz": "Ysselmek",
+        "fr": "De rien",
+        "en": "You're welcome",
+        "es": "De nada",
+        "it": "Prego",
+        "ru": "Пожалуйста",
+        "ar": "عفوا"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "dz": "Bsahtek",
+        "fr": "Bon appétit",
+        "en": "Enjoy your meal",
+        "es": "Buen provecho",
+        "it": "Buon appetito",
+        "ru": "Приятного аппетита",
+        "ar": "صحة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "dz": "Mebrouk",
+        "fr": "Félicitations",
+        "en": "Congratulations",
+        "es": "Felicidades",
+        "it": "Congratulazioni",
+        "ru": "Поздравляю",
+        "ar": "مبروك"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "dz": "Inshallah",
+        "fr": "Si Dieu le veut",
+        "en": "God willing",
+        "es": "Si Dios quiere",
+        "it": "Se Dio vuole",
+        "ru": "Если Бог даст",
+        "ar": "إن شاء الله"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "dz": "Hamdoullah",
+        "fr": "Dieu merci",
+        "en": "Thank God",
+        "es": "Gracias a Dios",
+        "it": "Grazie a Dio",
+        "ru": "Слава Богу",
+        "ar": "الحمد لله"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "dz": "Machi",
+        "fr": "Négation",
+        "en": "Not",
+        "es": "No",
+        "it": "Non",
+        "ru": "Не",
+        "ar": "لا"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "Читается: маши",
+        "ar": ""
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "dz": "Men",
+        "fr": "De",
+        "en": "From",
+        "es": "Desde",
+        "it": "Da",
+        "ru": "Из",
+        "ar": "من"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "dz": "Heta",
+        "fr": "Jusqu'à",
+        "en": "Until",
+        "es": "Hasta",
+        "it": "Fino a",
+        "ru": "До",
+        "ar": "حتى"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "dz": "Balak",
+        "fr": "Peut-être",
+        "en": "Maybe",
+        "es": "Tal vez",
+        "it": "Forse",
+        "ru": "Может быть",
+        "ar": "ربما"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "dz": "Sur",
+        "fr": "Sûr",
+        "en": "Sure",
+        "es": "Seguro",
+        "it": "Sicuro",
+        "ru": "Точно",
+        "ar": "متأكد"
+      },
+      "note": {
+        "dz": "Rak sur? / Raki sur?",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "Ты уверен? / Ты уверена? ",
+        "ar": ""
+      }
+    },
+    {
+      "id": 12,
+      "word": {
+        "dz": "Waqil",
+        "fr": "Peut-être",
+        "en": "Maybe",
+        "es": "Tal vez",
+        "it": "Forse",
+        "ru": "Может быть",
+        "ar": "ربما"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 13,
+      "word": {
+        "dz": "Bezaf",
+        "fr": "Très",
+        "en": "Very",
+        "es": "Muy",
+        "it": "Molto",
+        "ru": "Очень",
+        "ar": "كثير"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 14,
+      "word": {
+        "dz": "Chwiya",
+        "fr": "Peu",
+        "en": "A little",
+        "es": "Un poco",
+        "it": "Un po'",
+        "ru": "мало",
+        "ar": "قليلاً"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "Читается: шуйя",
+        "ar": ""
+      }
+    }
+  ]
+},
+
     "adjectives": {
       "title": {
         "fr": "Adjectifs",
