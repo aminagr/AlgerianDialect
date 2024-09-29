@@ -19,8 +19,8 @@
 }
 
 .quiz-page {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: var(--background-dark);
 }
 
@@ -42,8 +42,8 @@ button {
 }
 
 .level-button{
-  background-color: var(--purple);
-  padding: 20px 40px;
+  background-color: #9b59b6;
+  padding: 30px 40px;
 }
 .level-button:hover{
   background-color: var(--purple-hover);

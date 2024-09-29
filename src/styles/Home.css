@@ -2,7 +2,7 @@
     --color-violet: #5500f9;
     --color-dark: #151515;
     --color-white: #ffffff;
-    --color-button: #6b28e9;
+    --color-button: #9B59B6;
     --color-button-hover: rgba(0, 0, 0, 0.4); 
 }
 
@@ -55,7 +55,7 @@
 }
 
 .card-button {
-    background-color: var(--color-button);
+    background-color: #9b59b6;
     color: var(--color-white);
     padding: 20px 30px;
     border-radius: 12px;
@@ -78,6 +78,11 @@
     background-color: var(--color-violet); 
 }
 
+.courses-button,
+.quizzes-button {
+
+    background-color:#9b59b6;
+}
 
 
 
