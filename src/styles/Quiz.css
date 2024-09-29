@@ -233,15 +233,25 @@ select:hover {
       display: none;
   }
 
-  .answer-button {
-    background-color:  #151515 !important;
-    outline: none;
-    transition: none; 
-  }
+
   
   .answer-button:hover {
-    background-color: #151515 !important;
+    background-color: #1e1e1e !important;
 }
+
+.answer-button.correct {
+  background-color: var(--correct-color) !important;
+}
+
+.answer-button.wrong {
+  background-color: var(--wrong-color) !important;
+}
+
+.neutral {
+  background-color: var(--neutral-dark) !important;
+}
+
+
 }
 
 @media (max-width: 400px) {
