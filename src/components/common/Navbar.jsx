@@ -36,8 +36,8 @@ const Navbar = () => {
         fr: { home: 'Accueil', quiz: 'Quiz', courses: 'Cours' },
         es: { home: 'Inicio', quiz: 'Cuestionario', courses: 'Cursos' },
         it: { home: 'Home', quiz: 'Quiz', courses: 'Lezioni' },
-        ru: { home: 'Главная', quiz: 'Викторина', courses: 'Уроки' },
-        ar: { home: 'الرئيسية', quiz: 'اختبار', courses: 'الدروس' },
+        ru: { home: 'Главная', quiz: 'Викторины', courses: 'Уроки' },
+        ar: { home: 'الرئيسية', quiz: 'الأسئلة', courses: 'الدروس' },
     };
 
     const handleLinkClick = (path) => {
