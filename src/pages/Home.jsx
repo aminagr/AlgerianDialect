@@ -79,7 +79,7 @@ const Home = () => {
   const { language, translations: appTranslations } = useAppContext();
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');
-  const searchResults = useSearch(searchTerm, language);
+  const searchResults = useSearch(searchTerm);
 
   return (
     <div className="home">
@@ -99,8 +99,7 @@ const Home = () => {
           />
           <button 
             className="search-icon" 
-            onClick={() => setSearchTerm(searchTerm)}
-            disabled={!searchTerm} // Disable if searchTerm is empty
+            onClick={() => setSearchTerm(searchTerm)} 
           >
             🔍
           </button>

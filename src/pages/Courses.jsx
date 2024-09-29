@@ -81,8 +81,8 @@ const Courses = () => {
   const location = useLocation();
   const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
 
-  // Utilize the custom useSearch hook
-  const searchResults = useSearch(searchTerm, language);
+  
+  const searchResults = useSearch(searchTerm);
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {

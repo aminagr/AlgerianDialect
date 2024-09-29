@@ -9,11 +9,11 @@ const SearchResults = () => {
     const navigate = useNavigate();
     const { language, translations } = useAppContext();
     
-    // Récupérer le terme de recherche depuis les paramètres de l'URL
+
     const params = new URLSearchParams(location.search);
     const searchTerm = params.get('term') || '';
 
-    // Utiliser le hook useSearch pour obtenir les résultats de recherche
+
     const searchResults = useSearch(searchTerm, language);
 
     const handleResultClick = (courseId, lessonId) => {
