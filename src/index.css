@@ -34,7 +34,3 @@ a {
     text-decoration: none; 
     color: inherit; 
 }
-@media (max-width: 600px){
-    .content{
-        min-height: 70vh;}
-}
