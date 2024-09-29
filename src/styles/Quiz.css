@@ -232,6 +232,11 @@ select:hover {
   .quit-button-mob span {
       display: none;
   }
+
+  .answer-button:hover {
+    background-color: transparent;
+    transform: none; 
+  }
 }
 
 @media (max-width: 400px) {
