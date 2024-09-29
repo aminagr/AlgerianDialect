@@ -8,10 +8,12 @@ const Question = ({ question, handleAnswer, result, selectedAnswer, isDisabled }
         let buttonClass = 'answer-button';
 
         if (result !== null) {
-          buttonClass += index === question.correct ? ' correct' : '';
-          buttonClass += !result && index === selectedAnswer ? ' wrong' : '';
-        } else {
-          buttonClass += selectedAnswer === index ? ' selected' : ''; 
+          if (index === question.correct) {
+            buttonClass += ' correct';
+          }
+          if (!result && index === selectedAnswer) {
+            buttonClass += ' wrong';
+          }
         }
 
         return (
@@ -31,6 +33,5 @@ const Question = ({ question, handleAnswer, result, selectedAnswer, isDisabled }
     </div>
   );
 };
-
 
 export default Question;

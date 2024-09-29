@@ -7,12 +7,9 @@
     --course-card-background: #fff;
     --course-card-hover-scale: 1.05;
     --lesson-card-background: #fff;
-    --button-background: #6b28e9;
-    --button-background-hover: #5500f9;
-    --button-disabled-background: #bdc3c7;
-    --footer-background: #2c3e50;
-    --close-button-background: red;
-    --close-button-background-hover: darkred;
+   
+   
+  
   }
 
  
@@ -73,7 +70,6 @@
     margin: 100px 0;
     gap: 40px;
   }
-  
   .lesson-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
@@ -109,10 +105,10 @@
 
   }
   .prv{
-    background-color: var(--button-background);
+    background-color: 6b28e9;
   }
   .nxt{ 
-    background-color: var(--button-background);
+    background-color: 6b28e9;
   }
   button {
     padding: 10px 20px;
@@ -126,13 +122,13 @@
   }
   
   button:hover {
-    background-color: var(--button-background-hover);
+    background-color:  #5500f9;
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   }
   
   button:disabled {
-    background-color: var(--button-disabled-background);
+    background-color: #bdc3c7;
     cursor: not-allowed;
   }
   .close-button {
@@ -150,7 +146,7 @@
   }
   
   .close-button:hover {
-    background-color: var(--close-button-background-hover);
+    background-color:darkred;
   }
 
 
