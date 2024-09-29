@@ -13,7 +13,7 @@ const SEO = ({ title, description, keywords, image }) => {
       <meta name="keywords" content={keywords || langTranslations.seo.keywords} />
       <meta property="og:title" content={title || langTranslations.seo.og.title} />
       <meta property="og:description" content={description || langTranslations.seo.og.description} />
-      <meta property="og:image" content={image || "url-to-default-image.jpg"} />
+      <meta property="og:image" content={image || "https://raw.githubusercontent.com/aminagr/AlgerianDialect/main/public/Learnalgerian.png"} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={window.location.href} />
     </Helmet>
