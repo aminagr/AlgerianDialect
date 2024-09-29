@@ -61,7 +61,7 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
 
   const handleAnswer = (index) => {
     if (isDisabled) return;
-    
+  
     setSelectedAnswer(index);
     const isCorrect = index === currentQuestions[currentQuestion].correct;
     if (isCorrect) {
@@ -73,10 +73,11 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
     setTimeout(() => {
       setResult(null);
       setCurrentQuestion((prevQuestion) => prevQuestion + 1);
-      setSelectedAnswer(null); // Réinitialiser la sélection
+      setSelectedAnswer(null);
       setIsDisabled(false);
     }, 1000);
   };
+  
 
   const handleQuit = () => {
     setStartQuiz(false);

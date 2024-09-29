@@ -221,6 +221,9 @@ text-align: center;
     cursor: pointer;
     transition: background-color 0.2s;
   }
+  .answer-button.selected {
+    background-color: var(--neutral-dark);
+  }
   
 
   
