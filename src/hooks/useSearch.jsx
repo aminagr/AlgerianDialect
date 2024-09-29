@@ -17,7 +17,7 @@ const useSearch = (searchTerm) => {
 
     const minLength = Math.max(2, Math.floor(searchTerm.length * 0.5));
 
-    if (searchTerm.length < minLength) {
+    if (searchTerm.length < minLength && searchTerm.length > 1) {
       setSearchResults([]);
       return;
     }
@@ -27,7 +27,7 @@ const useSearch = (searchTerm) => {
         const lessons = lessonsData.courses[courseId].lessons;
         return lessons.map(lesson => [
           ...Object.keys(lesson.word).map(lang => `lessons.word.${lang}`),
-          ...Object.keys(lesson.note).map(lang => `lessons.note.${lang}`) 
+          ...Object.keys(lesson.note).map(lang => `lessons.note.${lang}`)
         ]);
       }).flat(),
       threshold: 0.4,
@@ -43,7 +43,6 @@ const useSearch = (searchTerm) => {
     }));
 
     const fuse = new Fuse(coursesArray, options);
-
     const normalizedSearchTerm = normalizeString(searchTerm);
     const results = fuse.search(normalizedSearchTerm);
 
@@ -60,7 +59,18 @@ const useSearch = (searchTerm) => {
       }).map(lesson => ({ courseId: result.item.courseId, lesson }))
     );
 
-    setSearchResults(matchedResults);
+    if (searchTerm.length === 1) {
+      const singleLetterResults = Object.entries(lessonsData.courses).flatMap(([courseId, course]) =>
+        course.lessons.filter(lesson =>
+          Object.values(lesson.word).some(word =>
+            normalizeString(word) === normalizedSearchTerm
+          )
+        ).map(lesson => ({ courseId, lesson }))
+      );
+      setSearchResults(singleLetterResults);
+    } else {
+      setSearchResults(matchedResults);
+    }
   }, [searchTerm]);
 
   return searchResults;
