@@ -64,7 +64,7 @@ const translations = {
   },
   ar: {
     search: {
-      placeholder: "ابحث عن دورة...",
+      placeholder: "ابحث عن كلمة...",
       noResultsFound: "لم يتم العثور على نتائج",
     },
     seo: {
