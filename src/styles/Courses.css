@@ -78,7 +78,7 @@
     font-size: 18px;
   }
   .motDz{
-    color: #00C853;
+    color: #6b28e9;
     font-size: 26px;
     font-weight: 600;
   }
@@ -122,7 +122,7 @@
   }
   
   button:hover {
-    background-color:  #00C853;
+    background-color: #6b28e9; 
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   }
@@ -183,12 +183,12 @@
   }
   
   .search-bar input:focus {
-    border-color: /*#9B59B6;*/ #3Bfcb1;
+    border-color: /*#9B59B6;*/#9B59B6; 
     box-shadow: 0 4px 20px rgba(0, 123, 255, 0.3);
   }
   
   .search-icon {
-    background: /*#5500f9;  #9B59B6; #198F8F;  */ #05e89e;
+    background: /*#5500f9;  #9B59B6; #198F8F;  */#9B59B6; 
     border: none;
     border-radius: 0 30px 30px 0;
     cursor: pointer;
@@ -201,7 +201,7 @@
   
 
   .search-icon:hover{
-    background:  #198F8F; 
+    background: #6b28e9;
    }
 
   .search-results {

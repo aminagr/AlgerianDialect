@@ -42,14 +42,14 @@ button {
 }
 
 .level-button{
-  background-color: #13e28f;
+  background-color: #9B59B6; 
   color:#151515;
   font-weight: 600;
   padding: 30px 40px;
   font-size: 18px;
 }
 .level-button:hover{
-  background-color: #198F8F; 
+  background-color: #6b28e9; 
 
 }
 
@@ -153,14 +153,15 @@ select:hover {
   transform: scale(1.05);
 }
 .replay-button{
- background-color:  #00C853;
+ background-color:  #9B59B6; 
  padding: 15px 20px;
 
 transition: background-color 0.3s, transform 0.3s;
 
-
 }
-
+.replay-button:hover{
+  background-color: #6b28e9;
+}
 .quizresultText{text-align: center;}
 
 .welcome {
@@ -227,7 +228,7 @@ transition: background-color 0.3s, transform 0.3s;
       display: block;
       margin: 10px auto;
       padding: 15px 20px;
-      background-color: #00C853;
+      background-color: #9B59B6; 
       color: white;
       border-radius: 5px;
       font-size: 16px;
