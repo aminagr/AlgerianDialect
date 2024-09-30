@@ -176,23 +176,20 @@ transition: background-color 0.3s, transform 0.3s;
 @media (max-width: 600px) {
 
   titre-difficulte{font-size: 18px;
+
   }
+ 
+
+ 
   .welcomeTitre{ 
-    font-size: 20px;
+    font-size: 16px !important;
+
   }
   .level-button{
   
     padding: 20px 40px;
     font-size: 16px;
   }
-
-  h1 {
-      font-size: 60px;
-  }
-  h1 {
-      font-size: 30px;
-  }
-  
   button {
       padding: 12px;
       font-size: 14px;
@@ -275,12 +272,7 @@ transition: background-color 0.3s, transform 0.3s;
 }
 
 @media (max-width: 400px) {
-  h1 {
-      font-size: 20px;
-  }
-  h2 {
-      font-size: 18px;
-  }
+ 
 
   button {
       padding: 10px;
