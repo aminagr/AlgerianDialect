@@ -5,7 +5,7 @@ import LanguageSelector from './LanguageSelector';
 import { useAppContext } from '../../context/AppContext';
 
 const Navbar = () => {
-    const { language, courses } = useAppContext();
+    const { language } = useAppContext();
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
     const navigate = useNavigate(); 
@@ -51,7 +51,9 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-            <Link to="/" className="logo">Learn Algerian</Link>
+            <div className="logo" onClick={() => handleLinkClick('/')}>
+                Learn Algerian
+            </div>
             <LanguageSelector />
             <div className="hamburger" onClick={toggleMenu}>
                 {isOpen ? (
@@ -70,12 +72,10 @@ const Navbar = () => {
                 </li>
                 <li className={activeItem.startsWith('Cours') ? 'active' : ''}>
                     <Link to="/courses" onClick={() => handleLinkClick('/courses')} className="link">{menuTranslations[language].courses}</Link>
-               
                 </li>
                 <li className={activeItem === 'Quiz' ? 'active' : ''}>
                     <Link to="/quiz" onClick={() => handleLinkClick('/quiz')} className="link">{menuTranslations[language].quiz}</Link>
                 </li>
-             
             </ul>
         </nav>
     );
