@@ -10,6 +10,9 @@ import translations from './data/translations';
 import LessonCard from './components/courses/LessonCard.jsx';
 import SearchResults from './pages/SearchResults.jsx';
 import useAnalytics from './hooks/useAnalytics'; 
+import Grammaire from './components/courses/Grammaire.jsx';
+import Conjugaison from './components/courses/Conjugaison.jsx';
+import Vocabulaire from './components/courses/Vocabulaire.jsx';
 
 const App = () => {
   return (
@@ -34,6 +37,9 @@ const MainContent = () => {
           <Route path="/quiz" element={<QuizPage />} />
           <Route path="/quiz/:level" element={<QuizPage />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="courses/grammaire" element={<Grammaire />} />
+          <Route path="/courses/conjugaison" element={<Conjugaison />} />
+          <Route path="/courses/vocabulaire" element={<Vocabulaire />} />
           <Route path="/courses/:courseId" element={<LessonCard />} />
           <Route path="/courses/:courseId/:lessonId" element={<LessonCard />} />
           <Route path="/search" element={<SearchResults />} />

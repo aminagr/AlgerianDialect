@@ -21,6 +21,11 @@ const translations = {
     search: {
       placeholder: "Rechercher un mot...",
     },
+    categories: {
+      grammar: "Grammaire",
+      vocabulary: "Vocabulaire",
+      conjugation: "Conjugaison",
+    },
   },
   en: {
     titre: "Algerian Language Courses",
@@ -43,6 +48,11 @@ const translations = {
     noResultsFound: "No results found.",
     search: {
       placeholder: "Search for a word...",
+    },
+    categories: {
+      grammar: "Grammar",
+      vocabulary: "Vocabulary",
+      conjugation: "Conjugation",
     },
   },
   es: {
@@ -67,6 +77,11 @@ const translations = {
     search: {
       placeholder: "Buscar una palabra...",
     },
+    categories: {
+      grammar: "Gramática",
+      vocabulary: "Vocabulario",
+      conjugation: "Conjugación",
+    },
   },
   it: {
     titre: "Corsi di lingua algerina",
@@ -89,6 +104,11 @@ const translations = {
     noResultsFound: "Nessun risultato trovato.",
     search: {
       placeholder: "Cerca una parola...",
+    },
+    categories: {
+      grammar: "Grammatica",
+      vocabulary: "Vocabolario",
+      conjugation: "Coniugazione",
     },
   },
   ru: {
@@ -113,6 +133,11 @@ const translations = {
     search: {
       placeholder: "Искать слово...",
     },
+    categories: {
+      grammar: "Грамматика",
+      vocabulary: "Словарь",
+      conjugation: "Спряжение",
+    },
   },
   ar: {
     titre: "دروس اللغة الجزائرية",
@@ -136,6 +161,12 @@ const translations = {
     noResultsFound: "لم يتم العثور على نتائج.",
     search: {
       placeholder: "ابحث عن كلمة...",
+    },
+
+    categories: {
+      grammar: "قواعد",
+      vocabulary: "مفردات",
+      conjugation: "صرف",
     },
   },
 };

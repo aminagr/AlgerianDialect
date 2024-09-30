@@ -40,7 +40,7 @@ const LessonCard = () => {
   };
 
   const handleClose = () => {
-    navigate('/courses'); 
+    navigate(-1); 
   };
 
 
