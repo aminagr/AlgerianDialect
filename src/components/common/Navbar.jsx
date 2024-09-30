@@ -40,18 +40,20 @@ const Navbar = () => {
         ar: { home: 'الرئيسية', quiz: 'الأسئلة', courses: 'الدروس' },
     };
 
-    const handleLinkClick = (path) => {
+    const handleLinkClick = (path, isLogoClick = false) => {
         if (location.pathname === path) {
-            window.location.reload(); 
+            window.location.reload();
         } else {
             navigate(path);
         }
-        toggleMenu(); 
+        if (!isLogoClick) {
+            toggleMenu();
+        }
     };
 
     return (
         <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-            <div className="logo" onClick={() => handleLinkClick('/')}>
+            <div className="logo" onClick={() => handleLinkClick('/', true)}>
                 Learn Algerian
             </div>
             <LanguageSelector />

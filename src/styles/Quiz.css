@@ -42,7 +42,7 @@ button {
 }
 
 .level-button{
-  background-color: #007336;
+  background-color: #13e28f;
   color:#151515;
   font-weight: 600;
   padding: 30px 40px;
@@ -136,6 +136,12 @@ select:hover {
 .quit-button-mob {
   background-color: var(--background-dark);
 }
+
+
+.quit-button-mob:hover {
+  background-color: var(--purple-hover);
+}
+
 
 .quit-button {
   background: var(--wrong-color);
