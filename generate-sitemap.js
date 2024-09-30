@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const sitemap = createSitemap({
     hostname: 'https://learnalgerian.vercel.app', 
-    cacheTime: 600000, // 10 minutes
+    cacheTime: 600000, 
     urls: [
         { url: '/', changefreq: 'daily', priority: 1.0 },
         { url: '/quiz', changefreq: 'daily', priority: 0.8 },
