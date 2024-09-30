@@ -1,11 +1,11 @@
 import sitemap from 'sitemap';
 import { writeFileSync } from 'fs';
 
-const { createSitemap } = sitemap; 
+const { createSitemap } = sitemap; // Vérifie si createSitemap est bien une méthode
 
-const sitemapInstance = createSitemap({
+const sitemapInstance = sitemap.createSitemap({ // Utiliser directement sitemap.createSitemap
     hostname: 'https://learnalgerian.vercel.app',
-    cacheTime: 600000, 
+    cacheTime: 600000, // 10 minutes
     urls: [
         { url: '/', changefreq: 'daily', priority: 1.0 },
         { url: '/quiz', changefreq: 'daily', priority: 0.8 },
