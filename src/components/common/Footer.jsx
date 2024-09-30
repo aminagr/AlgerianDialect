@@ -6,7 +6,9 @@ const Footer = () => {
   
     return (
       <footer className="footer">
-        <p>{translations[language].footer}</p>
+     <p>  {translations[language].footer} <a href="https://github.com/aminagr/AlgerianDialect" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      
+     </p> 
       </footer>
     );
   };
