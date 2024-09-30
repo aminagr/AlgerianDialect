@@ -232,8 +232,7 @@ text-align: center;
     .lesson-card {
     
       padding: 50px 30px;
-      margin-top: 50px;
-      margin-bottom: 0;
+ 
     }
     .courses {
       grid-template-columns: 1fr; 
