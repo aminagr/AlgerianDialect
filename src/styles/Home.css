@@ -55,7 +55,7 @@
 }
 
 .card-button {
-    background-color: #9b59b6;
+    background-color: #00C853;
     color: var(--color-white);
     padding: 20px 30px;
     border-radius: 12px;
@@ -75,13 +75,13 @@
     transform: scale(1.2) translateY(-5px);
     padding: 25px 35px; 
     box-shadow: 0 12px 30px var(--color-button-hover);
-    background-color: var(--color-violet); 
+    background-color:  #198F8F; 
 }
 
 .courses-button,
 .quizzes-button {
 
-    background-color:#9b59b6;
+    background-color:#00C853;
 }
 
 

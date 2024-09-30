@@ -108,10 +108,10 @@ const Quiz = ({ setStartQuiz, difficulty }) => {
         </>
       ) : (
         <>
-          <h2>{translations[language].quizFinished} {score}/{currentQuestions.length}</h2>
+          <h2 className='quizresultText'>{translations[language].quizFinished} {score}/{currentQuestions.length}</h2>
           <button onClick={handleQuit} className="quit-button">❌ {translations[language].exit}</button>
-          <button onClick={handleReplay} className="replay-button">{translations[language].replay}</button>
-        </>
+          <button onClick={handleReplay} className="replay-button">🔄 {translations[language].replay}</button>
+          </>
       )}
     </div>
   );

@@ -42,12 +42,12 @@ button {
 }
 
 .level-button{
-  background-color: #9b59b6;
+  background-color: #00C853;
   padding: 30px 40px;
   font-size: 18px;
 }
 .level-button:hover{
-  background-color: var(--purple-hover);
+  background-color: #198F8F; 
 
 }
 
@@ -97,6 +97,7 @@ button:hover {
   animation: shake 0.5s;
 }
 
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -136,12 +137,23 @@ select:hover {
 
 .quit-button {
   background: var(--wrong-color);
+  padding: 15px 30px;
 }
 
 .quit-button:hover {
   background-color: var(--purple-hover);
   transform: scale(1.05);
 }
+.replay-button{
+ background-color:  #00C853;
+ padding: 15px 20px;
+
+transition: background-color 0.3s, transform 0.3s;
+
+
+}
+
+.quizresultText{text-align: center;}
 
 .welcome {
   text-align: center;
@@ -209,8 +221,8 @@ select:hover {
   .replay-button {
       display: block;
       margin: 10px auto;
-      padding: 15px 30px;
-      background-color: var(--purple);
+      padding: 15px 20px;
+      background-color: #00C853;
       color: white;
       border-radius: 5px;
       font-size: 16px;

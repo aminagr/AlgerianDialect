@@ -3,7 +3,7 @@
     --black: #151515;
     --dark-gray: #1a1a1a;
     --light-gray: #1a1a1a;
-    --accent: #9B59B6;  /* Main accent color */  /* #00ffcc;*/
+    --accent: /*#9B59B6; */ #3Bfcb1; /* Main accent color */  /* #00ffcc;*/
 }
 
 .navbar {
@@ -40,7 +40,7 @@
 }
 
 .language-select:hover {
-    color: #9B59B6;
+    color: #3Bfcb1;
     background: #151515;
 }
 
@@ -52,7 +52,7 @@
 
 .language-select option:hover {
     background: #151515; 
-    color: #9B59B6;
+    color: #3Bfcb1;
 }
 
 .menu {
