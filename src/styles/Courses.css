@@ -183,12 +183,12 @@
   }
   
   .search-bar input:focus {
-    border-color: /*#9B59B6;*/ #00C853;
+    border-color: /*#9B59B6;*/ #3Bfcb1;
     box-shadow: 0 4px 20px rgba(0, 123, 255, 0.3);
   }
   
   .search-icon {
-    background: /*#5500f9;  #9B59B6; #198F8F;  */ #00C853;
+    background: /*#5500f9;  #9B59B6; #198F8F;  */ #3Bfcb1;
     border: none;
     border-radius: 0 30px 30px 0;
     cursor: pointer;

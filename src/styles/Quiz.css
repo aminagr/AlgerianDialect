@@ -42,7 +42,9 @@ button {
 }
 
 .level-button{
-  background-color: #00C853;
+  background-color: #007336;
+  color:#151515;
+  font-weight: 600;
   padding: 30px 40px;
   font-size: 18px;
 }
