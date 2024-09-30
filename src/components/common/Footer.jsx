@@ -8,7 +8,7 @@ const Footer = () => {
     return (
       <footer className="footer">
         <p dir={language === 'ar' ? 'rtl' : 'ltr'}>
-          {translations[language].footer} <a href="https://github.com/aminagr/AlgerianDialect" target="_blank" rel="noopener noreferrer">GitHub</a>.
+          {translations[language].footer}
         </p> 
       </footer>
     );
