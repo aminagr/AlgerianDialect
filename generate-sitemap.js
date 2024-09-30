@@ -1,9 +1,11 @@
-import { createSitemap } from 'sitemap'; 
-import { writeFileSync } from 'fs';
+import sitemapModule from 'sitemap';
+const { createSitemap } = sitemapModule; 
+
+import { writeFileSync } from 'fs'; 
 
 const sitemap = createSitemap({
     hostname: 'https://learnalgerian.vercel.app',
-    cacheTime: 600000, 
+    cacheTime: 600000, // 10 minutes
     urls: [
         { url: '/', changefreq: 'daily', priority: 1.0 },
         { url: '/quiz', changefreq: 'daily', priority: 0.8 },
