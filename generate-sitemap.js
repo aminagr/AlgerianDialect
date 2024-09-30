@@ -1,6 +1,8 @@
-const fs = require('fs');
-const { createSitemap } = require('sitemap');
-const { courses } = require('./src/data/lessons.json'); 
+import fs from 'fs';
+import { createSitemap } from 'sitemap';
+import lessons from './src/data/lessons.json'; // Assurez-vous que votre fichier est exporté correctement
+
+const { courses } = lessons;
 
 const urls = [
   { url: '/', changefreq: 'daily', priority: 1.0 },
@@ -8,7 +10,6 @@ const urls = [
   { url: '/courses', changefreq: 'weekly', priority: 0.8 },
   { url: '/search', changefreq: 'weekly', priority: 0.6 },
 ];
-
 
 Object.keys(courses).forEach(courseId => {
   const course = courses[courseId];
@@ -24,7 +25,6 @@ const sitemap = createSitemap({
   cacheTime: 600000,
   urls,
 });
-
 
 fs.writeFileSync('./public/sitemap.xml', sitemap.toString());
 console.log('Sitemap generated: public/sitemap.xml');
