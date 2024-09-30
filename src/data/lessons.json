@@ -883,27 +883,2643 @@
     }
   ]
 },
+"adjectives": {
+  "title": {
+    "fr": "Adjectifs",
+    "en": "Adjectives",
+    "es": "Adjetivos",
+    "it": "Aggettivi",
+    "ru": "Прилагательные",
+    "ar": "الصفات"
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "word": {
+        "dz": "Chbab",
+        "fr": "Beau",
+        "en": "Beautiful",
+        "es": "Hermoso",
+        "it": "Bello",
+        "ru": "Красивый",
+        "ar": "جميل"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "dz": "Chaba",
+        "fr": "Belle",
+        "en": "Beautiful (feminine)",
+        "es": "Bella",
+        "it": "Bella",
+        "ru": "Красивая",
+        "ar": "جميلة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "dz": "Kbir",
+        "fr": "Grand",
+        "en": "Big",
+        "es": "Grande",
+        "it": "Grande",
+        "ru": "Большой",
+        "ar": "كبير"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "dz": "Kbira",
+        "fr": "Grande",
+        "en": "Big (feminine)",
+        "es": "Grande (femenino)",
+        "it": "Grande (femminile)",
+        "ru": "Большая",
+        "ar": "كبيرة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "dz": "Sghir",
+        "fr": "Petit",
+        "en": "Small",
+        "es": "Pequeño",
+        "it": "Piccolo",
+        "ru": "Маленький",
+        "ar": "صغير"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "dz": "Mlih",
+        "fr": "Bon",
+        "en": "Good",
+        "es": "Bueno",
+        "it": "Buono",
+        "ru": "Хороший",
+        "ar": "جيد"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "dz": "Mashi mlih",
+        "fr": "Pas bon",
+        "en": "Not good",
+        "es": "No bueno",
+        "it": "Non buono",
+        "ru": "Не хороший",
+        "ar": "ليس جيدا"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "dz": "Jdid",
+        "fr": "Nouveau",
+        "en": "New",
+        "es": "Nuevo",
+        "it": "Nuovo",
+        "ru": "Новый",
+        "ar": "جديد"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "dz": "Qdim",
+        "fr": "Ancien",
+        "en": "Old",
+        "es": "Antiguo",
+        "it": "Vecchio",
+        "ru": "Старый",
+        "ar": "قديم"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "dz": "Ghali",
+        "fr": "Cher",
+        "en": "Expensive",
+        "es": "Caro",
+        "it": "Costoso",
+        "ru": "Дорогой",
+        "ar": "غالي"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "dz": "Rkhis",
+        "fr": "Bon marché",
+        "en": "Cheap",
+        "es": "Barato",
+        "it": "Economico",
+        "ru": "Дешевый",
+        "ar": "رخيص"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 12,
+      "word": {
+        "dz": "S3ib",
+        "fr": "Difficile",
+        "en": "Difficult",
+        "es": "Difícil",
+        "it": "Difficile",
+        "ru": "Трудный",
+        "ar": "صعب"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 13,
+      "word": {
+        "dz": "Sahel",
+        "fr": "Facile",
+        "en": "Easy",
+        "es": "Fácil",
+        "it": "Facile",
+        "ru": "Легкий",
+        "ar": "سهل"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 14,
+      "word": {
+        "dz": "Ferhan",
+        "fr": "Heureux",
+        "en": "Happy",
+        "es": "Feliz",
+        "it": "Felice",
+        "ru": "Счастливый",
+        "ar": "سعيد"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 15,
+      "word": {
+        "dz": "Mrefah",
+        "fr": "Riche",
+        "en": "Rich",
+        "es": "Rico",
+        "it": "Ricco",
+        "ru": "Богатый",
+        "ar": "غني"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 16,
+      "word": {
+        "dz": "Twil",
+        "fr": "Grand de taille",
+        "en": "Tall",
+        "es": "Alto",
+        "it": "Alto",
+        "ru": "Высокий",
+        "ar": "طويل"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 17,
+      "word": {
+        "dz": "Qsir",
+        "fr": "Petit de taille",
+        "en": "Short",
+        "es": "Bajo",
+        "it": "Basso",
+        "ru": "Низкий",
+        "ar": "قصير"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 18,
+      "word": {
+        "dz": "Bared",
+        "fr": "Froid",
+        "en": "Cold",
+        "es": "Frío",
+        "it": "Freddo",
+        "ru": "Холодный",
+        "ar": "بارد"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 19,
+      "word": {
+        "dz": "Skhoun",
+        "fr": "Chaud",
+        "en": "Hot",
+        "es": "Caliente",
+        "it": "Caldo",
+        "ru": "Горячий",
+        "ar": "ساخن"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 20,
+      "word": {
+        "dz": "B3id",
+        "fr": "Loin",
+        "en": "Far",
+        "es": "Lejos",
+        "it": "Lontano",
+        "ru": "Далеко",
+        "ar": "بعيد"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 21,
+      "word": {
+        "dz": "Qrib",
+        "fr": "Proche",
+        "en": "Close",
+        "es": "Cerca",
+        "it": "Vicino",
+        "ru": "Близко",
+        "ar": "قريب"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 22,
+      "word": {
+        "dz": "Khfif",
+        "fr": "Léger",
+        "en": "Light",
+        "es": "Ligero",
+        "it": "Leggero",
+        "ru": "Легкий",
+        "ar": "خفيف"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 23,
+      "word": {
+        "dz": "Tqil",
+        "fr": "Lourd",
+        "en": "Heavy",
+        "es": "Pesado",
+        "it": "Pesante",
+        "ru": "Тяжелый",
+        "ar": "ثقيل"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 24,
+      "word": {
+        "dz": "3aqel",
+        "fr": "Gentil",
+        "en": "Kind",
+        "es": "Amable",
+        "it": "Gentile",
+        "ru": "Добрый",
+        "ar": "لطيف"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 25,
+      "word": {
+        "dz": "Qbih",
+        "fr": "Méchant",
+        "en": "Mean",
+        "es": "Malvado",
+        "it": "Cattivo",
+        "ru": "Злой",
+        "ar": "قبيح"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    }
+  ]
+}
+,
+  "conjunctions": {
+  "title": {
+    "fr": "Conjonctions de Coordination",
+    "en": "Coordinating Conjunctions",
+    "es": "Conjunciones de Coordinación",
+    "it": "Congiunzioni Coordinanti",
+    "ru": "Союзы Сочинительные",
+    "ar": "أدوات الربط التنسيقية"
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "word": {
+        "dz": "W",
+        "fr": "Et",
+        "en": "And",
+        "es": "Y",
+        "it": "E",
+        "ru": "И",
+        "ar": "و"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "dz": "Wla",
+        "fr": "Ou",
+        "en": "Or",
+        "es": "O",
+        "it": "O",
+        "ru": "Или",
+        "ar": "أو"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "dz": "Besah",
+        "fr": "Mais",
+        "en": "But",
+        "es": "Pero",
+        "it": "Ma",
+        "ru": "Но",
+        "ar": "لكن"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "dz": "Loukan",
+        "fr": "Si",
+        "en": "If",
+        "es": "Si",
+        "it": "Se",
+        "ru": "Если",
+        "ar": "إذا"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "dz": "Imal",
+        "fr": "Alors",
+        "en": "Then",
+        "es": "Entonces",
+        "it": "Allora",
+        "ru": "Тогда",
+        "ar": "إذن"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "dz": "Khatr",
+        "fr": "Parce que",
+        "en": "Because",
+        "es": "Porque",
+        "it": "Perché",
+        "ru": "Потому что",
+        "ar": "لأن"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "dz": "Yani",
+        "fr": "C'est-à-dire",
+        "en": "That is",
+        "es": "Es decir",
+        "it": "Cioè",
+        "ru": "То есть",
+        "ar": "أي"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "dz": "Hatta",
+        "fr": "Même",
+        "en": "Even",
+        "es": "Incluso",
+        "it": "Anche",
+        "ru": "Даже",
+        "ar": "حتى"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    }
+  ]
+},
+"directions": {
+  "title": {
+    "fr": "Directions",
+    "en": "Directions",
+    "es": "Direcciones",
+    "it": "Direzioni",
+    "ru": "Направления",
+    "ar": "الاتجاهات"
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "word": {
+        "dz": "Hna",
+        "fr": "Ici",
+        "en": "Here",
+        "es": "Aquí",
+        "it": "Qui",
+        "ru": "Здесь",
+        "ar": "هنا"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "dz": "Lhik",
+        "fr": "Là-bas",
+        "en": "Over there",
+        "es": "Allí",
+        "it": "Lì",
+        "ru": "Там",
+        "ar": "هناك"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "dz": "Lfoq",
+        "fr": "En haut",
+        "en": "Up",
+        "es": "Arriba",
+        "it": "Su",
+        "ru": "Вверх",
+        "ar": "فوق"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "dz": "Ltaht",
+        "fr": "En bas",
+        "en": "Down",
+        "es": "Abajo",
+        "it": "Giù",
+        "ru": "Вниз",
+        "ar": "تحت"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "dz": "Limna",
+        "fr": "À droite",
+        "en": "To the right",
+        "es": "A la derecha",
+        "it": "A destra",
+        "ru": "Направо",
+        "ar": "ليمين"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "dz": "Lisra",
+        "fr": "À gauche",
+        "en": "To the left",
+        "es": "A la izquierda",
+        "it": "A sinistra",
+        "ru": "Налево",
+        "ar": "يسار"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "dz": "Qbala",
+        "fr": "Tout droit",
+        "en": "Straight ahead",
+        "es": "Todo recto",
+        "it": "Dritto",
+        "ru": "Прямо",
+        "ar": "قدام"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    }
+  ]
+},
+"couleurs": {
+  "title": {
+    "fr": "Couleurs",
+    "en": "Colors",
+    "es": "Colores",
+    "it": "Colori",
+    "ru": "Цвета",
+    "ar": "الألوان"
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "word": {
+        "dz": "K7el",
+        "fr": "Noir",
+        "en": "Black",
+        "es": "Negro",
+        "it": "Nero",
+        "ru": "Черный",
+        "ar": "أسود"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "dz": "Byed",
+        "fr": "Blanc",
+        "en": "White",
+        "es": "Blanco",
+        "it": "Bianco",
+        "ru": "Белый",
+        "ar": "أبيض"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "dz": "7mer",
+        "fr": "Rouge",
+        "en": "Red",
+        "es": "Rojo",
+        "it": "Rosso",
+        "ru": "Красный",
+        "ar": "أحمر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "dz": "Zreq",
+        "fr": "Bleu",
+        "en": "Blue",
+        "es": "Azul",
+        "it": "Blu",
+        "ru": "Синий",
+        "ar": "أزرق"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "dz": "Khder",
+        "fr": "Vert",
+        "en": "Green",
+        "es": "Verde",
+        "it": "Verde",
+        "ru": "Зеленый",
+        "ar": "أخضر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "dz": "Sfer",
+        "fr": "Jaune",
+        "en": "Yellow",
+        "es": "Amarillo",
+        "it": "Giallo",
+        "ru": "Желтый",
+        "ar": "أصفر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "dz": "Rose",
+        "fr": "Rose",
+        "en": "Pink",
+        "es": "Rosa",
+        "it": "Rosa",
+        "ru": "Розовый",
+        "ar": "وردي"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "dz": "Tchini",
+        "fr": "Orange",
+        "en": "Orange",
+        "es": "Naranja",
+        "it": "Arancione",
+        "ru": "Оранжевый",
+        "ar": "برتقالي"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "dz": "Gris",
+        "fr": "Gris",
+        "en": "Gray",
+        "es": "Gris",
+        "it": "Grigio",
+        "ru": "Серый",
+        "ar": "رمادي"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "dz": "Violet",
+        "fr": "Violet",
+        "en": "Violet",
+        "es": "Violeta",
+        "it": "Viola",
+        "ru": "Фиолетовый",
+        "ar": "أرجواني"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "dz": "Marron",
+        "fr": "Marron",
+        "en": "Brown",
+        "es": "Marrón",
+        "it": "Marrone",
+        "ru": "Коричневый",
+        "ar": "بني"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    }
+  ]
+},
+"nombres": {
+  "title": {
+    "fr": "Nombres",
+    "en": "Numbers",
+    "es": "Números",
+    "it": "Numeri",
+    "ru": "Числа",
+    "ar": "الأعداد"
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "word": {
+        "dz": "Wahd",
+        "fr": "1. Un",
+        "en": "1. One",
+        "es": "1. Uno",
+        "it": "1. Uno",
+        "ru": "1. Один",
+        "ar": "1. واحد"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 2,
+      "word": {
+        "dz": "Zouj",
+        "fr": "2. Deux",
+        "en": "2. Two",
+        "es": "2. Dos",
+        "it": "2. Due",
+        "ru": "2. Два",
+        "ar": "2. اثنان"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 3,
+      "word": {
+        "dz": "Tlata",
+        "fr": "3. Trois",
+        "en": "3. Three",
+        "es": "3. Tres",
+        "it": "3. Tre",
+        "ru": "3. Три",
+        "ar": "3. ثلاثة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 4,
+      "word": {
+        "dz": "Reb3a",
+        "fr": "4. Quatre",
+        "en": "4. Four",
+        "es": "4. Cuatro",
+        "it": "4. Quattro",
+        "ru": "4. Четыре",
+        "ar": "4. أربعة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 5,
+      "word": {
+        "dz": "Khemsa",
+        "fr": "5. Cinq",
+        "en": "5. Five",
+        "es": "5. Cinco",
+        "it": "5. Cinque",
+        "ru": "5. Пять",
+        "ar": "5. خمسة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 6,
+      "word": {
+        "dz": "Setta",
+        "fr": "6. Six",
+        "en": "6. Six",
+        "es": "6. Seis",
+        "it": "6. Sei",
+        "ru": "6. Шесть",
+        "ar": "6. ستة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 7,
+      "word": {
+        "dz": "Seb3a",
+        "fr": "7. Sept",
+        "en": "7. Seven",
+        "es": "7. Siete",
+        "it": "7. Sette",
+        "ru": "7. Семь",
+        "ar": "7. سبعة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 8,
+      "word": {
+        "dz": "Tmanya",
+        "fr": "8. Huit",
+        "en": "8. Eight",
+        "es": "8. Ocho",
+        "it": "8. Otto",
+        "ru": "8. Восемь",
+        "ar": "8. ثمانية"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 9,
+      "word": {
+        "dz": "Tes3a",
+        "fr": "9. Neuf",
+        "en": "9. Nine",
+        "es": "9. Nueve",
+        "it": "9. Nove",
+        "ru": "9. Девять",
+        "ar": "9. تسعة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 10,
+      "word": {
+        "dz": "3ashra",
+        "fr": "10. Dix",
+        "en": "10. Ten",
+        "es": "10. Diez",
+        "it": "10. Dieci",
+        "ru": "10. Десять",
+        "ar": "10. عشرة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 11,
+      "word": {
+        "dz": "Hdash",
+        "fr": "11. Onze",
+        "en": "11. Eleven",
+        "es": "11. Once",
+        "it": "11. Undici",
+        "ru": "11. Одиннадцать",
+        "ar": "11. أحد عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 12,
+      "word": {
+        "dz": "Tnash",
+        "fr": "12. Douze",
+        "en": "12. Twelve",
+        "es": "12. Doce",
+        "it": "12. Dodici",
+        "ru": "12. Двенадцать",
+        "ar": "12. اثنا عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 13,
+      "word": {
+        "dz": "Tletash",
+        "fr": "13. Treize",
+        "en": "13. Thirteen",
+        "es": "13. Trece",
+        "it": "13. Tredici",
+        "ru": "13. Тринадцать",
+        "ar": "13. ثلاثة عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 14,
+      "word": {
+        "dz": "Rba3tash",
+        "fr": "14. Quatorze",
+        "en": "14. Fourteen",
+        "es": "14. Catorce",
+        "it": "14. Quattordici",
+        "ru": "14. Четырнадцать",
+        "ar": "14. أربعة عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 15,
+      "word": {
+        "dz": "Khmestash",
+        "fr": "15. Quinze",
+        "en": "15. Fifteen",
+        "es": "15. Quince",
+        "it": "15. Quindici",
+        "ru": "15. Пятнадцать",
+        "ar": "15. خمسة عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 16,
+      "word": {
+        "dz": "Setash",
+        "fr": "16. Seize",
+        "en": "16. Sixteen",
+        "es": "16. Dieciséis",
+        "it": "16. Sedici",
+        "ru": "16. Шестнадцать",
+        "ar": "16. ستة عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 17,
+      "word": {
+        "dz": "Sba3tash",
+        "fr": "17. Dix-sept",
+        "en": "17. Seventeen",
+        "es": "17. Diecisiete",
+        "it": "17. Diciassette",
+        "ru": "17. Семнадцать",
+        "ar": "17. سبعة عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 18,
+      "word": {
+        "dz": "Tmentash",
+        "fr": "18. Dix-huit",
+        "en": "18. Eighteen",
+        "es": "18. Dieciocho",
+        "it": "18. Diciotto",
+        "ru": "18. Восемнадцать",
+        "ar": "18. ثمانية عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 19,
+      "word": {
+        "dz": "Tsa3tash",
+        "fr": "19. Dix-neuf",
+        "en": "19. Nineteen",
+        "es": "19. Diecinueve",
+        "it": "19. Diciannove",
+        "ru": "19. Девятнадцать",
+        "ar": "19. تسعة عشر"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 20,
+      "word": {
+        "dz": "3eshrin",
+        "fr": "20. Vingt",
+        "en": "20. Twenty",
+        "es": "20. Veinte",
+        "it": "20. Venti",
+        "ru": "20. Двадцать",
+        "ar": "20. عشرون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 21,
+      "word": {
+        "dz": "Wahd w 3eshrin",
+        "fr": "21. Vingt et un",
+        "en": "21. Twenty-one",
+        "es": "21. Veintiuno",
+        "it": "21. Ventuno",
+        "ru": "21. Двадцать один",
+        "ar": "21. واحد وعشرون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 22,
+      "word": {
+        "dz": "Tnin w 3eshrin",
+        "fr": "22. Vingt-deux",
+        "en": "22. Twenty-two",
+        "es": "22. Veintidós",
+        "it": "22. Ventidue",
+        "ru": "22. Двадцать два",
+        "ar": "22. اثنان وعشرون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 23,
+      "word": {
+        "dz": "Tlatin",
+        "fr": "30. Trente",
+        "en": "30. Thirty",
+        "es": "30. Treinta",
+        "it": "30. Trenta",
+        "ru": "30. Тридцать",
+        "ar": "30. ثلاثون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 24,
+      "word": {
+        "dz": "Reb3in",
+        "fr": "40. Quarante",
+        "en": "40. Forty",
+        "es": "40. Cuarenta",
+        "it": "40. Quaranta",
+        "ru": "40. Сорок",
+        "ar": "40. أربعون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 25,
+      "word": {
+        "dz": "Khemsin",
+        "fr": "50. Cinquante",
+        "en": "50. Fifty",
+        "es": "50. Cincuenta",
+        "it": "50. Cinquanta",
+        "ru": "50. Пятьдесят",
+        "ar": "50. خمسون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 26,
+      "word": {
+        "dz": "Settin",
+        "fr": "60. Soixante",
+        "en": "60. Sixty",
+        "es": "60. Sesenta",
+        "it": "60. Sessanta",
+        "ru": "60. Шестьдесят",
+        "ar": "60. ستون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 27,
+      "word": {
+        "dz": "Seb3in",
+        "fr": "70. Soixante-dix",
+        "en": "70. Seventy",
+        "es": "70. Setenta",
+        "it": "70. Settanta",
+        "ru": "70. Семьдесят",
+        "ar": "70. سبعون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 28,
+      "word": {
+        "dz": "Tmanin",
+        "fr": "80. Quatre-vingts",
+        "en": "80. Eighty",
+        "es": "80. Ochenta",
+        "it": "80. Ottanta",
+        "ru": "80. Восемьдесят",
+        "ar": "80. ثمانون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 29,
+      "word": {
+        "dz": "Tes3in",
+        "fr": "90. Quatre-vingt-dix",
+        "en": "90. Ninety",
+        "es": "90. Noventa",
+        "it": "90. Novanta",
+        "ru": "90. Девяносто",
+        "ar": "90. تسعون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 30,
+      "word": {
+        "dz": "Mya",
+        "fr": "100. Cent",
+        "en": "100. Hundred",
+        "es": "100. Cien",
+        "it": "100. Cento",
+        "ru": "100. Сто",
+        "ar": "100. مئة"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 31,
+     "word": {
+        "dz": "Alf",
+        "fr": "1000. Mille",
+        "en": "1000. Thousand",
+        "es": "1000. Mil",
+        "it": "1000. Mille",
+        "ru": "1000. Тысяча",
+        "ar": "1000. ألف"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 32,
+      "word": {
+        "dz": "3achralaf",
+        "fr": "10 000. Dix mille",
+        "en": "10 000. Ten thousand",
+        "es": "10 000. Diez mil",
+        "it": "10 000. Diecimila",
+        "ru": "10 000. Десять тысяч",
+        "ar": "10 000. عشرة آلاف"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 33,
+      "word": {
+        "dz": "Miyat alef",
+        "fr": "100 000. Cent mille",
+        "en": "100 000. One hundred thousand",
+        "es": "100 000. Cien mil",
+        "it": "100 000. Centomila",
+        "ru": "100 000. Сто тысяч",
+        "ar": "100 000. مئة ألف"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    },
+    {
+      "id": 34,
+      "word": {
+        "dz": "Mellyoun",
+        "fr": "1 million",
+        "en": "1 million",
+        "es": "1 millón",
+        "it": "1 milione",
+        "ru": "1 миллион",
+        "ar": "1 مليون"
+      },
+      "note": {
+        "dz": "",
+        "fr": "",
+        "en": "",
+        "es": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      }
+    }
+  ]
+},
 
-    "adjectives": {
+  "animaux": {
+    "title": {
+      "fr": "Animaux",
+      "en": "Animals",
+      "es": "Animales",
+      "it": "Animali",
+      "ru": "Животные",
+      "ar": "الحيوانات"
+    },
+    "lessons": [
+      {
+        "id": 1,
+        "word": {
+          "dz": "9et",
+          "fr": "Chat",
+          "en": "Cat",
+          "es": "Gato",
+          "it": "Gatto",
+          "ru": "Кошка",
+          "ar": "قط"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 2,
+        "word": {
+          "dz": "Kelb",
+          "fr": "Chien",
+          "en": "Dog",
+          "es": "Perro",
+          "it": "Cane",
+          "ru": "Собака",
+          "ar": "كلب"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 3,
+        "word": {
+          "dz": "3awd",
+          "fr": "Cheval",
+          "en": "Horse",
+          "es": "Caballo",
+          "it": "Cavallo",
+          "ru": "Лошадь",
+          "ar": "حصان"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 4,
+        "word": {
+          "dz": "Begra",
+          "fr": "Vache",
+          "en": "Cow",
+          "es": "Vaca",
+          "it": "Mucca",
+          "ru": "Корова",
+          "ar": "بقرة"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 5,
+        "word": {
+          "dz": "Kebch",
+          "fr": "Mouton",
+          "en": "Sheep",
+          "es": "Oveja",
+          "it": "Pecora",
+          "ru": "Овца",
+          "ar": "خروف"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 6,
+        "word": {
+          "dz": "Lapin",
+          "fr": "Lapin",
+          "en": "Rabbit",
+          "es": "Conejo",
+          "it": "Coniglio",
+          "ru": "Кролик",
+          "ar": "أرنب"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 7,
+        "word": {
+          "dz": "Halouf",
+          "fr": "Cochon",
+          "en": "Pig",
+          "es": "Cerdo",
+          "it": "Maiale",
+          "ru": "Свинья",
+          "ar": "خنزير"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 8,
+        "word": {
+          "dz": "Zawech",
+          "fr": "Oiseau",
+          "en": "Bird",
+          "es": "Pájaro",
+          "it": "Uccello",
+          "ru": "Птица",
+          "ar": "طائر"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 9,
+        "word": {
+          "dz": "7outa",
+          "fr": "Poisson",
+          "en": "Fish",
+          "es": "Pez",
+          "it": "Pesce",
+          "ru": "Рыба",
+          "ar": "سمكة"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 10,
+        "word": {
+          "dz": "Hmar",
+          "fr": "Âne",
+          "en": "Donkey",
+          "es": "Burro",
+          "it": "Asino",
+          "ru": "Осел",
+          "ar": "حمار"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 11,
+        "word": {
+          "dz": "Sba3",
+          "fr": "Lion",
+          "en": "Lion",
+          "es": "León",
+          "it": "Leone",
+          "ru": "Лев",
+          "ar": "أسد"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 12,
+        "word": {
+          "dz": "Nmer",
+          "fr": "Tigre",
+          "en": "Tiger",
+          "es": "Tigre",
+          "it": "Tigre",
+          "ru": "Тигр",
+          "ar": "نمر"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 13,
+        "word": {
+          "dz": "Fil",
+          "fr": "Éléphant",
+          "en": "Elephant",
+          "es": "Elefante",
+          "it": "Elefante",
+          "ru": "Слон",
+          "ar": "فيل"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 14,
+        "word": {
+          "dz": "Chadi",
+          "fr": "Singe",
+          "en": "Monkey",
+          "es": "Mono",
+          "it": "Scimmia",
+          "ru": "Обезьяна",
+          "ar": "قرد"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 15,
+        "word": {
+          "dz": "Zarafa",
+          "fr": "Girafe",
+          "en": "Giraffe",
+          "es": "Jirafa",
+          "it": "Giraffa",
+          "ru": "Жираф",
+          "ar": "زرافة"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 16,
+        "word": {
+          "dz": "Doub",
+          "fr": "Ours",
+          "en": "Bear",
+          "es": "Oso",
+          "it": "Orso",
+          "ru": "Медведь",
+          "ar": "دب"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 17,
+        "word": {
+          "dz": "Na7la",
+          "fr": "Abeille",
+          "en": "Bee",
+          "es": "Abeja",
+          "it": "Ape",
+          "ru": "Пчела",
+          "ar": "نحلة"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 18,
+        "word": {
+          "dz": "Farasha",
+          "fr": "Papillon",
+          "en": "Butterfly",
+          "es": "Mariposa",
+          "it": "Farfalla",
+          "ru": "Бабочка",
+          "ar": "فراشة"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 19,
+        "word": {
+          "dz": "Dbana",
+          "fr": "Mouche",
+          "en": "Fly",
+          "es": "Mosca",
+          "it": "Mosca",
+          "ru": "Муха",
+          "ar": "ذبابة"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 20,
+        "word": {
+          "dz": "Rtila",
+          "fr": "Araignée",
+          "en": "Spider",
+          "es": "Araña",
+          "it": "Ragno",
+          "ru": "Паук",
+          "ar": "عنكبوت"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      },
+      {
+        "id": 21,
+        "word": {
+          "dz": "Namoussa",
+          "fr": "Moustique",
+          "en": "Mosquito",
+          "es": "Mosquito",
+          "it": "Zanzara",
+          "ru": "Комар",
+          "ar": "بعوضة"
+        },
+        "note": {
+          "dz": "",
+          "fr": "",
+          "en": "",
+          "es": "",
+          "it": "",
+          "ru": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+
+    "nature_et_environnement":
+     {
       "title": {
-        "fr": "Adjectifs",
-        "en": "Adjectives",
-        "es": "Adjetivos",
-        "it": "Aggettivi",
-        "ru": "Прилагательные",
-        "ar": "الصفات"
+        "fr": "Nature",
+        "en": "Nature",
+        "es": "Naturaleza",
+        "it": "Natura ",
+        "ru": "Природа",
+        "ar": "الطبيعة"
       },
       "lessons": [
         {
           "id": 1,
           "word": {
-            "dz": "Chbab",
-            "fr": "Beau",
-            "en": "Beautiful",
-            "es": "Hermoso",
-            "it": "Bello",
-            "ru": "Красивый",
-            "ar": "جميل"
+            "dz": "Chejra",
+            "fr": "Arbre",
+            "en": "Tree",
+            "es": "Árbol",
+            "it": "Albero",
+            "ru": "Дерево",
+            "ar": "شجرة"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 2,
+          "word": {
+            "dz": "Werda",
+            "fr": "Fleur",
+            "en": "Flower",
+            "es": "Flor",
+            "it": "Fiore",
+            "ru": "Цветок",
+            "ar": "زهرة"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 3,
+          "word": {
+            "dz": "Hchich",
+            "fr": "Herbe",
+            "en": "Grass",
+            "es": "Hierba",
+            "it": "Erba",
+            "ru": "Трава",
+            "ar": "عشب"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 4,
+          "word": {
+            "dz": "Ghaba",
+            "fr": "Forêt",
+            "en": "Forest",
+            "es": "Bosque",
+            "it": "Foresta",
+            "ru": "Лес",
+            "ar": "غابة"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 5,
+          "word": {
+            "dz": "Jbel",
+            "fr": "Montagne",
+            "en": "Mountain",
+            "es": "Montaña",
+            "it": "Montagna",
+            "ru": "Гора",
+            "ar": "جبل"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 6,
+          "word": {
+            "dz": "Bhar",
+            "fr": "Mer",
+            "en": "Sea",
+            "es": "Mar",
+            "it": "Mare",
+            "ru": "Море",
+            "ar": "بحر"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 7,
+          "word": {
+            "dz": "Rmel",
+            "fr": "Sable",
+            "en": "Sand",
+            "es": "Arena",
+            "it": "Sabbia",
+            "ru": "Песок",
+            "ar": "رمل"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 8,
+          "word": {
+            "dz": "Sahra",
+            "fr": "Désert",
+            "en": "Desert",
+            "es": "Desierto",
+            "it": "Deserto",
+            "ru": "Пустыня",
+            "ar": "صحراء"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 9,
+          "word": {
+            "dz": "Sma",
+            "fr": "Ciel",
+            "en": "Sky",
+            "es": "Cielo",
+            "it": "Cielo",
+            "ru": "Небо",
+            "ar": "سماء"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 10,
+          "word": {
+            "dz": "Chemss",
+            "fr": "Soleil",
+            "en": "Sun",
+            "es": "Sol",
+            "it": "Sole",
+            "ru": "Солнце",
+            "ar": "شمس"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 11,
+          "word": {
+            "dz": "Qmer",
+            "fr": "Lune",
+            "en": "Moon",
+            "es": "Luna",
+            "it": "Luna",
+            "ru": "Луна",
+            "ar": "قمر"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 12,
+          "word": {
+            "dz": "Nejma",
+            "fr": "Étoile",
+            "en": "Star",
+            "es": "Estrella",
+            "it": "Stella",
+            "ru": "Звезда",
+            "ar": "نجمة"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 13,
+          "word": {
+            "dz": "S7aba",
+            "fr": "Nuage",
+            "en": "Cloud",
+            "es": "Nube",
+            "it": "Nuvola",
+            "ru": "Облако",
+            "ar": "غيمة"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 14,
+          "word": {
+            "dz": "Chta",
+            "fr": "Pluie",
+            "en": "Rain",
+            "es": "Lluvia",
+            "it": "Pioggia",
+            "ru": "Дождь",
+            "ar": "مطر"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 15,
+          "word": {
+            "dz": "Telj",
+            "fr": "Neige",
+            "en": "Snow",
+            "es": "Nieve",
+            "it": "Neve",
+            "ru": "Снег",
+            "ar": "ثلج"
+          },
+          "note": {
+            "dz": "",
+            "fr": "",
+            "en": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "ar": ""
+          }
+        },
+        {
+          "id": 16,
+          "word": {
+            "dz": "Rih",
+            "fr": "Vent",
+            "en": "Wind",
+            "es": "Viento",
+            "it": "Vento",
+            "ru": "Ветер",
+            "ar": "رياح"
           },
           "note": {
             "dz": "",
@@ -916,6 +3532,1862 @@
           }
         }
       ]
-    }
-  }
-}
+    },
+  
+      "maison": {
+        "title": {
+          "fr": "Maison",
+          "en": "House",
+          "es": "Casa",
+          "it": "Casa",
+          "ru": "Дом",
+          "ar": "منزل"
+        },
+        "lessons": [
+          {
+            "id": 1,
+            "word": {
+              "dz": "Dar",
+              "fr": "Maison",
+              "en": "House",
+              "es": "Casa",
+              "it": "Casa",
+              "ru": "Дом",
+              "ar": "دار"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 2,
+            "word": {
+              "dz": "Chambra",
+              "fr": "Chambre",
+              "en": "Room",
+              "es": "Habitación",
+              "it": "Camera",
+              "ru": "Комната",
+              "ar": "غرفة"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 3,
+            "word": {
+              "dz": "Couzina",
+              "fr": "Cuisine",
+              "en": "Kitchen",
+              "es": "Cocina",
+              "it": "Cucina",
+              "ru": "Кухня",
+              "ar": "مطبخ"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 4,
+            "word": {
+              "dz": "Salon",
+              "fr": "Salon",
+              "en": "Living Room",
+              "es": "Sala",
+              "it": "Soggiorno",
+              "ru": "Гостиная",
+              "ar": "صالون"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 5,
+            "word": {
+              "dz": "Jnan",
+              "fr": "Jardin",
+              "en": "Garden",
+              "es": "Jardín",
+              "it": "Giardino",
+              "ru": "Сад",
+              "ar": "حديقة"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 6,
+            "word": {
+              "dz": "Bab",
+              "fr": "Porte",
+              "en": "Door",
+              "es": "Puerta",
+              "it": "Porta",
+              "ru": "Дверь",
+              "ar": "باب"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 7,
+            "word": {
+              "dz": "Taqa",
+              "fr": "Fenêtre",
+              "en": "Window",
+              "es": "Ventana",
+              "it": "Finestra",
+              "ru": "Окно",
+              "ar": "نافذة"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 8,
+            "word": {
+              "dz": "Frach",
+              "fr": "Lit",
+              "en": "Bed",
+              "es": "Cama",
+              "it": "Letto",
+              "ru": "Кровать",
+              "ar": "سرير"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 9,
+            "word": {
+              "dz": "Tabla",
+              "fr": "Table",
+              "en": "Table",
+              "es": "Mesa",
+              "it": "Tavolo",
+              "ru": "Стол",
+              "ar": "طاولة"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 10,
+            "word": {
+              "dz": "Kourssi",
+              "fr": "Chaise",
+              "en": "Chair",
+              "es": "Silla",
+              "it": "Sedia",
+              "ru": "Стул",
+              "ar": "كرسي"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          },
+          {
+            "id": 11,
+            "word": {
+              "dz": "Khzana",
+              "fr": "Armoire",
+              "en": "Wardrobe",
+              "es": "Armario",
+              "it": "Armadio",
+              "ru": "Шкаф",
+              "ar": "خزانة"
+            },
+            "note": {
+              "dz": "",
+              "fr": "",
+              "en": "",
+              "es": "",
+              "it": "",
+              "ru": "",
+              "ar": ""
+            }
+          }
+        ]
+      },
+        "jours_de_semaine": {
+          "title": {
+            "fr": "Jours de Semaine",
+            "en": "Days of the Week",
+            "es": "Días de la Semana",
+            "it": "Giorni della Settimana",
+            "ru": "Дни недели",
+            "ar": "أيام الأسبوع"
+          },
+          "lessons": [
+            {
+              "id": 1,
+              "word": {
+                "dz": "Sebt",
+                "fr": "Samedi",
+                "en": "Saturday",
+                "es": "Sábado",
+                "it": "Sabato",
+                "ru": "Суббота",
+                "ar": "سبت"
+              },
+              "note": {
+                "dz": "",
+                "fr": "",
+                "en": "",
+                "es": "",
+                "it": "",
+                "ru": "",
+                "ar": ""
+              }
+            },
+            {
+              "id": 2,
+              "word": {
+                "dz": "L7ad",
+                "fr": "Dimanche",
+                "en": "Sunday",
+                "es": "Domingo",
+                "it": "Domenica",
+                "ru": "Воскресенье",
+                "ar": "أحد"
+              },
+              "note": {
+                "dz": "",
+                "fr": "",
+                "en": "",
+                "es": "",
+                "it": "",
+                "ru": "",
+                "ar": ""
+              }
+            },
+            {
+              "id": 3,
+              "word": {
+                "dz": "Tnin",
+                "fr": "Lundi",
+                "en": "Monday",
+                "es": "Lunes",
+                "it": "Lunedì",
+                "ru": "Понедельник",
+                "ar": "اثنين"
+              },
+              "note": {
+                "dz": "",
+                "fr": "",
+                "en": "",
+                "es": "",
+                "it": "",
+                "ru": "",
+                "ar": ""
+              }
+            },
+            {
+              "id": 4,
+              "word": {
+                "dz": "Tlata",
+                "fr": "Mardi",
+                "en": "Tuesday",
+                "es": "Martes",
+                "it": "Martedì",
+                "ru": "Вторник",
+                "ar": "ثلاثاء"
+              },
+              "note": {
+                "dz": "",
+                "fr": "",
+                "en": "",
+                "es": "",
+                "it": "",
+                "ru": "",
+                "ar": ""
+              }
+            },
+            {
+              "id": 5,
+              "word": {
+                "dz": "Larb3a",
+                "fr": "Mercredi",
+                "en": "Wednesday",
+                "es": "Miércoles",
+                "it": "Mercoledì",
+                "ru": "Среда",
+                "ar": "الأربعاء"
+              },
+              "note": {
+                "dz": "",
+                "fr": "",
+                "en": "",
+                "es": "",
+                "it": "",
+                "ru": "",
+                "ar": ""
+              }
+            },
+            {
+              "id": 6,
+              "word": {
+                "dz": "Khmis",
+                "fr": "Jeudi",
+                "en": "Thursday",
+                "es": "Jueves",
+                "it": "Giovedì",
+                "ru": "Четверг",
+                "ar": "خميس"
+              },
+              "note": {
+                "dz": "",
+                "fr": "",
+                "en": "",
+                "es": "",
+                "it": "",
+                "ru": "",
+                "ar": ""
+              }
+            },
+            {
+              "id": 7,
+              "word": {
+                "dz": "Jem3a",
+                "fr": "Vendredi",
+                "en": "Friday",
+                "es": "Viernes",
+                "it": "Venerdì",
+                "ru": "Пятница",
+                "ar": "جمعة"
+              },
+              "note": {
+                "dz": "",
+                "fr": "",
+                "en": "",
+                "es": "",
+                "it": "",
+                "ru": "",
+                "ar": ""
+              }
+            }
+          ]
+        }, 
+      
+          "nourriture": {
+            "title": {
+              "fr": "Nourriture",
+              "en": "Food",
+              "es": "Comida",
+              "it": "Cibo",
+              "ru": "Еда",
+              "ar": "طعام"
+            },
+            "lessons": [
+              {
+                "id": 1,
+                "word": {
+                  "dz": "Khobz",
+                  "fr": "Pain",
+                  "en": "Bread",
+                  "es": "Pan",
+                  "it": "Pane",
+                  "ru": "Хлеб",
+                  "ar": "خبز"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 2,
+                "word": {
+                  "dz": "Formage",
+                  "fr": "Fromage",
+                  "en": "Cheese",
+                  "es": "Queso",
+                  "it": "Formaggio",
+                  "ru": "Сыр",
+                  "ar": "جبن"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 3,
+                "word": {
+                  "dz": "L7am",
+                  "fr": "Viande",
+                  "en": "Meat",
+                  "es": "Carne",
+                  "it": "Carne",
+                  "ru": "Мясо",
+                  "ar": "لحم"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 4,
+                "word": {
+                  "dz": "7out",
+                  "fr": "Poisson",
+                  "en": "Fish",
+                  "es": "Pescado",
+                  "it": "Pesce",
+                  "ru": "Рыба",
+                  "ar": "سمك"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 5,
+                "word": {
+                  "dz": "Djadj",
+                  "fr": "Poulet",
+                  "en": "Chicken",
+                  "es": "Pollo",
+                  "it": "Pollo",
+                  "ru": "Курица",
+                  "ar": "دجاج"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 6,
+                "word": {
+                  "dz": "Khedra",
+                  "fr": "Légumes",
+                  "en": "Vegetables",
+                  "es": "Verduras",
+                  "it": "Verdure",
+                  "ru": "Овощи",
+                  "ar": "خضروات"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 7,
+                "word": {
+                  "dz": "Fakya",
+                  "fr": "Fruits",
+                  "en": "Fruits",
+                  "es": "Frutas",
+                  "it": "Frutta",
+                  "ru": "Фрукты",
+                  "ar": "فواكه"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 8,
+                "word": {
+                  "dz": "Tefah",
+                  "fr": "Pomme",
+                  "en": "Apple",
+                  "es": "Manzana",
+                  "it": "Mela",
+                  "ru": "Яблоко",
+                  "ar": "تفاح"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 9,
+                "word": {
+                  "dz": "Banan",
+                  "fr": "Banane",
+                  "en": "Banana",
+                  "es": "Plátano",
+                  "it": "Banana",
+                  "ru": "Банан",
+                  "ar": "موز"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 10,
+                "word": {
+                  "dz": "Tchina",
+                  "fr": "Orange",
+                  "en": "Orange",
+                  "es": "Naranja",
+                  "it": "Arancia",
+                  "ru": "Апельсин",
+                  "ar": "برتقال"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 11,
+                "word": {
+                  "dz": "Friza",
+                  "fr": "Fraise",
+                  "en": "Strawberry",
+                  "es": "Fresa",
+                  "it": "Fragola",
+                  "ru": "Клубника",
+                  "ar": "فراولة"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 12,
+                "word": {
+                  "dz": "3neb",
+                  "fr": "Raisin",
+                  "en": "Grapes",
+                  "es": "Uvas",
+                  "it": "Uva",
+                  "ru": "Виноград",
+                  "ar": "عنب"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 13,
+                "word": {
+                  "dz": "9aress",
+                  "fr": "Citron",
+                  "en": "Lemon",
+                  "es": "Limón",
+                  "it": "Limone",
+                  "ru": "Лимон",
+                  "ar": "ليمون"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 14,
+                "word": {
+                  "dz": "Qahwa",
+                  "fr": "Café",
+                  "en": "Coffee",
+                  "es": "Café",
+                  "it": "Caffè",
+                  "ru": "Кофе",
+                  "ar": "قهوة"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 15,
+                "word": {
+                  "dz": "Atay",
+                  "fr": "Thé",
+                  "en": "Tea",
+                  "es": "Té",
+                  "it": "Tè",
+                  "ru": "Чай",
+                  "ar": "شاي"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 16,
+                "word": {
+                  "dz": "7lib",
+                  "fr": "Lait",
+                  "en": "Milk",
+                  "es": "Leche",
+                  "it": "Latte",
+                  "ru": "Молоко",
+                  "ar": "حليب"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 17,
+                "word": {
+                  "dz": "Lma",
+                  "fr": "Eau",
+                  "en": "Water",
+                  "es": "Agua",
+                  "it": "Acqua",
+                  "ru": "Вода",
+                  "ar": "ماء"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 18,
+                "word": {
+                  "dz": "Jus",
+                  "fr": "Jus",
+                  "en": "Juice",
+                  "es": "Jugo",
+                  "it": "Succo",
+                  "ru": "Сок",
+                  "ar": "عصير"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 19,
+                "word": {
+                  "dz": "Roz",
+                  "fr": "Riz",
+                  "en": "Rice",
+                  "es": "Arroz",
+                  "it": "Riso",
+                  "ru": "Рис",
+                  "ar": "أرز"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 20,
+                "word": {
+                  "dz": "Maqaroun",
+                  "fr": "Pâtes",
+                  "en": "Pasta",
+                  "es": "Pasta",
+                  "it": "Pasta",
+                  "ru": "Макароны",
+                  "ar": "مكرونة"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 21,
+                "word": {
+                  "dz": "Chorba",
+                  "fr": "Soupe",
+                  "en": "Soup",
+                  "es": "Sopa",
+                  "it": "Zuppa",
+                  "ru": "Суп",
+                  "ar": "شوربة"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 22,
+                "word": {
+                  "dz": "Beyd",
+                  "fr": "Œuf",
+                  "en": "Egg",
+                  "es": "Huevo",
+                  "it": "Uovo",
+                  "ru": "Яйцо",
+                  "ar": "بيض"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              },
+              {
+                "id": 23,
+                "word": {
+                  "dz": "Chlada",
+                  "fr": "Salade",
+                  "en": "Salad",
+                  "es": "Ensalada",
+                  "it": "Insalata",
+                  "ru": "Салат",
+                  "ar": "سلطة"
+                },
+                "note": {
+                  "dz": "",
+                  "fr": "",
+                  "en": "",
+                  "es": "",
+                  "it": "",
+                  "ru": "",
+                  "ar": ""
+                }
+              }
+            ]
+          },
+        
+            "verbes": {
+              "title": {
+                "fr": "Verbes au présent",
+                "en": "Present Verbs",
+                "es": "Verbos en presente",
+                "it": "Verbi al presente",
+                "ru": "Глаголы в настоящем времени",
+                "ar": "الأفعال في المضارع"
+              },
+              "lessons": [
+                {
+                  "id": 1,
+                  "word": {
+                    "dz": "3andi",
+                    "fr": "J'ai",
+                    "en": "I have",
+                    "es": "Tengo",
+                    "it": "Ho",
+                    "ru": "У меня есть",
+                    "ar": "عندي"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 2,
+                  "word": {
+                    "dz": "Ma3ndich",
+                    "fr": "J'ai pas",
+                    "en": "I don't have",
+                    "es": "No tengo",
+                    "it": "Non ho",
+                    "ru": "У меня нет",
+                    "ar": "ما عندي"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 3,
+                  "word": {
+                    "dz": "Rani",
+                    "fr": "Je suis",
+                    "en": "I am",
+                    "es": "Soy",
+                    "it": "Sono",
+                    "ru": "Я",
+                    "ar": "إنني"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 4,
+                  "word": {
+                    "dz": "Maranish",
+                    "fr": "Je suis pas",
+                    "en": "I am not",
+                    "es": "No soy",
+                    "it": "Non sono",
+                    "ru": "Я не",
+                    "ar": "لست"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 5,
+                  "word": {
+                    "dz": "Neqder",
+                    "fr": "Je peux",
+                    "en": "I can",
+                    "es": "Puedo",
+                    "it": "Posso",
+                    "ru": "Я могу",
+                    "ar": "أستطيع"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 6,
+                  "word": {
+                    "dz": "Maneqdersh",
+                    "fr": "Je peux pas",
+                    "en": "I can't",
+                    "es": "No puedo",
+                    "it": "Non posso",
+                    "ru": "Я не могу",
+                    "ar": "لا أستطيع"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 7,
+                  "word": {
+                    "dz": "Nji",
+                    "fr": "Je viens",
+                    "en": "I come",
+                    "es": "Vengo",
+                    "it": "Vengo",
+                    "ru": "Я прихожу",
+                    "ar": "آتي"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 8,
+                  "word": {
+                    "dz": "Manjich",
+                    "fr": "Je viens pas",
+                    "en": "I don't come",
+                    "es": "No vengo",
+                    "it": "Non vengo",
+                    "ru": "Я не прихожу",
+                    "ar": "لا آتي"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 9,
+                  "word": {
+                    "dz": "Nrouh",
+                    "fr": "Je pars",
+                    "en": "I leave",
+                    "es": "Me voy",
+                    "it": "Vado",
+                    "ru": "Я ухожу",
+                    "ar": "أذهب"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 10,
+                  "word": {
+                    "dz": "Manrohch",
+                    "fr": "Je pars pas",
+                    "en": "I don't leave",
+                    "es": "No me voy",
+                    "it": "Non vado",
+                    "ru": "Я не ухожу",
+                    "ar": "لا أذهب"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 11,
+                  "word": {
+                    "dz": "Nqoul",
+                    "fr": "Je dis",
+                    "en": "I say",
+                    "es": "Digo",
+                    "it": "Dico",
+                    "ru": "Я говорю",
+                    "ar": "أقول"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 12,
+                  "word": {
+                    "dz": "Manqoulsh",
+                    "fr": "Je dis pas",
+                    "en": "I don't say",
+                    "es": "No digo",
+                    "it": "Non dico",
+                    "ru": "Я не говорю",
+                    "ar": "لا أقول"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 13,
+                  "word": {
+                    "dz": "Nchof",
+                    "fr": "Je vois",
+                    "en": "I see",
+                    "es": "Veo",
+                    "it": "Vedo",
+                    "ru": "Я вижу",
+                    "ar": "أرى"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 14,
+                  "word": {
+                    "dz": "Manchofch",
+                    "fr": "Je vois pas",
+                    "en": "I don't see",
+                    "es": "No veo",
+                    "it": "Non vedo",
+                    "ru": "Я не вижу",
+                    "ar": "لا أرى"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 15,
+                  "word": {
+                    "dz": "Nerqod",
+                    "fr": "Je regarde",
+                    "en": "I watch",
+                    "es": "Miro",
+                    "it": "Guardo",
+                    "ru": "Я смотрю",
+                    "ar": "أنام"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 16,
+                  "word": {
+                    "dz": "Manerqodch",
+                    "fr": "Je regarde pas",
+                    "en": "I don't watch",
+                    "es": "No miro",
+                    "it": "Non guardo",
+                    "ru": "Я не смотрю",
+                    "ar": "ما لا أنام"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 17,
+                  "word": {
+                    "dz": "Nhab",
+                    "fr": "J'aime",
+                    "en": "I like",
+                    "es": "Me gusta",
+                    "it": "Mi piace",
+                    "ru": "Мне нравится",
+                    "ar": "أحب"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 18,
+                  "word": {
+                    "dz": "Manhebch",
+                    "fr": "J'aime pas",
+                    "en": "I don't like",
+                    "es": "No me gusta",
+                    "it": "Non mi piace",
+                    "ru": "Мне не нравится",
+                    "ar": "لا أحب"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 19,
+                  "word": {
+                    "dz": "Nekrah",
+                    "fr": "Je déteste",
+                    "en": "I hate",
+                    "es": "Odio",
+                    "it": "Odio",
+                    "ru": "Я ненавижу",
+                    "ar": "أكره"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 20,
+                  "word": {
+                    "dz": "Manekrahch",
+                    "fr": "Je déteste pas",
+                    "en": "I don't hate",
+                    "es": "No odio",
+                    "it": "Non odio",
+                    "ru": "Я не ненавижу",
+                    "ar": "لا أكره"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                },
+                {
+                  "id": 21,
+                  "word": {
+                    "dz": "Habit",
+                    "fr": "Je veux",
+                    "en": "I want",
+                    "es": "Quiero",
+                    "it": "Voglio",
+                    "ru": "Я хочу",
+                    "ar": "أريد"
+                  },
+                  "note": {
+                    "dz": "",
+                    "fr": "",
+                    "en": "",
+                    "es": "",
+                    "it": "",
+                    "ru": "",
+                    "ar": ""
+                  }
+                }
+              ]
+            },
+            
+              "imperative_verbs": {
+                "title": {
+                  "fr": "Verbes à l'Impératif",
+                  "en": "Imperative Verbs",
+                  "es": "Verbos Imperativos",
+                  "it": "Verbi all'Imperativo",
+                  "ru": "Глаголы в Повелительном Наклонении",
+                  "ar": "الأفعال في صيغة الأمر"
+                },
+                "lessons": [
+                  {
+                    "id": 1,
+                    "word": {
+                      "dz": "Arwah",
+                      "fr": "Viens (masculin)",
+                      "en": "Come (masculine)",
+                      "es": "Ven (masculino)",
+                      "it": "Vieni (maschile)",
+                      "ru": "Иди (мужской)",
+                      "ar": "تعال"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 2,
+                    "word": {
+                      "dz": "Arwahi",
+                      "fr": "Viens (féminin)",
+                      "en": "Come (feminine)",
+                      "es": "Ven (femenino)",
+                      "it": "Vieni (femminile)",
+                      "ru": "Иди (женский)",
+                      "ar": "تعالي"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "Il suffit d'ajouter le 'i' à la fin pour former l'impératif au féminin.",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 3,
+                    "word": {
+                      "dz": "Rouh",
+                      "fr": "Pars (masculin)",
+                      "en": "Go (masculine)",
+                      "es": "Ve (masculino)",
+                      "it": "Vai (maschile)",
+                      "ru": "Иди (мужской)",
+                      "ar": "اذهب"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 4,
+                    "word": {
+                      "dz": "Rouhi",
+                      "fr": "Pars (féminin)",
+                      "en": "Go (feminine)",
+                      "es": "Ve (femenino)",
+                      "it": "Vai (femminile)",
+                      "ru": "Иди (женский)",
+                      "ar": "اذهبي"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 5,
+                    "word": {
+                      "dz": "Qoul",
+                      "fr": "Dis (masculin)",
+                      "en": "Say (masculine)",
+                      "es": "Di (masculino)",
+                      "it": "Di (maschile)",
+                      "ru": "Скажи (мужской)",
+                      "ar": "قل"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 6,
+                    "word": {
+                      "dz": "Qouli",
+                      "fr": "Dis (féminin)",
+                      "en": "Say (feminine)",
+                      "es": "Di (femenino)",
+                      "it": "Di (femminile)",
+                      "ru": "Скажи (женский)",
+                      "ar": "قولي"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 7,
+                    "word": {
+                      "dz": "Chouf",
+                      "fr": "Regarde (masculin)",
+                      "en": "Look (masculine)",
+                      "es": "Mira (masculino)",
+                      "it": "Guarda (maschile)",
+                      "ru": "Смотри (мужской)",
+                      "ar": "شاهد"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 8,
+                    "word": {
+                      "dz": "Ejri",
+                      "fr": "Cours",
+                      "en": "Run",
+                      "es": "Corre",
+                      "it": "Corri",
+                      "ru": "Беги",
+                      "ar": "اركض"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 9,
+                    "word": {
+                      "dz": "Esma3",
+                      "fr": "Écoute",
+                      "en": "Listen",
+                      "es": "Escucha",
+                      "it": "Ascolta",
+                      "ru": "Слушай",
+                      "ar": "استمع"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 10,
+                    "word": {
+                      "dz": "Jib",
+                      "fr": "Ramène",
+                      "en": "Bring",
+                      "es": "Trae",
+                      "it": "Porta",
+                      "ru": "Принеси",
+                      "ar": "أحضر"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 11,
+                    "word": {
+                      "dz": "Eddi",
+                      "fr": "Prends",
+                      "en": "Take",
+                      "es": "Toma",
+                      "it": "Prendi",
+                      "ru": "Возьми",
+                      "ar": "خذ"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 12,
+                    "word": {
+                      "dz": "Edkhol",
+                      "fr": "Rentre",
+                      "en": "Enter",
+                      "es": "Entra",
+                      "it": "Entra",
+                      "ru": "Входи",
+                      "ar": "ادخل"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 13,
+                    "word": {
+                      "dz": "Ekhroj",
+                      "fr": "Sors",
+                      "en": "Exit",
+                      "es": "Sal",
+                      "it": "Esci",
+                      "ru": "Выйди",
+                      "ar": "اخرج"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 14,
+                    "word": {
+                      "dz": "Koul",
+                      "fr": "Mange",
+                      "en": "Eat",
+                      "es": "Come",
+                      "it": "Mangia",
+                      "ru": "Ешь",
+                      "ar": "كل"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 15,
+                    "word": {
+                      "dz": "Ekteb",
+                      "fr": "Écris",
+                      "en": "Write",
+                      "es": "Escribe",
+                      "it": "Scrivi",
+                      "ru": "Пиши",
+                      "ar": "اكتب"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 16,
+                    "word": {
+                      "dz": "Ahder",
+                      "fr": "Parle",
+                      "en": "Speak",
+                      "es": "Habla",
+                      "it": "Parla",
+                      "ru": "Говори",
+                      "ar": "تحدث"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 17,
+                    "word": {
+                      "dz": "Echreb",
+                      "fr": "Bois",
+                      "en": "Drink",
+                      "es": "Bebe",
+                      "it": "Bevi",
+                      "ru": "Пей",
+                      "ar": "اشرب"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 18,
+                    "word": {
+                      "dz": "Dir",
+                      "fr": "Fais",
+                      "en": "Do",
+                      "es": "Haz",
+                      "it": "Fai",
+                      "ru": "Сделай",
+                      "ar": "افعل"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 19,
+                    "word": {
+                      "dz": "Eqra",
+                      "fr": "Lis, étudie",
+                      "en": "Read, study",
+                      "es": "Lee, estudia",
+                      "it": "Leggi, studia",
+                      "ru": "Читай, учись",
+                      "ar": "اقرأ"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 20,
+                    "word": {
+                      "dz": "Ekhdem",
+                      "fr": "Travaille",
+                      "en": "Work",
+                      "es": "Trabaja",
+                      "it": "Lavora",
+                      "ru": "Работай",
+                      "ar": "اعمل"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 21,
+                    "word": {
+                      "dz": "Emshi",
+                      "fr": "Marche",
+                      "en": "Walk",
+                      "es": "Camina",
+                      "it": "Cammina",
+                      "ru": "Иди",
+                      "ar": "امش"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 22,
+                    "word": {
+                      "dz": "Efta7",
+                      "fr": "Ouvre",
+                      "en": "Open",
+                      "es": "Abre",
+                      "it": "Apri",
+                      "ru": "Открой",
+                      "ar": "افتح"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  },
+                  {
+                    "id": 23,
+                    "word": {
+                      "dz": "Eghle9",
+                      "fr": "Ferme",
+                      "en": "Close",
+                      "es": "Cierra",
+                      "it": "Chiudi",
+                      "ru": "Закрой",
+                      "ar": "اغلق"
+                    },
+                    "note": {
+                      "dz": "",
+                      "fr": "",
+                      "en": "",
+                      "es": "",
+                      "it": "",
+                      "ru": "",
+                      "ar": ""
+                    }
+                  }
+                ]
+              }
+            }
+          
+      }
+      
+    
+    
+  
+  
+
