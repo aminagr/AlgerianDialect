@@ -9,7 +9,7 @@ import Footer from './components/common/Footer';
 import translations from './data/translations'; 
 import LessonCard from './components/courses/LessonCard.jsx';
 import SearchResults from './pages/SearchResults.jsx';
-
+import useAnalytics from './hooks/useAnalytics'; 
 
 const App = () => {
   return (
@@ -23,6 +23,7 @@ const App = () => {
 
 const MainContent = () => {
   const { language } = useAppContext(); 
+  useAnalytics(); 
 
   return (
     <div className="app">
