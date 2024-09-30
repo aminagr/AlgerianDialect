@@ -231,7 +231,8 @@ text-align: center;
   @media (max-width: 600px) {
     .lesson-card {
     
-      padding: 20px 30px;
+      padding: 50px 30px;
+      margin: 30px 0;
     }
     .courses {
       grid-template-columns: 1fr; 
