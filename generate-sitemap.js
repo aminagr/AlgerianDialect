@@ -1,11 +1,11 @@
-import sitemapModule from 'sitemap';
-const { createSitemap } = sitemapModule; 
+import sitemap from 'sitemap';
+import { writeFileSync } from 'fs';
 
-import { writeFileSync } from 'fs'; 
+const { createSitemap } = sitemap; 
 
-const sitemap = createSitemap({
+const sitemapInstance = createSitemap({
     hostname: 'https://learnalgerian.vercel.app',
-    cacheTime: 600000, // 10 minutes
+    cacheTime: 600000, 
     urls: [
         { url: '/', changefreq: 'daily', priority: 1.0 },
         { url: '/quiz', changefreq: 'daily', priority: 0.8 },
@@ -17,5 +17,5 @@ const sitemap = createSitemap({
     ],
 });
 
-
-writeFileSync('public/sitemap.xml', sitemap.toString());
+// Écrire le sitemap dans le dossier public
+writeFileSync('public/sitemap.xml', sitemapInstance.toString());
